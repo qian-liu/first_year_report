@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  6 OCT 2014 19:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  10 OCT 2014 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,6 +130,55 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@tempdima=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
+)
+\c@ContinuedFloat=\count97
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count98
+\c@subtable=\count99
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks18
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\rotheadsize=\dimen119
+\c@nlinenum=\count100
+\TeXr@lab=\toks19
 ) (./report.aux
 (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux)
 (./Chapter5.aux
@@ -139,38 +188,38 @@ LaTeX Warning: Label `cha:rsp' multiply defined.
 ) (./Conclusion.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 28
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 33
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen109
+\scratchcounter=\count101
+\scratchdimen=\dimen120
 \scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen110
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen121
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -219,13 +268,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count103
+\c@lstlisting=\count107
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
  (./report.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -258,7 +309,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout3 = `report.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
@@ -282,50 +333,208 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  (./Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-) [7
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+[7
 
 
-]
+]) [8]
 \openout2 = `Chapter2.aux'.
 
  (./Chapter2.tex
 Chapter 2.
-[8
+[9
 
 
 
 ]
-Underfull \vbox (badness 1142) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [10]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+
+<pics/outline.jpg, id=36, 308.95425pt x 158.39175pt>
+File: pics/outline.jpg Graphic file (type jpg)
+ <use pics/outline.jpg>
+Package pdftex.def Info: pics/outline.jpg used on input line 61.
+(pdftex.def)             Requested size: 247.54149pt x 126.9069pt.
+
+<pics/dvs_spinnaker.png, id=37, 642.4pt x 271.0125pt>
+File: pics/dvs_spinnaker.png Graphic file (type png)
+
+<use pics/dvs_spinnaker.png>
+Package pdftex.def Info: pics/dvs_spinnaker.png used on input line 67.
+(pdftex.def)             Requested size: 247.54149pt x 104.42903pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
-)
-[10]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+ [11] [12 <./pics/outline.jpg> <./pics/dvs_spinnaker.png>] <pics/mesh_ctiff.jpg
+, id=48, 642.4pt x 642.4pt>
+File: pics/mesh_ctiff.jpg Graphic file (type jpg)
+
+<use pics/mesh_ctiff.jpg>
+Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 101.
+(pdftex.def)             Requested size: 247.54149pt x 247.5355pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./pics/mesh_ctiff.jpg>]
+<pics/48node_pcb_resolution-white.pdf, id=53, 948.54375pt x 899.36pt>
+File: pics/48node_pcb_resolution-white.pdf Graphic file (type pdf)
+
+<use pics/48node_pcb_resolution-white.pdf>
+Package pdftex.def Info: pics/48node_pcb_resolution-white.pdf used on input lin
+e 121.
+(pdftex.def)             Requested size: 247.54149pt x 234.70636pt.
+) [14 <./pics/48node_pcb_resolution-white.pdf>] [15]
 \openout2 = `Chapter3.aux'.
 
  (./Chapter3.tex
 Chapter 3.
-) [11
+
+Overfull \hbox (4.73102pt too wide) in paragraph at lines 3--6
+\OT1/ptm/m/n/12 The con-vo-lu-tional neu-ral net-work (CNN) is well-known as an
+ ex-am-ple of a biologically-
+ []
+
+<pics/convolution.png, id=65, 273.02pt x 137.313pt>
+File: pics/convolution.png Graphic file (type png)
+ <use pics/convolution.png>
+Package pdftex.def Info: pics/convolution.png used on input line 10.
+(pdftex.def)             Requested size: 247.54149pt x 124.50035pt.
+
+<pics/model1.pdf, id=66, 392.46625pt x 84.315pt>
+File: pics/model1.pdf Graphic file (type pdf)
+ <use pics/model1.pdf>
+Package pdftex.def Info: pics/model1.pdf used on input line 23.
+(pdftex.def)             Requested size: 288.7942pt x 62.04602pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16
 
 
 
-]
+ <./pics/convolution.png>] <pics/gabor.png, id=71, 1226.984pt x 274.626pt>
+File: pics/gabor.png Graphic file (type png)
+
+<use pics/gabor.png>
+Package pdftex.def Info: pics/gabor.png used on input line 61.
+(pdftex.def)             Requested size: 391.93544pt x 87.72287pt.
+ <pics/guesture.png, id=72, 1314.511pt x 216.007pt>
+File: pics/guesture.png Graphic file (type png)
+
+<use pics/guesture.png>
+Package pdftex.def Info: pics/guesture.png used on input line 73.
+(pdftex.def)             Requested size: 391.93544pt x 64.40378pt.
+ [17 <./pics/model1.pdf>]
+<pics/model2.pdf, id=138, 463.7325pt x 84.315pt>
+File: pics/model2.pdf Graphic file (type pdf)
+ <use pics/model2.pdf>
+Package pdftex.def Info: pics/model2.pdf used on input line 87.
+(pdftex.def)             Requested size: 330.05322pt x 60.01071pt.
+
+Underfull \vbox (badness 4168) has occurred while \output is active []
+
+ [18 <./pics/gabor.png (PNG copy)> <./pics/guesture.png (PNG copy)> <./pics/mod
+el2.pdf>]
+<pics/4.png, id=210, 845.0772pt x 537.6888pt>
+File: pics/4.png Graphic file (type png)
+ <use pics/4.png>
+Package pdftex.def Info: pics/4.png used on input line 197.
+(pdftex.def)             Requested size: 412.56496pt x 262.5017pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [19 <./pics/4.png (PNG copy)>] [20]
+Overfull \hbox (2.50157pt too wide) in paragraph at lines 233--234
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.50157pt too wide) in paragraph at lines 234--235
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.50157pt too wide) in paragraph at lines 235--236
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.50157pt too wide) in paragraph at lines 236--237
+ []|[]| 
+ []
+
+) [21]
 \openout2 = `Chapter4.aux'.
 
  (./Chapter4.tex
 Chapter 4.
-) [12
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[][]$\OT1/pcr/m/n/10 http : / / youtu . be / PvJy6RKAJhw ? list = PLxZ1W-[]Upr3
+eoQuLxq87qpUL-[]CwSphtEBJ ,[] http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\OT1/pcr/m/n/10 / / youtu . be / FZJshPCJ1pg ? list = PLxZ1W-[]Upr3eoQuLxq87qpU
+L-[]CwSphtEBJ ,[] http : / / youtu . be /
+ []
+
+<pics/live1.png, id=224, 1027.84pt x 770.88pt>
+File: pics/live1.png Graphic file (type png)
+ <use pics/live1.png>
+Package pdftex.def Info: pics/live1.png used on input line 59.
+(pdftex.def)             Requested size: 173.27652pt x 129.95393pt.
+
+<pics/live2.png, id=225, 1027.84pt x 770.88pt>
+File: pics/live2.png Graphic file (type png)
+ <use pics/live2.png>
+Package pdftex.def Info: pics/live2.png used on input line 64.
+(pdftex.def)             Requested size: 173.27652pt x 129.95393pt.
+
+<pics/live.png, id=226, 1027.84pt x 770.88pt>
+File: pics/live.png Graphic file (type png)
+ <use pics/live.png>
+Package pdftex.def Info: pics/live.png used on input line 70.
+(pdftex.def)             Requested size: 346.55304pt x 259.91963pt.
+) [23]
+[24 <./pics/live1.png> <./pics/live2.png> <./pics/live.png>]
 \openout2 = `Chapter5.aux'.
 
  (./Chapter5.tex
 Chapter 5.
-) [13
+) [25
 
 
 
@@ -334,35 +543,39 @@ Chapter 5.
 
  (./Conclusion.tex
 Chapter 6.
-) [14
+) [26
 
 
 
-] (./report.bbl) [15
+] (./report.bbl [27
 
 
-] (./report.aux (./Chapter1.aux) (./Chapter2.aux)
-(./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux) (./Conclusion.aux))
+] [28]) [29] (./report.aux (./Chapter1.aux)
+(./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux)
+(./Conclusion.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3195 strings out of 495028
- 45824 string characters out of 6181497
- 104375 words of memory out of 5000000
- 6315 multiletter control sequences out of 15000+600000
- 23265 words of font info for 47 fonts, out of 8000000 for 9000
+ 4706 strings out of 495028
+ 71298 string characters out of 6181497
+ 141160 words of memory out of 5000000
+ 7764 multiletter control sequences out of 15000+600000
+ 46641 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,4n,32p,325b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,40p,573b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on report.pdf (15 pages, 51285 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (29 pages, 1311781 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 274 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

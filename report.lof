@@ -1,6 +1,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces System overview of the posture recognition platform. The silicon retina connects to the SpiNNaker system through an FPGA board. Spikes from the retina are streamed to the SpiNNaker system through this Spartan-6 FPGA board. The jAER software configures the retina and displays its outgoing spikes through the USB connection. The host sets up the runtime parameters off-line and downloads the network model to the SpiNNaker system. \relax }}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces System diagram\relax }}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 103 Machine PCB\relax }}{14}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Each individual convolution neuron connects to its respective field using the same kernel.\relax }}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The convolutional neural network model with manually selected templates.\relax }}{17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Real parts of the Gabor filters oriented to four directions.\relax }}{18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Five gesture templates\relax }}{18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The combined convolutional model with trained MLP neurons.\relax }}{18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Neuron responses to the same five gesture videos.\relax }}{19}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Snapshots of the real-time gesture recognition system on SpiNNaker. \relax }}{24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,9 +1,34 @@
 \chapter{Introduction}
 \label{cha:intro}
+In order to make an effective, energy-efficient touch-less user interface (UI), we will model an optimized spiking neural network (SNN) based hand-gesture command identifier on bespoke hardware. 
+The SpiNNaker platform will be employed in the initial stages of research to model and optimize the SNNs in real time, computing the output based on spiking output from a silicon retina: a dynamic visual sensor (DVS). After deriving the neural network description, later work will focus on specifying the minimum number of neurons to operate it.
+
+The SpiNNaker project (funded by EPSRC, the UK funding agency for engineering and the physical sciences) has supported the development of an experimental multicore platform that offers a unique environment for research into many-core programming. 
+SpiNNaker employs an architecture inspired by the very high levels of connectivity found in the human brain, and the primary objective of the research has been to develop a generic platform for real-time brain modelling. The resulting machine is a mesh of Multi-Processor Systems-on-Chip (MPSoCs) that will be scaled up over 2013 within the current funding to machines with up to a million processor cores.
 
 \section{Aim}
 \label{sec:aim}
-Objectives and Motivations behind it.
+Goal 1:  prototype a neural gesture recognition system on SpiNNaker.
+
+Once the gesture recognition system is functioning effectively the SpiNNaker platform can then be used to explore the optimal spiking neural network size and configuration for the gesture recognition task.
+
+Goal 2:  evaluate the cost and performance trade-offs in optimizing the number of neural components required to deliver effective gesture recognition.
+
+Here “cost” is taken to include a range of measures of the implementation complexity, including the numbers and types of neurons, the numbers and types of synapses, the computational demands which are usually dominated by the number of synaptic connections per second, and the power consumption of the system. “Performance” is taken to be a measure of the effectiveness of the system at recognizing gestures.
+
+Expected Outcomes and Results
+
+The tangible outcomes of the first year of the proposed research will include:
+
+A prototype spiking neuron gesture recognition system running on SpiNNaker.
+
+An understanding of the trade-offs of performance, cost and complexity in a spiking neuron gesture recognition system.
+
+These outcomes will be documented in specific deliverables:
+
+A paper submitted to a leading conference such as ICANN.
+
+A draft patent application.
 
 \section{Why is it important}
 \label{sec:imp}

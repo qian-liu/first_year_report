@@ -1,25 +1,27 @@
 \contentsline {chapter}{Abstract}{6}
 \contentsline {chapter}{\numberline {1}Introduction}{7}
 \contentsline {section}{\numberline {1.1}Aim}{7}
-\contentsline {section}{\numberline {1.2}Why is it important}{7}
-\contentsline {chapter}{\numberline {2}Background}{8}
-\contentsline {section}{\numberline {2.1}Posture/Gesture Recognition}{8}
-\contentsline {section}{\numberline {2.2}Biology Aspect}{10}
-\contentsline {section}{\numberline {2.3}Platforms}{10}
-\contentsline {subsection}{\numberline {2.3.1}Vision Processing Front-ends}{10}
-\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{10}
-\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{10}
-\contentsline {chapter}{\numberline {3}CNNs Models}{11}
-\contentsline {section}{\numberline {3.1}Model Description}{11}
-\contentsline {section}{\numberline {3.2}Training and test}{11}
-\contentsline {section}{\numberline {3.3}Experiments}{11}
-\contentsline {chapter}{\numberline {4}Recognition on SpiNNaker}{12}
-\contentsline {section}{\numberline {4.1}Moving to spiking neurons}{12}
-\contentsline {section}{\numberline {4.2}Recorded data test}{12}
-\contentsline {section}{\numberline {4.3}Real-time test}{12}
-\contentsline {chapter}{\numberline {5}Research Plan}{13}
-\contentsline {section}{\numberline {5.1}Biology Aspect}{13}
-\contentsline {section}{\numberline {5.2}Tracking}{13}
-\contentsline {section}{\numberline {5.3}HMM for gesture recognition}{13}
-\contentsline {chapter}{\numberline {6}Conclusion}{14}
-\contentsline {chapter}{Bibliography}{15}
+\contentsline {section}{\numberline {1.2}Why is it important}{8}
+\contentsline {chapter}{\numberline {2}Background}{9}
+\contentsline {section}{\numberline {2.1}Posture/Gesture Recognition}{9}
+\contentsline {section}{\numberline {2.2}Biology Aspect}{11}
+\contentsline {section}{\numberline {2.3}Platforms}{11}
+\contentsline {subsection}{\numberline {2.3.1}Vision Processing Front-ends}{11}
+\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{11}
+\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{14}
+\contentsline {chapter}{\numberline {3}CNNs Models}{16}
+\contentsline {section}{\numberline {3.1}Model Description}{16}
+\contentsline {subsection}{\numberline {3.1.1}Manual Feature Extraction Model}{17}
+\contentsline {subsection}{\numberline {3.1.2}Combined Convolution Network}{18}
+\contentsline {section}{\numberline {3.2}Training and test}{19}
+\contentsline {section}{\numberline {3.3}Experiments}{19}
+\contentsline {chapter}{\numberline {4}Recognition on SpiNNaker}{22}
+\contentsline {section}{\numberline {4.1}Moving to spiking neurons}{22}
+\contentsline {section}{\numberline {4.2}Recorded data test}{22}
+\contentsline {section}{\numberline {4.3}Real-time test}{23}
+\contentsline {chapter}{\numberline {5}Research Plan}{25}
+\contentsline {section}{\numberline {5.1}Biology Aspect}{25}
+\contentsline {section}{\numberline {5.2}Tracking}{25}
+\contentsline {section}{\numberline {5.3}HMM for gesture recognition}{25}
+\contentsline {chapter}{\numberline {6}Conclusion}{26}
+\contentsline {chapter}{Bibliography}{27}
