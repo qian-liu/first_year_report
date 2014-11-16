@@ -1,34 +1,30 @@
 \chapter{Introduction}
 \label{cha:intro}
-In order to make an effective, energy-efficient touch-less user interface (UI), we will model an optimized spiking neural network (SNN) based hand-gesture command identifier on bespoke hardware. 
-The SpiNNaker platform will be employed in the initial stages of research to model and optimize the SNNs in real time, computing the output based on spiking output from a silicon retina: a dynamic visual sensor (DVS). After deriving the neural network description, later work will focus on specifying the minimum number of neurons to operate it.
-
-The SpiNNaker project (funded by EPSRC, the UK funding agency for engineering and the physical sciences) has supported the development of an experimental multicore platform that offers a unique environment for research into many-core programming. 
-SpiNNaker employs an architecture inspired by the very high levels of connectivity found in the human brain, and the primary objective of the research has been to develop a generic platform for real-time brain modelling. The resulting machine is a mesh of Multi-Processor Systems-on-Chip (MPSoCs) that will be scaled up over 2013 within the current funding to machines with up to a million processor cores.
+Patterns or objects in two-dimensional images can be described with four properties~\cite{wysoski2008fast}: position, geometry (i.e. size, area and shape), colour/texture, and trajectory. 
+Appearance-based methods are the most direct approach to performing pattern recognition where the test image is compared with a set of templates to find the best match for an individual or combination of properties. 
+%In terms of classification algorithms, distance measure methods (nearest neighbour, k-means clustering), support vector machine (SVM), multi-layer perceptron (MLP) neural networks and statistical methods, e.g. Gaussian mixture model (GMM) have been applied successfully in visual recognition. 
+However, the 2D projection of an object changes under different conditions including illumination, viewing angles, relative positions and distance, making it virtually impossible to represent all appearances of an object. 
+To improve reliability, robustness and classification efficiency, approaches such as edge matching~\cite{canny1986computational}, divide-and-conquer~\cite{toygar2004multiple}, gradient matching~\cite{wei2006robust} and feature based methods~\cite{lowe2004distinctive, bay2008speeded} are used.
+%Moreover, feature based methods are used to improve reliability, robustness and classification efficiency. 
+%Among various feature extraction methods, the scale-invariant feature transform (SIFT)~\cite{lowe2004distinctive} and the sped-up robust features (SURF)~\cite{bay2008speeded} methods are well-accepted recently in the field. 
+Finding a proper feature for a specific object still remains an open question and there is no process as general, accurate, or energy-efficient as that provided by the brain.
+It is not a new idea to turn to nature for inspiration. 
+%Turning to biology for answers is always the way to explore the field of visual pattern recognition. 
+Riesenhuber et al.~\cite{riesenhuber1999hierarchical}, for instance, presented a biologically-inspired model based on the organisation of the visual cortex which has the ability to represent relative position- and scale-invariant features.
+Integrating a rich set of visual features became possible using a feed-forward hierarchical pathway. 
 
 \section{Aim}
 \label{sec:aim}
-Goal 1:  prototype a neural gesture recognition system on SpiNNaker.
+To explore how brain may recognise objects, we have employed a biologically-inspired DVS silicon retina~\cite{lenero20113}, a good example of low-cost visual processing due to its event-driven and redundancy-reducing style of computation;
+and a SpiNNaker system~\cite{furber2014spinnaker}, which is a massive parallel computing platform aimed at real-time simulation of SNNs. 
+%SpiNNaker, as the back-end of the system, provides a flexible, event-driven mechanism for real-time simulation of SNNs, and is where the posture recogniser locates.
+With this neuromorphic hardware system we have the ability to explore visual processing by mimicking the functions of various regions along the visual pathway. 
+Building a real-time recognition system for dynamic hand postures is a first step of exploring visual processing in a biological fashion and is also a validation of the neuromorphic platform.
+To match the image properties detailed earlier, the position, shape, size and trajectory of the hand postures can be detected from the retina output.
+To keep the task simple at first, the postures are of similar size and the goal is to recognise the shape of a hand with moving positions.
+Tracking the postures with a short memory will form part of the future work.
 
-Once the gesture recognition system is functioning effectively the SpiNNaker platform can then be used to explore the optimal spiking neural network size and configuration for the gesture recognition task.
 
-Goal 2:  evaluate the cost and performance trade-offs in optimizing the number of neural components required to deliver effective gesture recognition.
-
-Here “cost” is taken to include a range of measures of the implementation complexity, including the numbers and types of neurons, the numbers and types of synapses, the computational demands which are usually dominated by the number of synaptic connections per second, and the power consumption of the system. “Performance” is taken to be a measure of the effectiveness of the system at recognizing gestures.
-
-Expected Outcomes and Results
-
-The tangible outcomes of the first year of the proposed research will include:
-
-A prototype spiking neuron gesture recognition system running on SpiNNaker.
-
-An understanding of the trade-offs of performance, cost and complexity in a spiking neuron gesture recognition system.
-
-These outcomes will be documented in specific deliverables:
-
-A paper submitted to a leading conference such as ICANN.
-
-A draft patent application.
 
 \section{Why is it important}
 \label{sec:imp}

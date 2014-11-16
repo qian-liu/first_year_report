@@ -9,46 +9,54 @@ A level-1 auxiliary file: Chapter5.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: ieeetr.bst
 Database file #1: refs.bib
+Warning--entry type for "video1" isn't style-file defined
+--line 306 of file refs.bib
+Warning--entry type for "video2" isn't style-file defined
+--line 315 of file refs.bib
+Warning--entry type for "video3" isn't style-file defined
+--line 324 of file refs.bib
+Warning--entry type for "appnote8" isn't style-file defined
+--line 334 of file refs.bib
 Warning--empty journal in furber2014spinnaker
-You've used 27 entries,
+You've used 37 entries,
             1876 wiz_defined-function locations,
-            659 strings with 9041 characters,
-and the built_in function-call counts, 9101 in all, are:
-= -- 945
-> -- 310
+            708 strings with 10868 characters,
+and the built_in function-call counts, 11351 in all, are:
+= -- 1152
+> -- 402
 < -- 0
-+ -- 114
-- -- 87
-* -- 653
-:= -- 1219
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 27
++ -- 150
+- -- 113
+* -- 813
+:= -- 1538
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 473
-empty$ -- 839
-format.name$ -- 87
-if$ -- 2236
+cite$ -- 38
+duplicate$ -- 583
+empty$ -- 1075
+format.name$ -- 113
+if$ -- 2790
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 27
-newline$ -- 84
-num.names$ -- 27
-pop$ -- 80
+int.to.str$ -- 37
+missing$ -- 33
+newline$ -- 114
+num.names$ -- 37
+pop$ -- 125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 363
+skip$ -- 440
 stack$ -- 0
-substring$ -- 787
-swap$ -- 224
+substring$ -- 892
+swap$ -- 262
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 100
-width$ -- 29
-write$ -- 279
-(There was 1 warning)
+while$ -- 121
+width$ -- 39
+write$ -- 371
+(There were 5 warnings)

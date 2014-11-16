@@ -25,13 +25,23 @@ D.~G. Lowe, ``Distinctive image features from scale-invariant keypoints,'' {\em
   International journal of computer vision}, vol.~60, no.~2, pp.~91--110, 2004.
 
 \bibitem{bay2008speeded}
-H.~Bay, A.~Ess, T.~Tuytelaars, and L.~Van~Gool, ``Speeded-up robust features
-  (surf),'' {\em Computer vision and image understanding}, vol.~110, no.~3,
+H.~Bay, A.~Ess, T.~Tuytelaars, and L.~Van~Gool, ``{Speeded-up robust features
+  (SURF)},'' {\em Computer vision and image understanding}, vol.~110, no.~3,
   pp.~346--359, 2008.
 
 \bibitem{riesenhuber1999hierarchical}
 M.~Riesenhuber and T.~Poggio, ``Hierarchical models of object recognition in
   cortex,'' {\em Nature neuroscience}, vol.~2, no.~11, pp.~1019--1025, 1999.
+
+\bibitem{lenero20113}
+J.~A. Le{\~n}ero-Bardallo, T.~Serrano-Gotarredona, and B.~Linares-Barranco, ``A
+  3.6 s latency asynchronous frame-free event-driven dynamic-vision-sensor,''
+  {\em Solid-State Circuits, IEEE Journal of}, vol.~46, no.~6, pp.~1443--1455,
+  2011.
+
+\bibitem{furber2014spinnaker}
+S.~B. Furber, F.~Galluppi, S.~Temple, and L.~A. Plana, ``{The SpiNNaker
+  Project},'' 2014.
 
 \bibitem{hopfield1995pattern}
 J.~J. Hopfield, ``Pattern recognition computation using action potential timing
@@ -54,7 +64,7 @@ A.~Gupta and L.~N. Long, ``Character recognition using spiking neural
 
 \bibitem{6467270}
 J.~H. Lee, P.~Park, C.-W. Shin, H.~Ryu, B.~C. Kang, and T.~Delbruck,
-  ``Touchless hand gesture ui with instantaneous responses,'' in {\em Image
+  ``{Touchless hand gesture UI with instantaneous responses},'' in {\em Image
   Processing (ICIP), 2012 19th IEEE International Conference on},
   pp.~1957--1960, Sept 2012.
 
@@ -64,6 +74,11 @@ L.~Camunas-Mesa, C.~Zamarreno-Ramos, A.~Linares-Barranco, A.~J. Acosta-Jimenez,
   multi-kernel convolution processor module for event-driven vision sensors,''
   {\em Solid-State Circuits, IEEE Journal of}, vol.~47, no.~2, pp.~504--517,
   2012.
+
+\bibitem{rehn2007network}
+M.~Rehn and F.~T. Sommer, ``A network that uses few active neurones to code
+  visual input predicts the diverse shapes of cortical receptive fields,'' {\em
+  Journal of computational neuroscience}, vol.~22, no.~2, pp.~135--146, 2007.
 
 \bibitem{delorme2001networks}
 A.~Delorme, L.~Perrinet, and S.~J. Thorpe, ``Networks of integrate-and-fire
@@ -92,28 +107,6 @@ P.~O'Connor, D.~Neil, S.-C. Liu, T.~Delbruck, and M.~Pfeiffer, ``Real-time
   classification and sensor fusion with a spiking deep belief network,'' {\em
   Frontiers in neuroscience}, vol.~7, 2013.
 
-\bibitem{elmezain2009hidden}
-M.~Elmezain, A.~Al-Hamadi, J.~Appenrodt, and B.~Michaelis, ``A hidden markov
-  model-based isolated and meaningful hand gesture recognition,'' {\em
-  International Journal of Electrical, Computer, and Systems Engineering},
-  vol.~3, no.~3, pp.~156--163, 2009.
-
-\bibitem{lenero20113}
-J.~A. Le{\~n}ero-Bardallo, T.~Serrano-Gotarredona, and B.~Linares-Barranco, ``A
-  3.6 s latency asynchronous frame-free event-driven dynamic-vision-sensor,''
-  {\em Solid-State Circuits, IEEE Journal of}, vol.~46, no.~6, pp.~1443--1455,
-  2011.
-
-\bibitem{furber2014spinnaker}
-S.~B. Furber, F.~Galluppi, S.~Temple, and L.~A. Plana, ``The spinnaker
-  project,'' 2014.
-
-\bibitem{galluppi2012real}
-F.~Galluppi, K.~Brohan, S.~Davidson, T.~Serrano-Gotarredona, J.-A.~P. Carrasco,
-  B.~Linares-Barranco, and S.~Furber, ``A real-time, event-driven neuromorphic
-  system for goal-directed attentional selection,'' in {\em Neural Information
-  Processing}, pp.~226--233, Springer, 2012.
-
 \bibitem{delbruck2008frame}
 T.~Delbruck, ``Frame-free dynamic digital vision,'' in {\em Proceedings of
   Intl. Symp. on Secure-Life Electronics, Advanced Electronics for Quality Life
@@ -124,19 +117,79 @@ C.~Patterson, F.~Galluppi, A.~Rast, and S.~Furber, ``Visualising large-scale
   neural network models in real-time,'' in {\em Neural Networks (IJCNN), The
   2012 International Joint Conference on}, pp.~1--8, 2012.
 
-\bibitem{lecun1998gradient}
-Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
-  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
-  no.~11, pp.~2278--2324, 1998.
+\bibitem{galluppi2012real}
+F.~Galluppi, K.~Brohan, S.~Davidson, T.~Serrano-Gotarredona, J.-A.~P. Carrasco,
+  B.~Linares-Barranco, and S.~Furber, ``A real-time, event-driven neuromorphic
+  system for goal-directed attentional selection,'' in {\em Neural Information
+  Processing}, pp.~226--233, Springer, 2012.
 
 \bibitem{lazzaro1995multi}
 J.~Lazzaro and J.~Wawrzynek, ``A multi-sender asynchronous extension to the aer
   protocol,'' in {\em Advanced Research in VLSI, Conference on}, pp.~158--158,
   IEEE Computer Society, 1995.
 
+\bibitem{appnote8}
+L.~A. Plana, ``{AppNote 8 - Interfacing AER devices to SpiNNaker using an
+  FPGA}.''
+  \url{https://spinnaker.cs.man.ac.uk/tiki-download_wiki_attachment.php?attId=20},
+  4 2013.
+
+\bibitem{davison2008pynn}
+A.~P. Davison, D.~Br{\"u}derle, J.~Eppler, J.~Kremkow, E.~Muller, D.~Pecevski,
+  L.~Perrinet, and P.~Yger, ``Pynn: a common interface for neuronal network
+  simulators,'' {\em Frontiers in neuroinformatics}, vol.~2, 2008.
+
+\bibitem{5537164}
+S.-C. Liu, A.~van Schaik, B.~Minch, and T.~Delbruck, ``Event-based 64-channel
+  binaural silicon cochlea with q enhancement mechanisms,'' in {\em Circuits
+  and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on},
+  pp.~2027--2030, May 2010.
+
+\bibitem{6706931}
+Q.~Liu, C.~Patterson, S.~Furber, Z.~Huang, Y.~Hou, and H.~Zhang, ``Modeling
+  populations of spiking neurons for fine timing sound localization,'' in {\em
+  Neural Networks (IJCNN), The 2013 International Joint Conference on},
+  pp.~1--8, Aug 2013.
+
+\bibitem{lecun1998gradient}
+Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
+  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
+  no.~11, pp.~2278--2324, 1998.
+
 \bibitem{la2008response}
 G.~La~Camera, M.~Giugliano, W.~Senn, and S.~Fusi, ``The response of cortical
   neurons to in vivo-like input current: theory and experiment,'' {\em
   Biological cybernetics}, vol.~99, no.~4-5, pp.~279--301, 2008.
+
+\bibitem{burkitt2006review}
+A.~N. Burkitt, ``A review of the integrate-and-fire neuron model: I.
+  homogeneous synaptic input,'' {\em Biological cybernetics}, vol.~95, no.~1,
+  pp.~1--19, 2006.
+
+\bibitem{siegert1951first}
+A.~J. Siegert, ``On the first passage time probability problem,'' {\em Physical
+  Review}, vol.~81, no.~4, p.~617, 1951.
+
+\bibitem{video1}
+Q.~Liu, ``{A gabor filter prefers the horizontal lines running on SpiNNaker in
+  real-time }.''
+  \url{https://www.youtube.com/watch?v=PvJy6RKAJhw&feature=youtu.be&list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ},
+  Sept. 2014.
+
+\bibitem{video2}
+Q.~Liu, ``Feature extraction of live retinal input.''
+  \url{http://youtu.be/FZJshPCJ1pg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ},
+  Sept. 2014.
+
+\bibitem{video3}
+Q.~Liu, ``{Live dynamic posture recognition on SpiNNaker}.''
+  \url{http://youtu.be/yxN90aGGKvg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ},
+  Sept. 2014.
+
+\bibitem{elmezain2009hidden}
+M.~Elmezain, A.~Al-Hamadi, J.~Appenrodt, and B.~Michaelis, ``A hidden markov
+  model-based isolated and meaningful hand gesture recognition,'' {\em
+  International Journal of Electrical, Computer, and Systems Engineering},
+  vol.~3, no.~3, pp.~156--163, 2009.
 
 \end{thebibliography}

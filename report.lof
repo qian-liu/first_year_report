@@ -1,16 +1,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces System overview of the posture recognition platform. The silicon retina connects to the SpiNNaker system through an FPGA board. Spikes from the retina are streamed to the SpiNNaker system through this Spartan-6 FPGA board. The jAER software configures the retina and displays its outgoing spikes through the USB connection. The host sets up the runtime parameters off-line and downloads the network model to the SpiNNaker system. \relax }}{12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces System diagram\relax }}{13}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 103 Machine PCB\relax }}{14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces System overview of the dynamic hand posture recognition platform. \relax }}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SpiNNaker system diagram. Each element represents one chip with local memory. Every chip connects to its neighbours through the six bi-directional on-board links. \relax }}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces `103 Machine' PCB\relax }}{14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Each individual neuron in the convolution layer (right matrix) connects to its receptive field using the same kernel. The value of the kernel is represented by the synaptic weights between the connected neurons.\relax }}{15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Each individual convolution neuron connects to its respective field using the same kernel.\relax }}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The convolutional neural network model with manually selected templates.\relax }}{17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Real parts of the Gabor filters oriented to four directions.\relax }}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Five gesture templates\relax }}{18}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The combined convolutional model with trained MLP neurons.\relax }}{18}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Neuron responses to the same five gesture videos.\relax }}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model 1. The retina input is convolved with Gabor filters in the second layer, and then shrinks the sizes in the pooling layer. The templates are considered as convolution kernels in the last layer. The WTA circuit can be used as an option to show the template matching result more clearly. \relax }}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Templates of the five postures: `Fist',`Index Finger', `Victory Sign', `Full Hand' and `Thumb up'.\relax }}{17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Real parts of the Gabor filters orienting four directions.\relax }}{17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Model 2. The retina input convolves with Gabor filters in the second layer, and then shrinks the sizes in the pooling layer. The following tracking layer finds the most active area of some fixed size, moves the posture to the centre and pushes the image to the trained MLP. The winner-take-all (WTA) layer can be used as an option to show the template matching result more clearly.\relax }}{18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Neural responses with time of four experiments to the same recorded moving postures. The recognition output is normalised to \unhbox \voidb@x \hbox {[-1, 1]}. Every point represents the highest response in a specific population (different colour) for a 30\nobreakspace {}ms frame. The 1st plot refers to Model 1 with the full input resolution, and the 2nd plot Model 1 with the sub-sampled input resolution; and the 3rd and fourth plots both refer to Model 2, and with high and low input resolution respectively. \relax }}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Snapshots of the real-time gesture recognition system on SpiNNaker. \relax }}{24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Snapshots of the real-time dynamic posture recognition system on SpiNNaker. \relax }}{25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Real-time neural responses of two experiments on SpiNNaker with time to the same recorded postures. These two experiments only differ in input resolution. The result of the high input resolution test is plotted the first with a sample frame of 30\nobreakspace {}ms; while the 3rd plot shows the same result with a sample frame of 300\nobreakspace {}ms. The other two plots refer to the smaller input resolution. Every point represents the over all number of spikes of a specific population (different colour) in a `frame'. \relax }}{26}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Spikes captured during the live recognition of the recorded retinal input with the resolution of 128$\times $128. \relax }}{28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Spikes captured during the live recognition of the recorded retinal input with the resolution of 32$\times $32. \relax }}{29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
