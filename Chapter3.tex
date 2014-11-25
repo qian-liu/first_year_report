@@ -1,5 +1,18 @@
-\chapter{CNNs Models}
-\label{chp:mds}
+\chapter{Convolutional Neural Networks}
+\label{chp:cnn}
+
+The convolutional network is well-known as an example of a biologically-inspired model. 
+Figure~\ref{fig:conv} shows a typical convolutional connection between two layers of neurons. 
+The repeated convolutional kernels are overlapped in the receptive fields of the input neurons. 
+\begin{figure}
+\centering
+	\includegraphics[width=0.8\textwidth]{pics/conv.pdf}
+	\caption{Each individual neuron in the convolution layer (right matrix) connects to its receptive field using the same kernel. The value of the kernel is represented by the synaptic weights between the connected neurons.}
+	\label{fig:conv}
+\end{figure}
+
+\section{Model Description}
+\label{sec:mdc}
 There are two CNNs proposed to accomplish the dynamic hand posture recognition task.
 A straight forward method of template matching is employed at first, followed by a network of multi-layer perceptrons (MLP) trained to improve the recognition performance.
 
@@ -88,7 +101,7 @@ Therefore, a tracking layer plays an important role to find the most active regi
 %Since the size of the input image of the MLP training is fixed and the position is centered, tracking plays a very important role to spot the valid region. 
 %Tracking is naturally embedded in the pooling layer of the convolutional network, for the active neurons directly point out the lively receptive field. 
 
-\subsection{Experimental Set-up}
+\section{Experimental Set-up}
 \label{sec:tat}
 In order to evaluate the cost and performance trade-offs in optimizing the number of neural components, both the convolutional models described above are tested at different scales. 
 Five videos of every posture are captured from the silicon retina in AER format, all of similar size and moving clock-wise in front of the retina. 
@@ -180,7 +193,7 @@ The integration layer is not necessary in a convolutional network, but is used h
 	\label{tbl:nns}
 \end{table}
 
-\subsection{Experimental Results}
+\section{Experimental Results}
 \label{sec:exp}
 
 \begin{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  16 NOV 2014 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  25 NOV 2014 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,7 +411,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-)
+ [2
+
+])
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
@@ -420,9 +422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
-[2
-
-] [3] (./report.lot)
+[3] (./report.lot)
 \tf@lot=\write4
 \openout4 = `report.lot'.
 
@@ -434,7 +434,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5
 
 ]
-Overfull \hbox (6.12364pt too wide) in paragraph at lines 14--14
+Overfull \hbox (6.12364pt too wide) in paragraph at lines 13--13
  [][] []\OT1/ptm/m/n/12 Snapshots of the real-time dy-namic pos-ture recog-ni-t
 ion sys-tem on SpiN- 
  []
@@ -460,199 +460,195 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 
  (./Chapter2.tex
 Chapter 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 [10
 
 
 
-] <pics/outline.pdf, id=37, 186.6975pt x 95.35625pt>
+]
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+ [11]
+<pics/outline.pdf, id=40, 186.6975pt x 95.35625pt>
 File: pics/outline.pdf Graphic file (type pdf)
  <use pics/outline.pdf>
-Package pdftex.def Info: pics/outline.pdf used on input line 53.
+Package pdftex.def Info: pics/outline.pdf used on input line 67.
 (pdftex.def)             Requested size: 247.54149pt x 126.43806pt.
 
-<pics/outline2.pdf, id=38, 1509.64pt x 601.24625pt>
+<pics/outline2.pdf, id=41, 1509.64pt x 601.24625pt>
 File: pics/outline2.pdf Graphic file (type pdf)
  <use pics/outline2.pdf>
-Package pdftex.def Info: pics/outline2.pdf used on input line 59.
+Package pdftex.def Info: pics/outline2.pdf used on input line 73.
 (pdftex.def)             Requested size: 247.54149pt x 98.58667pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
 
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./pics/outline.pdf> <./pics/outline2.pdf
+[12 <./pics/outline.pdf> <./pics/outline2.pdf
 
 pdfTeX warning: pdflatex (file ./pics/outline2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >] <pics/mesh_ctiff.jpg, id=65, 642.4pt x 642.4pt>
 File: pics/mesh_ctiff.jpg Graphic file (type jpg)
  <use pics/mesh_ctiff.jpg>
-Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 96.
-(pdftex.def)             Requested size: 247.54149pt x 247.5355pt.
+Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 110.
+(pdftex.def)             Requested size: 330.05322pt x 330.06042pt.
 
-<pics/SpiNN5.pdf, id=66, 863.225pt x 855.99799pt>
-File: pics/SpiNN5.pdf Graphic file (type pdf)
- <use pics/SpiNN5.pdf>
-Package pdftex.def Info: pics/SpiNN5.pdf used on input line 120.
-(pdftex.def)             Requested size: 247.54149pt x 245.46402pt.
 
-[13 <./pics/mesh_ctiff.jpg>] <pics/conv.pdf, id=71, 351.3125pt x 135.50626pt>
-File: pics/conv.pdf Graphic file (type pdf)
+LaTeX Warning: Reference `fig:48node' on page 13 undefined on input line 124.
 
-<use pics/conv.pdf>
-Package pdftex.def Info: pics/conv.pdf used on input line 139.
-(pdftex.def)             Requested size: 330.05322pt x 127.31592pt.
-) [14 <./pics/SpiNN5.pdf>] [15 <./pics/conv.pdf>]
+) [13] [14 <./pics/mesh_ctiff.jpg>]
 \openout2 = `Chapter3.aux'.
 
-
-(./Chapter3.tex
+ (./Chapter3.tex
 Chapter 3.
-<pics/model1.pdf, id=100, 392.46625pt x 84.315pt>
+<pics/conv.pdf, id=73, 351.3125pt x 135.50626pt>
+File: pics/conv.pdf Graphic file (type pdf)
+ <use pics/conv.pdf>
+Package pdftex.def Info: pics/conv.pdf used on input line 9.
+(pdftex.def)             Requested size: 330.05322pt x 127.31592pt.
+
+<pics/model1.pdf, id=74, 392.46625pt x 84.315pt>
 File: pics/model1.pdf Graphic file (type pdf)
  <use pics/model1.pdf>
-Package pdftex.def Info: pics/model1.pdf used on input line 9.
+Package pdftex.def Info: pics/model1.pdf used on input line 22.
 (pdftex.def)             Requested size: 330.05322pt x 70.9103pt.
+ [15
 
-<pics/gesture.pdf, id=101, 498.86375pt x 100.375pt>
+
+
+ <./pics/conv.pdf>] <pics/gesture.pdf, id=93, 498.86375pt x 100.375pt>
 File: pics/gesture.pdf Graphic file (type pdf)
- <use pics/gesture.pdf>
-Package pdftex.def Info: pics/gesture.pdf used on input line 29.
+
+<use pics/gesture.pdf>
+Package pdftex.def Info: pics/gesture.pdf used on input line 42.
 (pdftex.def)             Requested size: 330.05322pt x 66.41158pt.
 
-[16
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
- <./pics/model1.pdf>] <pics/gabor.pdf, id=164, 518.93875pt x 151.56625pt>
+ [16 <./pics/model1.pdf> <./pics/gesture.pdf>]
+<pics/gabor.pdf, id=160, 518.93875pt x 151.56625pt>
 File: pics/gabor.pdf Graphic file (type pdf)
-
-<use pics/gabor.pdf>
-Package pdftex.def Info: pics/gabor.pdf used on input line 60.
+ <use pics/gabor.pdf>
+Package pdftex.def Info: pics/gabor.pdf used on input line 73.
 (pdftex.def)             Requested size: 330.05322pt x 96.40306pt.
 
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [17 <./pics/gesture.pdf> <./pics/gabor.pdf>]
-<pics/model2.pdf, id=206, 463.7325pt x 84.315pt>
+[17 <./pics/gabor.pdf>] <pics/model2.pdf, id=198, 463.7325pt x 84.315pt>
 File: pics/model2.pdf Graphic file (type pdf)
- <use pics/model2.pdf>
-Package pdftex.def Info: pics/model2.pdf used on input line 80.
+
+<use pics/model2.pdf>
+Package pdftex.def Info: pics/model2.pdf used on input line 93.
 (pdftex.def)             Requested size: 330.05322pt x 60.01071pt.
 
-Overfull \hbox (145.75937pt too wide) in paragraph at lines 105--143
+Overfull \hbox (145.75937pt too wide) in paragraph at lines 118--156
  [][] 
  []
 
 
-Overfull \hbox (145.75937pt too wide) in paragraph at lines 149--179
+Overfull \hbox (145.75937pt too wide) in paragraph at lines 162--192
  [][] 
  []
 
-<pics/rateMatlab.pdf, id=207, 550.055pt x 369.38pt>
+<pics/rateMatlab.pdf, id=199, 550.055pt x 369.38pt>
 File: pics/rateMatlab.pdf Graphic file (type pdf)
  <use pics/rateMatlab.pdf>
-Package pdftex.def Info: pics/rateMatlab.pdf used on input line 188.
+Package pdftex.def Info: pics/rateMatlab.pdf used on input line 201.
 (pdftex.def)             Requested size: 330.05322pt x 221.6466pt.
 
 [18 <./pics/model2.pdf>] [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./pics/rateMatlab.pdf>]
-Overfull \hbox (6.62495pt too wide) in paragraph at lines 229--230
+Overfull \hbox (6.62495pt too wide) in paragraph at lines 242--243
  []|[]| 
  []
 
 
-Overfull \hbox (6.62495pt too wide) in paragraph at lines 230--231
+Overfull \hbox (6.62495pt too wide) in paragraph at lines 243--244
  []|[]| 
  []
 
 
-Overfull \hbox (6.62495pt too wide) in paragraph at lines 231--232
+Overfull \hbox (6.62495pt too wide) in paragraph at lines 244--245
  []|[]| 
  []
 
 
-Overfull \hbox (6.62495pt too wide) in paragraph at lines 232--233
+Overfull \hbox (6.62495pt too wide) in paragraph at lines 245--246
  []|[]| 
  []
 
 
-Overfull \hbox (2.4372pt too wide) in paragraph at lines 235--236
+Overfull \hbox (2.4372pt too wide) in paragraph at lines 248--249
 []|[]| 
  []
 
 
-Overfull \hbox (4.45308pt too wide) in paragraph at lines 241--242
+Overfull \hbox (4.45308pt too wide) in paragraph at lines 254--255
 []|[]| 
  []
 
 
-Overfull \hbox (2.4372pt too wide) in paragraph at lines 247--248
+Overfull \hbox (2.4372pt too wide) in paragraph at lines 260--261
 []|[]| 
  []
 
 
-Overfull \hbox (2.4372pt too wide) in paragraph at lines 253--254
+Overfull \hbox (2.4372pt too wide) in paragraph at lines 266--267
 []|[]| 
  []
 
 
-Overfull \hbox (2.4372pt too wide) in paragraph at lines 259--260
+Overfull \hbox (2.4372pt too wide) in paragraph at lines 272--273
 []|[]| 
  []
 
-) [21]
+) [20 <./pics/rateMatlab.pdf>] [21]
 \openout2 = `Chapter4.aux'.
 
  (./Chapter4.tex
 Chapter 4.
-[22
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
 
 
 
-] [23] <pics/live1.png, id=331, 531.9875pt x 468.75125pt>
+]
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [23]
+<pics/live1.png, id=323, 531.9875pt x 468.75125pt>
 File: pics/live1.png Graphic file (type png)
-
-<use pics/live1.png>
+ <use pics/live1.png>
 Package pdftex.def Info: pics/live1.png used on input line 79.
 (pdftex.def)             Requested size: 165.02345pt x 145.40436pt.
- <pics/live2.png, id=332, 530.98375pt x 469.755pt>
-File: pics/live2.png Graphic file (type png)
 
-<use pics/live2.png>
+<pics/live2.png, id=324, 530.98375pt x 469.755pt>
+File: pics/live2.png Graphic file (type png)
+ <use pics/live2.png>
 Package pdftex.def Info: pics/live2.png used on input line 84.
 (pdftex.def)             Requested size: 165.02345pt x 145.99527pt.
- <pics/live.png, id=333, 833.1125pt x 700.6175pt>
-File: pics/live.png Graphic file (type png)
 
-<use pics/live.png>
+<pics/live.png, id=325, 833.1125pt x 700.6175pt>
+File: pics/live.png Graphic file (type png)
+ <use pics/live.png>
 Package pdftex.def Info: pics/live.png used on input line 90.
 (pdftex.def)             Requested size: 330.05322pt x 277.5587pt.
 
-Overfull \hbox (7.8151pt too wide) in paragraph at lines 101--106
-\OT1/ptm/m/n/12 To com-pare with the re-sults of the ex-per-i-ments car-ried ou
-t with Mat-lab (in Sec-tion 3.0.2[]),
- []
-
-<pics/rateSpiNN.pdf, id=334, 544.88272pt x 369.76244pt>
+<pics/rateSpiNN.pdf, id=326, 544.88272pt x 369.76244pt>
 File: pics/rateSpiNN.pdf Graphic file (type pdf)
 
 <use pics/rateSpiNN.pdf>
 Package pdftex.def Info: pics/rateSpiNN.pdf used on input line 110.
 (pdftex.def)             Requested size: 330.05322pt x 223.97496pt.
- <pics/figure_r.png, id=335, 586.8324pt x 442.2924pt>
+ [24] [25 <./pics/live1.png (PNG copy)> <./pics/live2.png (PNG copy)> <./pics/l
+ive.png (PNG copy)>] [26 <./pics/rateSpiNN.pdf>]
+<pics/figure_r.png, id=370, 586.8324pt x 442.2924pt>
 File: pics/figure_r.png Graphic file (type png)
-
-<use pics/figure_r.png>
+ <use pics/figure_r.png>
 Package pdftex.def Info: pics/figure_r.png used on input line 141.
 (pdftex.def)             Requested size: 165.02345pt x 124.37418pt.
- <pics/figure_1.png, id=337, 586.8324pt x 442.2924pt>
-File: pics/figure_1.png Graphic file (type png)
 
-<use pics/figure_1.png>
+<pics/figure_1.png, id=372, 586.8324pt x 442.2924pt>
+File: pics/figure_1.png Graphic file (type png)
+ <use pics/figure_1.png>
 Package pdftex.def Info: pics/figure_1.png used on input line 146.
 (pdftex.def)             Requested size: 165.02345pt x 124.37418pt.
 
@@ -660,7 +656,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 147--147
 []\OT1/ptm/m/n/10.95 (b) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_2.png, id=338, 586.8324pt x 442.2924pt>
+<pics/figure_2.png, id=373, 586.8324pt x 442.2924pt>
 File: pics/figure_2.png Graphic file (type png)
  <use pics/figure_2.png>
 Package pdftex.def Info: pics/figure_2.png used on input line 152.
@@ -670,7 +666,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 153--153
 []\OT1/ptm/m/n/10.95 (c) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_3.png, id=339, 586.8324pt x 442.2924pt>
+<pics/figure_3.png, id=374, 586.8324pt x 442.2924pt>
 File: pics/figure_3.png Graphic file (type png)
  <use pics/figure_3.png>
 Package pdftex.def Info: pics/figure_3.png used on input line 157.
@@ -680,7 +676,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10.95 (d) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_4.png, id=340, 586.8324pt x 442.2924pt>
+<pics/figure_4.png, id=375, 586.8324pt x 442.2924pt>
 File: pics/figure_4.png Graphic file (type png)
  <use pics/figure_4.png>
 Package pdftex.def Info: pics/figure_4.png used on input line 162.
@@ -690,7 +686,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10.95 (e) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_5.png, id=341, 586.8324pt x 442.2924pt>
+<pics/figure_5.png, id=376, 586.8324pt x 442.2924pt>
 File: pics/figure_5.png Graphic file (type png)
  <use pics/figure_5.png>
 Package pdftex.def Info: pics/figure_5.png used on input line 167.
@@ -700,16 +696,14 @@ Underfull \hbox (badness 2781) in paragraph at lines 168--168
 []\OT1/ptm/m/n/10.95 (f) |Tem-plate match-ing pop-u-la-tion,
  []
 
-[24] [25 <./pics/live1.png (PNG copy)> <./pics/live2.png (PNG copy)> <./pics/li
-ve.png (PNG copy)>] [26 <./pics/rateSpiNN.pdf>]
-<pics/figure_32_r.png, id=385, 586.8324pt x 442.2924pt>
+<pics/figure_32_r.png, id=377, 586.8324pt x 442.2924pt>
 File: pics/figure_32_r.png Graphic file (type png)
 
 <use pics/figure_32_r.png>
 Package pdftex.def Info: pics/figure_32_r.png used on input line 177.
 (pdftex.def)             Requested size: 165.02345pt x 124.37418pt.
 
-<pics/figure_32_1.png, id=386, 586.8324pt x 442.2924pt>
+<pics/figure_32_1.png, id=378, 586.8324pt x 442.2924pt>
 File: pics/figure_32_1.png Graphic file (type png)
 
 <use pics/figure_32_1.png>
@@ -720,7 +714,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 183--183
 []\OT1/ptm/m/n/10.95 (b) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_2.png, id=387, 586.8324pt x 442.2924pt>
+<pics/figure_32_2.png, id=379, 586.8324pt x 442.2924pt>
 File: pics/figure_32_2.png Graphic file (type png)
 
 <use pics/figure_32_2.png>
@@ -731,7 +725,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 189--189
 []\OT1/ptm/m/n/10.95 (c) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_3.png, id=388, 586.8324pt x 442.2924pt>
+<pics/figure_32_3.png, id=380, 586.8324pt x 442.2924pt>
 File: pics/figure_32_3.png Graphic file (type png)
 
 <use pics/figure_32_3.png>
@@ -742,7 +736,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 194--194
 []\OT1/ptm/m/n/10.95 (d) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_4.png, id=389, 586.8324pt x 442.2924pt>
+<pics/figure_32_4.png, id=381, 586.8324pt x 442.2924pt>
 File: pics/figure_32_4.png Graphic file (type png)
 
 <use pics/figure_32_4.png>
@@ -753,7 +747,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 199--199
 []\OT1/ptm/m/n/10.95 (e) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_5.png, id=390, 586.8324pt x 442.2924pt>
+<pics/figure_32_5.png, id=382, 586.8324pt x 442.2924pt>
 File: pics/figure_32_5.png Graphic file (type png)
 
 <use pics/figure_32_5.png>
@@ -839,14 +833,17 @@ OT1/pcr/m/n/12 http : / / youtu . be /
 ) [35] (./report.aux (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux)
 (./Chapter4.aux) (./Chapter5.aux) (./Conclusion.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5410 strings out of 495028
- 79880 string characters out of 6181497
- 153390 words of memory out of 5000000
- 8427 multiletter control sequences out of 15000+600000
+ 5405 strings out of 495028
+ 79791 string characters out of 6181497
+ 154375 words of memory out of 5000000
+ 8423 multiletter control sequences out of 15000+600000
  37134 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,18n,40p,668b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -859,10 +856,10 @@ urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (35 pages, 5106642 bytes).
+Output written on report.pdf (35 pages, 1722427 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
+ 455 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

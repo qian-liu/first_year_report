@@ -2,7 +2,26 @@
 \label{cha:bkg}
 %Literature Review
 
-\section{Posture/Gesture Recognition}
+Introduction to transformation-invariance object recognition.
+What we know about the ventral visual stream.
+Why use spiking neural network to model.
+\section{What do we know about the brain}
+
+\label{sec:bio}
+
+\subsection{The Ventral Visual Pathway}
+V1\\
+V2\\
+V4\\
+IT- the main part. including IT single neuron behaviour.\\
+PFC
+\subsection{Untangling Object Representation}
+A graphical intuition into the Problem.
+\subsection{Hierarchical Abstractions}
+Feed-forward, hierarchical organisation and abstraction.
+
+
+\section{Spiking Neural Network}
 \label{sec:pgr}
 %All the literature review I can borrow from the previous report.
 
@@ -30,11 +49,6 @@ Recent study~\cite{o2013real} in this area has mapped an offline-trained DBN ont
 %The contribution of this work is summarised and the future directions are provided in Section~\ref{sec:cfw}.
 
 
-
-\section{Biology Aspect}
-\label{sec:bio}
-A lot to work on this part.
-May or may not include neuron models.
 
 \section{Platforms}
 \label{sec:plt}
@@ -93,7 +107,7 @@ In this way massive parallelism extending to thousands or millions of processors
 
 \begin{figure}
 \centering
-	\includegraphics[width=0.6\textwidth]{pics/mesh_ctiff.jpg}
+	\includegraphics[width=0.8\textwidth]{pics/mesh_ctiff.jpg}
 	\caption{SpiNNaker system diagram.
 	Each element represents one chip with local memory.
 	Every chip connects to its neighbours through the six bi-directional on-board links. }
@@ -115,12 +129,12 @@ It has 864 ARM processor cores, typically deployed as 768 application, 48 monito
 %this will require suitable configuration of the on-board FPGAs that provide the high-speed serial interface support. 
 The boards can be connected together to form larger systems using high-speed serial interfaces. 
 
-\begin{figure}
-\centering
-	\includegraphics[width=0.6\textwidth]{pics/SpiNN5.pdf}
-	\caption{`103 Machine' PCB}
-	\label{fig:48node}
-\end{figure}
+%\begin{figure}
+%\centering
+%	\includegraphics[width=0.6\textwidth]{pics/SpiNN5.pdf}
+%	\caption{`103 Machine' PCB}
+%	\label{fig:48node}
+%\end{figure}
 
 \subsection{SpiNNaker distinguishing features}
 Spikes from the silicon retina are injected directly into SpiNNaker via a SPARTAN-6 FPGA board that translates them into a SpiNNaker compatible AER format~\cite{appnote8}. 
@@ -129,14 +143,3 @@ From a neural modelling point of view, interfacing the silicon retina is perform
 The retina is configured as a spike source population that resides on a virtual SpiNNaker chip, to which an AER sensor's spikes are directed, thus abstracting away the hardware details from the user\cite{galluppi2012real}.
 Besides the retina, we have successfully connected an AER based silicon cochlea~\cite{5537164} to SpiNNaker for a sound localisation task~\cite{6706931}.
 
-\section{Convolutional Neural Networks}
-\label{sec:cnn}
-The convolutional network is well-known as an example of a biologically-inspired model. 
-Figure~\ref{fig:conv} shows a typical convolutional connection between two layers of neurons. 
-The repeated convolutional kernels are overlapped in the receptive fields of the input neurons. 
-\begin{figure}
-\centering
-	\includegraphics[width=0.8\textwidth]{pics/conv.pdf}
-	\caption{Each individual neuron in the convolution layer (right matrix) connects to its receptive field using the same kernel. The value of the kernel is represented by the synaptic weights between the connected neurons.}
-	\label{fig:conv}
-\end{figure}

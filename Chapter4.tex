@@ -1,7 +1,7 @@
 \chapter{Recognition on SpiNNaker}
 \label{cha:rsp}
 
-\subsection{Moving from Rate-based Perceptrons to Spiking Neurons}
+\section{Moving from Perceptrons to Spiking Neurons}
 It remains a challenge to transform traditional artificial neural networks into spiking ones.
 There are attempts~\cite{la2008response}~\cite{burkitt2006review} to estimate the output firing rate of the LIF neurons (Equation~\ref{equ:lif}) under certain conditions. 
 %For the model illustrated above, there are two types of synaptic connection: one-to-one connections in the retina layer and N-to-one connections in all the convolutional layers (the pooling layer is also included). 
@@ -60,7 +60,7 @@ plus, the delta function is required, i.e. the synaptic time constant is conside
 Secondly, given different input spike rate to each pre-synaptic neurons, the parameters of the LIF neuron and the output spiking rate, how to tune every single corresponding synaptic weight remains a difficult task.
 
 
-\subsection{Live Recognition}
+\section{Live Recognition}
 We implemented the prototype of the dynamic posture recognition system on SpiNNaker using LIF neurons. 
 The input retina layer consists of 128$\times$128 neurons; 
 each Gabor filter has 112$\times$112 valid neurons, since the kernel size is 17$\times$17; 
@@ -97,7 +97,7 @@ All the supporting demonstrative videos can be found on YouTube~\cite{video1, vi
 \label{fig:live}
 \end{figure}
 
-\subsection{Recognition of Recorded Data}
+\section{Recognition of Recorded Data}
 To compare with the results of the experiments carried out with Matlab (in Section~\ref{sec:exp}), the same recorded retinal data is conducted into SpiNNaker.
 Only Model 1 is tested on the neuromorphic hardware platform, since tracking is still need to investigate using SNN (for Model 2) in the future. 
 The recorded data is presented as spike source array in the system with 128$\times$128 input (see Figure~\ref{fig:ssa}) while the data is forwarded to a sub-sampling layer of 32$\times$32 resolution in the system of the smaller network (see Figure~\ref{fig:ssa32}). 
