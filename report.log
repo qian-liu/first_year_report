@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  25 NOV 2014 18:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  27 NOV 2014 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,12 +283,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 ) (./report.aux
-(./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux)
-(./Chapter5.aux
+(./Chapter1.aux) (./Chapter2.aux
 
-LaTeX Warning: Label `cha:rsp' multiply defined.
+LaTeX Warning: Label `eq:lif2' multiply defined.
 
-) (./Conclusion.aux))
+) (./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -429,21 +428,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
  [4
 
 ] (./report.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+LaTeX Warning: Citation `gernstbook' on page 5 undefined on input line 3.
+
+
+LaTeX Warning: Citation `pnn' on page 5 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Maass97networksof' on page 5 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation `sterratt2011principles' on page 5 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `Meftah:2010:SED:1873252.1873282' on page 5 undefined o
+n input line 7.
+
+
+LaTeX Warning: Citation `bigpoo' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Citation `gernstbook' on page 5 undefined on input line 9.
+
+
+Overfull \hbox (16.50955pt too wide) in paragraph at lines 9--9
+ \OT1/ptm/m/n/12 the presy-nap-tic and the post-sy-nap-tic fir-ing times. A$[]$
+=1, A$[]$=-1, $\OML/ztmcm/m/it/12 ^^\[]$\OT1/ptm/m/n/12 =10ms, 
+ []
+
+[5
 
 ]
-Overfull \hbox (6.12364pt too wide) in paragraph at lines 13--13
+Overfull \hbox (6.12364pt too wide) in paragraph at lines 20--20
  [][] []\OT1/ptm/m/n/12 Snapshots of the real-time dy-namic pos-ture recog-ni-t
 ion sys-tem on SpiN- 
  []
 
-)
+
+Underfull \vbox (badness 1681) has occurred while \output is active []
+
+ [6])
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [6] (./abstract.tex) [7
+
+[7] (./abstract.tex) [8
 
 ]
 \openout2 = `Chapter1.aux'.
@@ -452,70 +483,594 @@ ion sys-tem on SpiN-
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-[8
+[9
 
 
-]) [9]
+]) [10] [11]
 \openout2 = `Chapter2.aux'.
 
  (./Chapter2.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-[10
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+[12
 
 
 
 ]
-Underfull \vbox (badness 3179) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
- [11]
-<pics/outline.pdf, id=40, 186.6975pt x 95.35625pt>
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
+[14]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
+ [15]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+[17]
+
+LaTeX Warning: Citation `hhmodel' on page 18 undefined on input line 309.
+
+
+LaTeX Warning: Citation `pnn' on page 18 undefined on input line 309.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+<chapter2/dendrites.png, id=65, 327.1422pt x 160.4394pt>
+File: chapter2/dendrites.png Graphic file (type png)
+
+<use chapter2/dendrites.png>
+Package pdftex.def Info: chapter2/dendrites.png used on input line 316.
+(pdftex.def)             Requested size: 206.28247pt x 101.16548pt.
+
+
+LaTeX Warning: Citation `gernstbook' on page 19 undefined on input line 321.
+
+
+LaTeX Warning: Citation `gernstbook' on page 19 undefined on input line 321.
+
+
+LaTeX Warning: Citation `princNeuron' on page 19 undefined on input line 329.
+
+[19 <./chapter2/dendrites.png>]
+
+LaTeX Warning: Citation `princNeuron' on page 20 undefined on input line 331.
+
+
+LaTeX Warning: Citation `princNeuron' on page 20 undefined on input line 333.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 337.
+
+
+LaTeX Warning: Citation `princNeuron' on page 20 undefined on input line 340.
+
+
+LaTeX Warning: Citation `princNeuron' on page 20 undefined on input line 344.
+
+
+LaTeX Warning: Citation `gernstbook' on page 20 undefined on input line 344.
+
+
+LaTeX Warning: Citation `gernstbook' on page 20 undefined on input line 352.
+
+[20] <chapter2/sap.png, id=76, 247.1634pt x 144.54pt>
+File: chapter2/sap.png Graphic file (type png)
+ <use chapter2/sap.png>
+Package pdftex.def Info: chapter2/sap.png used on input line 357.
+(pdftex.def)             Requested size: 206.28247pt x 120.6342pt.
+
+
+LaTeX Warning: Citation `pnn' on page 21 undefined on input line 358.
+
+
+LaTeX Warning: Citation `pnn' on page 21 undefined on input line 358.
+
+
+LaTeX Warning: Citation `princNeuron' on page 21 undefined on input line 365.
+
+<chapter2/psp.png, id=77, 185.493pt x 214.401pt>
+File: chapter2/psp.png Graphic file (type png)
+ <use chapter2/psp.png>
+Package pdftex.def Info: chapter2/psp.png used on input line 372.
+(pdftex.def)             Requested size: 123.77074pt x 143.05905pt.
+
+
+LaTeX Warning: Citation `Maass97networksof' on page 21 undefined on input line 
+374.
+
+
+LaTeX Warning: Citation `Maass97networksof' on page 21 undefined on input line 
+374.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `gernstbook' on page 21 undefined on input line 380.
+
+[21 <./chapter2/sap.png>]
+
+LaTeX Warning: Citation `hhmodel' on page 22 undefined on input line 384.
+
+
+LaTeX Warning: Citation `Delorme1999989' on page 22 undefined on input line 393
+.
+
+<chapter2/lif1new.png, id=82, 792.9625pt x 350.30875pt>
+File: chapter2/lif1new.png Graphic file (type png)
+
+<use chapter2/lif1new.png>
+Package pdftex.def Info: chapter2/lif1new.png used on input line 401.
+(pdftex.def)             Requested size: 288.7942pt x 127.581pt.
+
+
+LaTeX Warning: Citation `sterratt2011principles' on page 22 undefined on input 
+line 402.
+
+
+LaTeX Warning: Citation `sterratt2011principles' on page 22 undefined on input 
+line 402.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./chapter2/psp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+
+LaTeX Warning: Citation `Schutter:2009:CMM:1822639' on page 23 undefined on inp
+ut line 426.
+
+[23 <./chapter2/lif1new.png>]
+
+LaTeX Warning: Citation `sterratt2011principles' on page 24 undefined on input 
+line 446.
+
+
+LaTeX Warning: Citation `gernstbook' on page 24 undefined on input line 462.
+
+
+LaTeX Warning: Citation `gernstbook' on page 24 undefined on input line 468.
+
+[24]
+
+LaTeX Warning: Citation `Bohte:2004:ENI:990372.990380' on page 25 undefined on 
+input line 472.
+
+
+LaTeX Warning: Citation `hopfield_pattern_1995' on page 25 undefined on input l
+ine 472.
+
+
+LaTeX Warning: Citation `Maass97networksof' on page 25 undefined on input line 
+472.
+
+
+LaTeX Warning: Citation `Jin:2007:EMO:1776814.1776856' on page 25 undefined on 
+input line 472.
+
+
+LaTeX Warning: Citation `Izhikevich:2006:PCS:1117652.1117653' on page 25 undefi
+ned on input line 472.
+
+
+LaTeX Warning: Citation `Bohte02unsupervisedclustering' on page 25 undefined on
+ input line 476.
+
+<chapter2/codpop.png, id=93, 344.9688pt x 215.8464pt>
+File: chapter2/codpop.png Graphic file (type png)
+
+<use chapter2/codpop.png>
+Package pdftex.def Info: chapter2/codpop.png used on input line 481.
+(pdftex.def)             Requested size: 288.7942pt x 180.71361pt.
+
+
+LaTeX Warning: Citation `Meftah:2010:SED:1873252.1873282' on page 25 undefined 
+on input line 482.
+
+
+LaTeX Warning: Citation `Meftah:2010:SED:1873252.1873282' on page 25 undefined 
+on input line 482.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `Meftah:2010:SED:1873252.1873282' on page 25 undefined 
+on input line 486.
+
+[25]
+
+LaTeX Warning: Citation `Eliasmith02' on page 26 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Thorpe2001715' on page 26 undefined on input line 498.
+
+
+
+LaTeX Warning: Citation `Hebb1949' on page 26 undefined on input line 501.
+
+
+LaTeX Warning: Citation `gernstbook' on page 26 undefined on input line 503.
+
+<chapter2/bigpoo.png, id=98, 234.6366pt x 199.4652pt>
+File: chapter2/bigpoo.png Graphic file (type png)
+
+<use chapter2/bigpoo.png>
+Package pdftex.def Info: chapter2/bigpoo.png used on input line 508.
+(pdftex.def)             Requested size: 288.7942pt x 245.51422pt.
+
+
+LaTeX Warning: Citation `bigpoo' on page 26 undefined on input line 509.
+
+
+LaTeX Warning: Citation `bigpoo' on page 26 undefined on input line 509.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `bigpoo' on page 26 undefined on input line 515.
+
+
+LaTeX Warning: Citation `bipoo2' on page 26 undefined on input line 515.
+
+
+LaTeX Warning: Citation `gernstbook' on page 26 undefined on input line 517.
+
+[26 <./chapter2/codpop.png>]
+<chapter2/stdpdw.png, id=104, 211.5102pt x 119.4864pt>
+File: chapter2/stdpdw.png Graphic file (type png)
+
+<use chapter2/stdpdw.png>
+Package pdftex.def Info: chapter2/stdpdw.png used on input line 532.
+(pdftex.def)             Requested size: 165.02345pt x 93.22818pt.
+
+
+LaTeX Warning: Citation `gernstbook' on page 27 undefined on input line 533.
+
+
+LaTeX Warning: Citation `gernstbook' on page 27 undefined on input line 533.
+
+
+LaTeX Warning: Citation `Bienenstock' on page 27 undefined on input line 537.
+
+[27 <./chapter2/bigpoo.png> <./chapter2/stdpdw.png>]
+<pics/outline.pdf, id=111, 186.6975pt x 95.35625pt>
 File: pics/outline.pdf Graphic file (type pdf)
  <use pics/outline.pdf>
-Package pdftex.def Info: pics/outline.pdf used on input line 67.
+Package pdftex.def Info: pics/outline.pdf used on input line 569.
 (pdftex.def)             Requested size: 247.54149pt x 126.43806pt.
 
-<pics/outline2.pdf, id=41, 1509.64pt x 601.24625pt>
+<pics/outline2.pdf, id=112, 1509.64pt x 601.24625pt>
 File: pics/outline2.pdf Graphic file (type pdf)
  <use pics/outline2.pdf>
-Package pdftex.def Info: pics/outline2.pdf used on input line 73.
+Package pdftex.def Info: pics/outline2.pdf used on input line 575.
 (pdftex.def)             Requested size: 247.54149pt x 98.58667pt.
 
-[12 <./pics/outline.pdf> <./pics/outline2.pdf
+[28]
+Underfull \vbox (badness 6658) has occurred while \output is active []
+
+ [29 <./pics/outline.pdf> <./pics/outline2.pdf
 
 pdfTeX warning: pdflatex (file ./pics/outline2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] <pics/mesh_ctiff.jpg, id=65, 642.4pt x 642.4pt>
+>] <pics/mesh_ctiff.jpg, id=139, 642.4pt x 642.4pt>
 File: pics/mesh_ctiff.jpg Graphic file (type jpg)
  <use pics/mesh_ctiff.jpg>
-Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 110.
+Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 612.
 (pdftex.def)             Requested size: 330.05322pt x 330.06042pt.
 
 
-LaTeX Warning: Reference `fig:48node' on page 13 undefined on input line 124.
+LaTeX Warning: Reference `fig:48node' on page 30 undefined on input line 626.
 
-) [13] [14 <./pics/mesh_ctiff.jpg>]
+) [30] [31 <./pics/mesh_ctiff.jpg>]
 \openout2 = `Chapter3.aux'.
 
  (./Chapter3.tex
 Chapter 3.
-<pics/conv.pdf, id=73, 351.3125pt x 135.50626pt>
+<pics/conv.pdf, id=147, 351.3125pt x 135.50626pt>
 File: pics/conv.pdf Graphic file (type pdf)
  <use pics/conv.pdf>
 Package pdftex.def Info: pics/conv.pdf used on input line 9.
 (pdftex.def)             Requested size: 330.05322pt x 127.31592pt.
 
-<pics/model1.pdf, id=74, 392.46625pt x 84.315pt>
+<pics/model1.pdf, id=148, 392.46625pt x 84.315pt>
 File: pics/model1.pdf Graphic file (type pdf)
  <use pics/model1.pdf>
 Package pdftex.def Info: pics/model1.pdf used on input line 22.
 (pdftex.def)             Requested size: 330.05322pt x 70.9103pt.
- [15
+
+[32
 
 
 
- <./pics/conv.pdf>] <pics/gesture.pdf, id=93, 498.86375pt x 100.375pt>
+ <./pics/conv.pdf>] <pics/gesture.pdf, id=167, 498.86375pt x 100.375pt>
 File: pics/gesture.pdf Graphic file (type pdf)
 
 <use pics/gesture.pdf>
@@ -524,14 +1079,14 @@ Package pdftex.def Info: pics/gesture.pdf used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./pics/model1.pdf> <./pics/gesture.pdf>]
-<pics/gabor.pdf, id=160, 518.93875pt x 151.56625pt>
+ [33 <./pics/model1.pdf> <./pics/gesture.pdf>]
+<pics/gabor.pdf, id=235, 518.93875pt x 151.56625pt>
 File: pics/gabor.pdf Graphic file (type pdf)
  <use pics/gabor.pdf>
 Package pdftex.def Info: pics/gabor.pdf used on input line 73.
 (pdftex.def)             Requested size: 330.05322pt x 96.40306pt.
 
-[17 <./pics/gabor.pdf>] <pics/model2.pdf, id=198, 463.7325pt x 84.315pt>
+[34 <./pics/gabor.pdf>] <pics/model2.pdf, id=268, 463.7325pt x 84.315pt>
 File: pics/model2.pdf Graphic file (type pdf)
 
 <use pics/model2.pdf>
@@ -547,13 +1102,13 @@ Overfull \hbox (145.75937pt too wide) in paragraph at lines 162--192
  [][] 
  []
 
-<pics/rateMatlab.pdf, id=199, 550.055pt x 369.38pt>
+<pics/rateMatlab.pdf, id=269, 550.055pt x 369.38pt>
 File: pics/rateMatlab.pdf Graphic file (type pdf)
  <use pics/rateMatlab.pdf>
 Package pdftex.def Info: pics/rateMatlab.pdf used on input line 201.
 (pdftex.def)             Requested size: 330.05322pt x 221.6466pt.
 
-[18 <./pics/model2.pdf>] [19]
+[35 <./pics/model2.pdf>] [36]
 Overfull \hbox (6.62495pt too wide) in paragraph at lines 242--243
  []|[]| 
  []
@@ -598,7 +1153,7 @@ Overfull \hbox (2.4372pt too wide) in paragraph at lines 272--273
 []|[]| 
  []
 
-) [20 <./pics/rateMatlab.pdf>] [21]
+) [37 <./pics/rateMatlab.pdf>] [38]
 \openout2 = `Chapter4.aux'.
 
  (./Chapter4.tex
@@ -606,47 +1161,47 @@ Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22
+ [39
 
 
 
 ]
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
- [23]
-<pics/live1.png, id=323, 531.9875pt x 468.75125pt>
+ [40]
+<pics/live1.png, id=393, 531.9875pt x 468.75125pt>
 File: pics/live1.png Graphic file (type png)
  <use pics/live1.png>
 Package pdftex.def Info: pics/live1.png used on input line 79.
 (pdftex.def)             Requested size: 165.02345pt x 145.40436pt.
 
-<pics/live2.png, id=324, 530.98375pt x 469.755pt>
+<pics/live2.png, id=394, 530.98375pt x 469.755pt>
 File: pics/live2.png Graphic file (type png)
  <use pics/live2.png>
 Package pdftex.def Info: pics/live2.png used on input line 84.
 (pdftex.def)             Requested size: 165.02345pt x 145.99527pt.
 
-<pics/live.png, id=325, 833.1125pt x 700.6175pt>
+<pics/live.png, id=395, 833.1125pt x 700.6175pt>
 File: pics/live.png Graphic file (type png)
  <use pics/live.png>
 Package pdftex.def Info: pics/live.png used on input line 90.
 (pdftex.def)             Requested size: 330.05322pt x 277.5587pt.
 
-<pics/rateSpiNN.pdf, id=326, 544.88272pt x 369.76244pt>
+<pics/rateSpiNN.pdf, id=396, 544.88272pt x 369.76244pt>
 File: pics/rateSpiNN.pdf Graphic file (type pdf)
 
 <use pics/rateSpiNN.pdf>
 Package pdftex.def Info: pics/rateSpiNN.pdf used on input line 110.
 (pdftex.def)             Requested size: 330.05322pt x 223.97496pt.
- [24] [25 <./pics/live1.png (PNG copy)> <./pics/live2.png (PNG copy)> <./pics/l
-ive.png (PNG copy)>] [26 <./pics/rateSpiNN.pdf>]
-<pics/figure_r.png, id=370, 586.8324pt x 442.2924pt>
+ [41] [42 <./pics/live1.png (PNG copy)> <./pics/live2.png (PNG copy)> <./pics/l
+ive.png (PNG copy)>] [43 <./pics/rateSpiNN.pdf>]
+<pics/figure_r.png, id=439, 586.8324pt x 442.2924pt>
 File: pics/figure_r.png Graphic file (type png)
  <use pics/figure_r.png>
 Package pdftex.def Info: pics/figure_r.png used on input line 141.
 (pdftex.def)             Requested size: 165.02345pt x 124.37418pt.
 
-<pics/figure_1.png, id=372, 586.8324pt x 442.2924pt>
+<pics/figure_1.png, id=440, 586.8324pt x 442.2924pt>
 File: pics/figure_1.png Graphic file (type png)
  <use pics/figure_1.png>
 Package pdftex.def Info: pics/figure_1.png used on input line 146.
@@ -656,7 +1211,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 147--147
 []\OT1/ptm/m/n/10.95 (b) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_2.png, id=373, 586.8324pt x 442.2924pt>
+<pics/figure_2.png, id=441, 586.8324pt x 442.2924pt>
 File: pics/figure_2.png Graphic file (type png)
  <use pics/figure_2.png>
 Package pdftex.def Info: pics/figure_2.png used on input line 152.
@@ -666,7 +1221,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 153--153
 []\OT1/ptm/m/n/10.95 (c) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_3.png, id=374, 586.8324pt x 442.2924pt>
+<pics/figure_3.png, id=442, 586.8324pt x 442.2924pt>
 File: pics/figure_3.png Graphic file (type png)
  <use pics/figure_3.png>
 Package pdftex.def Info: pics/figure_3.png used on input line 157.
@@ -676,7 +1231,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 158--158
 []\OT1/ptm/m/n/10.95 (d) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_4.png, id=375, 586.8324pt x 442.2924pt>
+<pics/figure_4.png, id=443, 586.8324pt x 442.2924pt>
 File: pics/figure_4.png Graphic file (type png)
  <use pics/figure_4.png>
 Package pdftex.def Info: pics/figure_4.png used on input line 162.
@@ -686,7 +1241,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 163--163
 []\OT1/ptm/m/n/10.95 (e) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_5.png, id=376, 586.8324pt x 442.2924pt>
+<pics/figure_5.png, id=444, 586.8324pt x 442.2924pt>
 File: pics/figure_5.png Graphic file (type png)
  <use pics/figure_5.png>
 Package pdftex.def Info: pics/figure_5.png used on input line 167.
@@ -696,14 +1251,14 @@ Underfull \hbox (badness 2781) in paragraph at lines 168--168
 []\OT1/ptm/m/n/10.95 (f) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_r.png, id=377, 586.8324pt x 442.2924pt>
+<pics/figure_32_r.png, id=445, 586.8324pt x 442.2924pt>
 File: pics/figure_32_r.png Graphic file (type png)
 
 <use pics/figure_32_r.png>
 Package pdftex.def Info: pics/figure_32_r.png used on input line 177.
 (pdftex.def)             Requested size: 165.02345pt x 124.37418pt.
 
-<pics/figure_32_1.png, id=378, 586.8324pt x 442.2924pt>
+<pics/figure_32_1.png, id=446, 586.8324pt x 442.2924pt>
 File: pics/figure_32_1.png Graphic file (type png)
 
 <use pics/figure_32_1.png>
@@ -714,7 +1269,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 183--183
 []\OT1/ptm/m/n/10.95 (b) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_2.png, id=379, 586.8324pt x 442.2924pt>
+<pics/figure_32_2.png, id=447, 586.8324pt x 442.2924pt>
 File: pics/figure_32_2.png Graphic file (type png)
 
 <use pics/figure_32_2.png>
@@ -725,7 +1280,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 189--189
 []\OT1/ptm/m/n/10.95 (c) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_3.png, id=380, 586.8324pt x 442.2924pt>
+<pics/figure_32_3.png, id=448, 586.8324pt x 442.2924pt>
 File: pics/figure_32_3.png Graphic file (type png)
 
 <use pics/figure_32_3.png>
@@ -736,7 +1291,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 194--194
 []\OT1/ptm/m/n/10.95 (d) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_4.png, id=381, 586.8324pt x 442.2924pt>
+<pics/figure_32_4.png, id=449, 586.8324pt x 442.2924pt>
 File: pics/figure_32_4.png Graphic file (type png)
 
 <use pics/figure_32_4.png>
@@ -747,7 +1302,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 199--199
 []\OT1/ptm/m/n/10.95 (e) |Tem-plate match-ing pop-u-la-tion,
  []
 
-<pics/figure_32_5.png, id=382, 586.8324pt x 442.2924pt>
+<pics/figure_32_5.png, id=450, 586.8324pt x 442.2924pt>
 File: pics/figure_32_5.png Graphic file (type png)
 
 <use pics/figure_32_5.png>
@@ -788,50 +1343,58 @@ Overfull \hbox (2.00516pt too wide) in paragraph at lines 238--239
 []|[]| 
  []
 
-) [27] [28 <./pics/figure_r.png> <./pics/figure_1.png> <./pics/figure_2.png> <.
-/pics/figure_3.png> <./pics/figure_4.png> <./pics/figure_5.png>] [29 <./pics/fi
+) [44] [45 <./pics/figure_r.png> <./pics/figure_1.png> <./pics/figure_2.png> <.
+/pics/figure_3.png> <./pics/figure_4.png> <./pics/figure_5.png>] [46 <./pics/fi
 gure_32_r.png> <./pics/figure_32_1.png> <./pics/figure_32_2.png> <./pics/figure
 _32_3.png> <./pics/figure_32_4.png> <./pics/figure_32_5.png>]
 \openout2 = `Chapter5.aux'.
 
  (./Chapter5.tex
 Chapter 5.
-) [30
 
-
-
-]
-\openout2 = `Conclusion.aux'.
-
- (./Conclusion.tex
-Chapter 6.
-
-Overfull \hbox (0.5315pt too wide) in paragraph at lines 4--23
+Overfull \hbox (0.5315pt too wide) in paragraph at lines 5--24
 \OT1/ptm/m/n/12 To ex-plore how brain may recog-nise ob-jects in its gen-eral, 
 ac-cu-rate and energy-efficient
  []
 
-) [31
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47
 
 
 
-] (./report.bbl [32
+])
+[48] (./report.bbl [49
 
 
-] [33]
-Underfull \hbox (badness 1852) in paragraph at lines 132--136
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [50] [51]
+Underfull \hbox (badness 1852) in paragraph at lines 169--173
 []\OT1/ptm/m/n/12 L. A. Plana, ``App-Note 8 - In-ter-fac-ing AER de-vices to Sp
 iN-Naker us-
  []
 
-[34]
-Underfull \hbox (badness 4792) in paragraph at lines 180--183
+[52]
+Underfull \hbox (badness 4792) in paragraph at lines 217--220
 []\OT1/ptm/m/n/12 Q. Liu, ``Fea-ture ex-trac-tion of live reti-nal in-put.'' $\
 OT1/pcr/m/n/12 http : / / youtu . be /
  []
 
-) [35] (./report.aux (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux)
-(./Chapter4.aux) (./Chapter5.aux) (./Conclusion.aux))
+) [53] (./report.aux (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux)
+(./Chapter4.aux) (./Chapter5.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -840,26 +1403,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5405 strings out of 495028
- 79791 string characters out of 6181497
- 154375 words of memory out of 5000000
- 8423 multiletter control sequences out of 15000+600000
- 37134 words of font info for 77 fonts, out of 8000000 for 9000
+ 5492 strings out of 495028
+ 81256 string characters out of 6181497
+ 154267 words of memory out of 5000000
+ 8509 multiletter control sequences out of 15000+600000
+ 40858 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,18n,40p,668b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,40p,971b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
-yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (35 pages, 1722427 bytes).
+yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on report.pdf (53 pages, 2053372 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
+ 532 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

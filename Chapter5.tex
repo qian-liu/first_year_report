@@ -1,4 +1,41 @@
-\chapter{Research Plan}
-\label{cha:rsp}
+\chapter{Contributions and Research Plan}
+\label{cha:plan}
+\section{Contributions}
+%Motivation
+To explore how brain may recognise objects in its general, accurate and energy-efficient manner, this paper proposes the use of a neuromorphic hardware system which includes a DVS retina connected to SpiNNaker, a real-time SNN simulator.
+%Problem
+Building a recognition system based on this bespoke hardware for dynamic hand postures is a first step in the study of visual pathway of the brain.
+%Methods
+Inspired by the structures of the primary visual cortex, convolutional neural networks are modelled using both linear perceptrons and LIF neurons.
+%Results
+The larger network of 74,210 neurons and 15,216,512 synapses runs smoothly in real-time on SpiNNaker using 290 cores within a 48-node board.
+The smaller network using 1/10 of the resources is able to recognise the postures in real-time with an accuracy about 86.4\% in average, which is 
+only 6.6\% lower than the former but with a better cost/performance ratio.
+%In this paper, we implement a dynamic hand posture recognition system running completely on a hardware neuromorphic platform.
+%The SNN based classifier is able to recognise moving hand postures instead of static digit or face recognition proposed before.
+%The network model is translated from linear perceptrons to LIF spiking neurons with a 10\% drop of accuracy in 30~ms windowing;
+%while the performance reaches and even exceeds the perceptrons version when the window length is set to 300~ms.
+%Various network sizes are configured to explore the cost and performance trade-off.
+%In the tests of linear perceptrons the recognition rate of the smaller network is \% lower for the template matching model and \% lower for the trained MLP model.
+%For the SNN based real-time experiments, both the larger network with $74,320$ LIF neurons and $15,216,512$ synapses, and the smaller network with 1/10 of the neurons and 1/50 of the synapses run smoothly on SpiNNaker.
+%The gap of recognition rate narrows when the spiking rate is sampled into wider frame of 300~ms.
+%The recognition rates of both linear perceptrons (\%) and spiking neurons (\%) with 32 $\times$ 32 input resolution are adequate for the recognition of the moving hand postures.
+%This work is a good attempt to start exploring the visual process of the brain.
 
+%Later, we will look more into the overall network latency, which could be due to the system latency and the performance of the rate coding. 
+\section{Future Work} 
+%The future work on this topic will include further collaboration with biologists and neuroscientists working on vision systems, especially concentrating on the orientation detection region of the brain.
+%To equip the system with tracking is another importance direction for future development where the recognition performance can be increased by exploiting short-term memory of a gesture's route.
+%Using the approch of HMMs~\cite{elmezain2009hidden} and applying to spiking neural networks is an idea we wish to explore as part of this promising work.
+%Using the idea of HMMs~\cite{elmezain2009hidden} to spiking neural networks may be a good approach. 
+\subsection{Modelling The Ventral Visual Pathway with Spiking Neurons}
+\subsection{Learning Between the Hierarchy Layers}
+\subsection{Comparing with Biological Data}
+\subsection{Building Dataset}
+\subsection{Optional: Action Recognition}
+vision attention.
+short-term memory.
+\subsection{Optional: Sensor Fusion with Auditory Processing}
+platform.
+applications as lip-reading and speaker identification.
 

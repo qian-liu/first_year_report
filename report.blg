@@ -6,57 +6,56 @@ A level-1 auxiliary file: Chapter2.aux
 A level-1 auxiliary file: Chapter3.aux
 A level-1 auxiliary file: Chapter4.aux
 A level-1 auxiliary file: Chapter5.aux
-A level-1 auxiliary file: Conclusion.aux
 The style file: ieeetr.bst
 Database file #1: refs.bib
 Warning--entry type for "video1" isn't style-file defined
---line 306 of file refs.bib
+--line 403 of file refs.bib
 Warning--entry type for "video2" isn't style-file defined
---line 315 of file refs.bib
+--line 412 of file refs.bib
 Warning--entry type for "video3" isn't style-file defined
---line 324 of file refs.bib
+--line 421 of file refs.bib
 Warning--entry type for "appnote8" isn't style-file defined
---line 334 of file refs.bib
+--line 431 of file refs.bib
 Warning--empty journal in furber2014spinnaker
-You've used 37 entries,
+You've used 44 entries,
             1876 wiz_defined-function locations,
-            708 strings with 10868 characters,
-and the built_in function-call counts, 11351 in all, are:
-= -- 1152
-> -- 402
+            751 strings with 11893 characters,
+and the built_in function-call counts, 13647 in all, are:
+= -- 1402
+> -- 476
 < -- 0
-+ -- 150
-- -- 113
-* -- 813
-:= -- 1538
-add.period$ -- 37
-call.type$ -- 37
-change.case$ -- 37
++ -- 177
+- -- 133
+* -- 984
+:= -- 1849
+add.period$ -- 44
+call.type$ -- 44
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 583
-empty$ -- 1075
-format.name$ -- 113
-if$ -- 2790
+cite$ -- 45
+duplicate$ -- 696
+empty$ -- 1278
+format.name$ -- 133
+if$ -- 3357
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 33
-newline$ -- 114
-num.names$ -- 37
-pop$ -- 125
+int.to.str$ -- 44
+missing$ -- 40
+newline$ -- 135
+num.names$ -- 44
+pop$ -- 132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 440
+skip$ -- 533
 stack$ -- 0
-substring$ -- 892
-swap$ -- 262
+substring$ -- 1094
+swap$ -- 319
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 121
-width$ -- 39
-write$ -- 371
+while$ -- 148
+width$ -- 46
+write$ -- 448
 (There were 5 warnings)

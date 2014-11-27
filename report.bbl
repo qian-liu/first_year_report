@@ -33,6 +33,24 @@ H.~Bay, A.~Ess, T.~Tuytelaars, and L.~Van~Gool, ``{Speeded-up robust features
 M.~Riesenhuber and T.~Poggio, ``Hierarchical models of object recognition in
   cortex,'' {\em Nature neuroscience}, vol.~2, no.~11, pp.~1019--1025, 1999.
 
+\bibitem{dicarlo2012does}
+J.~J. DiCarlo, D.~Zoccolan, and N.~C. Rust, ``How does the brain solve visual
+  object recognition?,'' {\em Neuron}, vol.~73, no.~3, pp.~415--434, 2012.
+
+\bibitem{fabre1998rapid}
+M.~Fabre-Thorpe, G.~Richard, and S.~J. Thorpe, ``Rapid categorization of
+  natural images by rhesus monkeys,'' {\em Neuroreport}, vol.~9, no.~2,
+  pp.~303--308, 1998.
+
+\bibitem{keysers2001speed}
+C.~Keysers, D.-K. Xiao, P.~F{\"o}ldi{\'a}k, and D.~Perrett, ``The speed of
+  sight,'' {\em Journal of cognitive neuroscience}, vol.~13, no.~1,
+  pp.~90--101, 2001.
+
+\bibitem{dicarlo2007untangling}
+J.~J. DiCarlo and D.~D. Cox, ``Untangling invariant object recognition,'' {\em
+  Trends in cognitive sciences}, vol.~11, no.~8, pp.~333--341, 2007.
+
 \bibitem{lenero20113}
 J.~A. Le{\~n}ero-Bardallo, T.~Serrano-Gotarredona, and B.~Linares-Barranco, ``A
   3.6 s latency asynchronous frame-free event-driven dynamic-vision-sensor,''
@@ -42,6 +60,25 @@ J.~A. Le{\~n}ero-Bardallo, T.~Serrano-Gotarredona, and B.~Linares-Barranco, ``A
 \bibitem{furber2014spinnaker}
 S.~B. Furber, F.~Galluppi, S.~Temple, and L.~A. Plana, ``{The SpiNNaker
   Project},'' 2014.
+
+\bibitem{felleman1991distributed}
+D.~J. Felleman and D.~C. Van~Essen, ``Distributed hierarchical processing in
+  the primate cerebral cortex,'' {\em Cerebral cortex}, vol.~1, no.~1,
+  pp.~1--47, 1991.
+
+\bibitem{prado2005two}
+J.~Prado, S.~Clavagnier, H.~Otzenberger, C.~Scheiber, H.~Kennedy, and M.-T.
+  Perenin, ``Two cortical systems for reaching in central and peripheral
+  vision,'' {\em Neuron}, vol.~48, no.~5, pp.~849--858, 2005.
+
+\bibitem{Ungerleider1994157}
+L.~G. Ungerleider and J.~V. Haxby, ``‘what’ and ‘where’ in the human
+  brain,'' {\em Current Opinion in Neurobiology}, vol.~4, no.~2, pp.~157 --
+  165, 1994.
+
+\bibitem{goodale1992separate}
+M.~A. Goodale and A.~D. Milner, ``Separate visual pathways for perception and
+  action,'' {\em Trends in neurosciences}, vol.~15, no.~1, pp.~20--25, 1992.
 
 \bibitem{hopfield1995pattern}
 J.~J. Hopfield, ``Pattern recognition computation using action potential timing
@@ -185,11 +222,5 @@ Q.~Liu, ``Feature extraction of live retinal input.''
 Q.~Liu, ``{Live dynamic posture recognition on SpiNNaker}.''
   \url{http://youtu.be/yxN90aGGKvg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ},
   Sept. 2014.
-
-\bibitem{elmezain2009hidden}
-M.~Elmezain, A.~Al-Hamadi, J.~Appenrodt, and B.~Michaelis, ``A hidden markov
-  model-based isolated and meaningful hand gesture recognition,'' {\em
-  International Journal of Electrical, Computer, and Systems Engineering},
-  vol.~3, no.~3, pp.~156--163, 2009.
 
 \end{thebibliography}

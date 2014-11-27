@@ -13,19 +13,40 @@ It is not a new idea to turn to nature for inspiration.
 Riesenhuber et al.~\cite{riesenhuber1999hierarchical}, for instance, presented a biologically-inspired model based on the organisation of the visual cortex which has the ability to represent relative position- and scale-invariant features.
 Integrating a rich set of visual features became possible using a feed-forward hierarchical pathway. 
 
-\section{Aim}
+\section{What Is Object Recognition?}
 \label{sec:aim}
+The definition of object recognition is well accepted~\cite{dicarlo2012does} as the ability to assign labels to particular objects, ranging from precise labels (`identification') to course labels (`categorisation').
+It involves the ability to accomplish the tasks under the various identity preserving transformations such as object position, scale, viewing angel, background clutter and etc.
+
+The brain can accurately recognise and categorise objects remarkably quickly, e.g. the recognition time in monkeys takes less than 200~ms~\cite{fabre1998rapid} and the images are presented sequentially in spikes less than 100~ms~\cite{keysers2001speed}.
+This research focuses on this rapid and highly accurate object recognition, `core recognition', which is defined in~\cite{dicarlo2007untangling}.
+
+
+\section{Why Is It Important?}
+\label{sec:imp}
+The brain recognises huge amount of objects rapidly and effortlessly even in cluttered and natural scenes.
+While the major stumbling crux of the computer object recognition systems lies in the invariance problem.
+Each encounter of an object on the retina is completely unique, because of the illumination (lighting conditions), position (projection locations on the retina), scale (distances and sizes), pose (viewing angles), and clutter (visual contexts) variabilities.
+In addition, a difficult specificity-invariance trade-off occurs in the categorisation tasks, since the recognition should be able to discriminate different object classes (intraclass variability) while at the same time tolerant to image transformations.   
+
+To explore the invariance problem in object recognition in a biologically plausible way is the right place to tackle the crux computational difficulty, since biological visual systems excel.
+Moreover, the energy-efficient manner will help in building object recognition systems, i.e. posture recognition, as human-machine interfaces in portable devices.  
+
+\section{How to Mimic The Brain?}
+\label{sec:brn}
 To explore how brain may recognise objects, we have employed a biologically-inspired DVS silicon retina~\cite{lenero20113}, a good example of low-cost visual processing due to its event-driven and redundancy-reducing style of computation;
 and a SpiNNaker system~\cite{furber2014spinnaker}, which is a massive parallel computing platform aimed at real-time simulation of SNNs. 
 %SpiNNaker, as the back-end of the system, provides a flexible, event-driven mechanism for real-time simulation of SNNs, and is where the posture recogniser locates.
-With this neuromorphic hardware system we have the ability to explore visual processing by mimicking the functions of various regions along the visual pathway. 
+With this neuromorphic hardware system we have the ability to explore visual processing by mimicking the functions of different layers along the visual pathway. 
+
 Building a real-time recognition system for dynamic hand postures is a first step of exploring visual processing in a biological fashion and is also a validation of the neuromorphic platform.
-To match the image properties detailed earlier, the position, shape, size and trajectory of the hand postures can be detected from the retina output.
+%To match the image properties detailed earlier, the position, shape, size and trajectory of the hand postures can be detected from the retina output.
 To keep the task simple at first, the postures are of similar size and the goal is to recognise the shape of a hand with moving positions.
-Tracking the postures with a short memory will form part of the future work.
-
-
-
-\section{Why is it important}
-\label{sec:imp}
-Why is it important to research on vision process in the brain.
+%Tracking the postures with a short memory will form part of the future work.
+\section{Report Structure}
+\label{sec:str}
+In Chapter~\ref{cha:bkg}, this report starts from the biology aspects of object recognition: the task is mainly processed along the ventral visual pathway with the untangling object representations at different level in the hierarchical abstractions.
+Followed by the introduction of spiking neural networks, the abilities of their single neurons and populations modelling are stated and the details of the hardware of the proposed neuromorphic system, including the silicon retina and the SpiNNaker platform are presented.
+In terms of the preliminary work, the neural network models are defined and tested on Matlab, and the model structures and experimental results are stated in Chapter~\ref{chp:cnn}.
+In Chapter~\ref{cha:rsp}, the rate-based models are converted into spiking neurons, and real-time live recognition and recorded data experiments are carried out.
+The contribution of this work is summarised and the future directions are provided in Chapter~\ref{cha:plan}.
