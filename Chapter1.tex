@@ -29,7 +29,7 @@ While the major stumbling crux of the computer object recognition systems lies i
 Each encounter of an object on the retina is completely unique, because of the illumination (lighting conditions), position (projection locations on the retina), scale (distances and sizes), pose (viewing angles), and clutter (visual contexts) variabilities.
 In addition, a difficult specificity-invariance trade-off occurs in the categorisation tasks, since the recognition should be able to discriminate different object classes (intraclass variability) while at the same time tolerant to image transformations.   
 
-To explore the invariance problem in object recognition in a biologically plausible way is the right place to tackle the crux computational difficulty, since biological visual systems excel.
+To explore the invariant object recognition of the brain in a biologically plausible way is the right place to tackle the crux computational difficulty, since biological visual systems excel.
 Moreover, the energy-efficient manner will help in building object recognition systems, i.e. posture recognition, as human-machine interfaces in portable devices.  
 
 \section{How to Mimic The Brain?}
@@ -46,7 +46,11 @@ To keep the task simple at first, the postures are of similar size and the goal 
 \section{Report Structure}
 \label{sec:str}
 In Chapter~\ref{cha:bkg}, this report starts from the biology aspects of object recognition: the task is mainly processed along the ventral visual pathway with the untangling object representations at different level in the hierarchical abstractions.
-Followed by the introduction of spiking neural networks, the abilities of their single neurons and populations modelling are stated and the details of the hardware of the proposed neuromorphic system, including the silicon retina and the SpiNNaker platform are presented.
-In terms of the preliminary work, the neural network models are defined and tested on Matlab, and the model structures and experimental results are stated in Chapter~\ref{chp:cnn}.
+This is followed by the introduction of spiking neural networks to illustrate the abilities of neural modelling from single neurons to populations.
+Besides, the learning algorithms are also included together with successful recognition/classification tasks where they are applied.
+The final part in this chapter describes the details of the hardware neuromorphic system, including the silicon retina and the SpiNNaker platform.
+
+In terms of the preliminary work, the convolutional neural network models exploiting V1-like neurons are defined and tested on Matlab, and the model structures and experimental results are stated in Chapter~\ref{chp:cnn}.
 In Chapter~\ref{cha:rsp}, the rate-based models are converted into spiking neurons, and real-time live recognition and recorded data experiments are carried out.
-The contribution of this work is summarised and the future directions are provided in Chapter~\ref{cha:plan}.
+
+Finally, the contribution of this work is summarised and the future directions are provided in Chapter~\ref{cha:plan}.

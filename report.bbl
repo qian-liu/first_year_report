@@ -1,5 +1,23 @@
 \begin{thebibliography}{10}
 
+\bibitem{lehky2007comparison}
+S.~R. Lehky and A.~B. Sereno, ``Comparison of shape encoding in primate dorsal
+  and ventral visual pathways,'' {\em Journal of neurophysiology}, vol.~97,
+  no.~1, pp.~307--319, 2007.
+
+\bibitem{dicarlo2012does}
+J.~J. DiCarlo, D.~Zoccolan, and N.~C. Rust, ``How does the brain solve visual
+  object recognition?,'' {\em Neuron}, vol.~73, no.~3, pp.~415--434, 2012.
+
+\bibitem{vidyasagar2013reading}
+T.~R. Vidyasagar, ``Reading into neuronal oscillations in the visual system:
+  implications for developmental dyslexia,'' {\em Frontiers in human
+  neuroscience}, vol.~7, 2013.
+
+\bibitem{serre2010neuromorphic}
+T.~Serre and T.~Poggio, ``A neuromorphic approach to computer vision,'' {\em
+  Communications of the ACM}, vol.~53, no.~10, pp.~54--61, 2010.
+
 \bibitem{wysoski2008fast}
 S.~G. Wysoski, L.~Benuskova, and N.~Kasabov, ``Fast and adaptive network of
   spiking neurons for multi-view visual pattern recognition,'' {\em
@@ -32,10 +50,6 @@ H.~Bay, A.~Ess, T.~Tuytelaars, and L.~Van~Gool, ``{Speeded-up robust features
 \bibitem{riesenhuber1999hierarchical}
 M.~Riesenhuber and T.~Poggio, ``Hierarchical models of object recognition in
   cortex,'' {\em Nature neuroscience}, vol.~2, no.~11, pp.~1019--1025, 1999.
-
-\bibitem{dicarlo2012does}
-J.~J. DiCarlo, D.~Zoccolan, and N.~C. Rust, ``How does the brain solve visual
-  object recognition?,'' {\em Neuron}, vol.~73, no.~3, pp.~415--434, 2012.
 
 \bibitem{fabre1998rapid}
 M.~Fabre-Thorpe, G.~Richard, and S.~J. Thorpe, ``Rapid categorization of
@@ -79,6 +93,15 @@ L.~G. Ungerleider and J.~V. Haxby, ``‘what’ and ‘where’ in the human
 \bibitem{goodale1992separate}
 M.~A. Goodale and A.~D. Milner, ``Separate visual pathways for perception and
   action,'' {\em Trends in neurosciences}, vol.~15, no.~1, pp.~20--25, 1992.
+
+\bibitem{janssen2000selectivity}
+P.~Janssen, R.~Vogels, and G.~A. Orban, ``Selectivity for 3d shape that reveals
+  distinct areas within macaque inferior temporal cortex,'' {\em Science},
+  vol.~288, no.~5473, pp.~2054--2056, 2000.
+
+\bibitem{von1947neocortex}
+G.~Von~Bonin and P.~Bailey, ``The neocortex of macaca mulatta.(illinois monogr.
+  med. sci., 5, no. 4.).,'' 1947.
 
 \bibitem{hopfield1995pattern}
 J.~J. Hopfield, ``Pattern recognition computation using action potential timing

@@ -1,76 +1,88 @@
 \chapter{Background}
 \label{cha:bkg}
 %Literature Review
-This chapter provides the readers with detailed biology background of object recognition in the brain and with the fundamental principles of neural modelling using spiking neural networks.
+This chapter provides the readers with detailed biology background of object recognition in the brain and the fundamental principles of neural modelling using spiking neural networks.
 This is followed by an introduction to the neuromorphic hardware platform specialised for neural simulations of visual processing.
 
 \section{How the Brain Represent Objects?}
 \label{sec:bio}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{pics/twoPaths.jpg}
+	\caption{The dorsal and ventral pathway in the brain~\cite{lehky2007comparison}.
+	The dorsal stream (blue) arrives to the parietal lobe, whereas the ventral pathway (red) reaches the inferotemporal (IT) cortex in the temporal lobe.}
+	\label{Fig:TwoPath}
+\end{figure}
 The central visual system consists of several cortical areas responsible for visual processing, which are placed in a hierarchical pattern according to the anatomical experiments~\cite{felleman1991distributed}.
-There are two basic streams locating in the visual area: a dorsal and a ventral pathway (Figure [???]).
+There are two basic streams locating in the visual area: a dorsal and a ventral pathway (Figure~\ref{Fig:TwoPath}).
+
 They differ in behavioural patterns according to the observation from brain lesions~\cite{prado2005two}, and also in functions where the dorsal pathway targets on the `where' tasks and the ventral on the `what'.
-The ventral (`what') visual stream holds the critical circuits for object recognition and stimulus identification, whereas the dorsal pathway (`where') pathway contributes to the processing of the spatial location of the stimulus~\cite{prado2005two, Ungerleider1994157}.
-Another definition of the difference between these two pathways is a `perception/action' dichotomy: the ventral stream, `perception' pathway, cognises the world by means of object recognition and memory, while the dorsal stream, `action' pathway, provides real-time visual guidance for motor actions such as eye movements and grasping objects~\cite{goodale1992separate}. 
+The ventral visual stream holds the critical circuits for object recognition and stimulus identification, whereas the dorsal pathway pathway contributes to the processing of the spatial location of the stimulus~\cite{prado2005two, Ungerleider1994157}.
+Another definition of the difference between these two pathways is a `perception/action' dichotomy: the ventral (`perception') stream perceives the world by means of object recognition and memory, while the dorsal (`action') stream provides real-time visual guidance for motor actions such as eye movements and grasping objects~\cite{goodale1992separate}. 
 
 This research mainly focuses on the ventral visual pathway, since it dominates the object recognition among the cortical areas.
 Thus, the dorsal pathway will beyond the scope of the this study. 
 
 
-\subsection{The Ventral Visual Pathway}
-Decades of evidence argue that
-the primate ventral visual processing
-stream—a set of cortical areas arranged
-along the occipital and temporal lobes
-(Figure 3A)—houses key circuits that underlie object recognition
-behavior.
-The ventral visual stream has been parsed into distinct visual
-‘‘areas’’ based on anatomical connectivity patterns, distinctive anatomical structure, and retinotopic mapping (Felleman and
-Van Essen, 1991). Complete retinotopic maps have been re-
-vealed for most of the visual field (at least 40 degrees eccentricity
-from the fovea) for areas V1, V2, and V4 (Felleman and Van Es-
-sen, 1991) and thus each area can be thought of as conveying
-a population-based re-representation of each visually presented
-image. Within the IT complex, crude retinotopy exists over the
-more posterior portion (pIT; Boussaoud et al., 1991; Yasuda
-et al., 2010), but retinotopy is not reported in the central and
-anterior regions (Felleman and Van Essen, 1991). Thus, while
-IT is commonly parsed into subareas such as TEO and TE (Jans-
-sen et al., 2000; Saleem et al., 2000, 1993; Suzuki et al., 2000;
-Von Bonin and Bailey, 1947) or posterior IT (pIT), central IT
-(cIT), and anterior IT (aIT) (Felleman and Van Essen, 1991), it is
-unclear if IT cortex is more than one area, or how the term
-‘‘area’’ should be applied.
-a hierarchical
-organization (as opposed to a parallel or fully interconnected
-organization) of the areas with visual information traveling first
-from the retina to the lateral geniculate nucleus of the thalamus
-(LGN), and then through cortical area V1 to V2 to V4 to IT (Felle-
-man and Van Essen, 1991). Consistent with this, the (mean) first
-visually evoked responses of each successive cortical area are
-successively lagged by about 10 ms (Nowak and Bullier, 1997;
-Schmolesky et al., 1998; see Figure 3B). Thus, just around 100 ms after
-image photons impinge on the retina, a first wave of image-
-selective neuronal activity is present throughout much of IT
-(e.g., Desimone et al., 1984; DiCarlo and Maunsell, 2000; Hung
-et al., 2005; Kobatake and Tanaka, 1994a; Logothetis and Shein-
-berg, 1996; Tanaka, 1996).
+\subsection{Cortical Areas in The Ventral Visual Pathway}
+The ventral visual pathway starts from the primary visual cortex V1 in the occipital cortex through areas such as V2 and V4 to the Inferotemporal (IT) cortex.
+These cortex areas are divided based on the anatomical experiments and retinotopic maps.
+Accordingly, the IT complex is commonly parsed into sub areas such as TEO and TE~\cite{janssen2000selectivity,von1947neocortex} or posterior IT (PIT), central IT (CIT), and anterior IT (AIT)~\cite{felleman1991distributed}.
+\subsubsection{V1}
+The primary visual cortex is the best-studied visual area in the brain.
+In all mammals studied, it is located in the posterior pole of the occipital cortex (the occipital cortex is responsible for processing visual stimuli).
+It is the simplest, earliest cortical visual area.
+V1 has a very well-defined map of the spatial information in vision.
+In concept, this retinotopic mapping is a transformation of the visual image from retina to V1.
+In human and animals with a fovea in the retina, a large portion of V1 is mapped to the small, central portion of visual field, a phenomenon known as cortical magnification.[12]
+Perhaps for the purpose of accurate spatial encoding, neurons in V1 have the smallest receptive field size of any visual cortex microscopic regions.
 
-V1\\
-V2\\
-V4\\
-IT- the main part. including IT single neuron behaviour.\\
+Individual V1 neurons have strong tuning to a small set of stimuli.
+In the spatial domain, the functioning of V1 can be thought of as similar to many spatially local, complex Fourier transforms, or more accurately, Gabor transforms.
+In theory, these filters together can carry out neuronal processing of spatial frequency, orientation, motion, direction, speed (thus temporal frequency), and many other spatiotemporal features. 
+
+\subsubsection{V2}
+Visual area V2, also called prestriate cortex,[14] is the second major area in the visual cortex, and the first region within the visual association area. 
+It receives strong feed-forward connections from V1 (direct and via the pulvinar) and sends strong connections to V3, V4, and V5. It also sends strong feedback connections to V1.
+
+In terms of anatomy, V2 is split into four quadrants, a dorsal and ventral representation in the left and the right hemispheres. 
+Together, these four regions provide a complete map of the visual world.
+V2 has many properties in common with V1: Cells are tuned to simple properties such as orientation, spatial frequency, and color[19][20][21].
+The responses of many V2 neurons are also modulated by more complex properties, such as the orientation of illusory contours[21], binocular disparity,[15] and whether the stimulus is part of the figure or the ground[22] (Qiu and von der Heydt, 2005).
+Recent research has shown that V2 cells are tuned for moderately complex patterns, and may be driven by multiple orientations at different subregions within a single receptive field.
+
+%In a recent study, the Layer 6 cells of the V2 cortex were found to play a very important role in the storage of Object Recognition Memory as well as the conversion of short-term object memories into long-term memories.[23]
+
+\subsubsection{V4}
+V4 is the third cortical area in the ventral stream, receiving strong feedforward input from V2 and sending strong connections to the PIT.
+It also receives direct inputs from V1, especially for central space.
+
+V4 is the first area in the ventral stream to show strong attentional modulation.
+Most studies indicate that selective attention can change firing rates in V4 by about 20\%. A seminal paper by Moran and Desimone characterizing these effects was the first paper to find attention effects anywhere in the visual cortex.[27][28]
+
+Like V1, V4 is tuned for orientation, spatial frequency, and color.
+Unlike V1, V4 is tuned for object features of intermediate complexity, like simple geometric shapes, although no one has developed a full parametric description of the tuning space for V4.
+Visual area V4 is not tuned for complex objects such as faces, as areas in the inferotemporal cortex are.
+
+\subsubsection{IT}
+Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans. 
+It is crucial for visual object recognition and is considered to be the final stage in the ventral cortical visual system.
+%Inferior temporal (IT) cortex has a range of object property complexity starting with simpler features posteriorly (PIT or TEO: Tanaka et al., 1991; Kobatake and Tanaka, 1994) that increase in complexity as processing moves anteriorly (AIT or TE) to represent objects and perform object recognition (Cowey and Weiskrantz, 1967; Gross et al., 1971, 1972; Dean, 1976). This includes complex shapes, combinations of color or texture with shape (Gross et al., 1972; Desimone et al., 1984; Tanaka et al., 1991), and body parts (faces or hands: see Gross, 2008 for a review). In addition, responses in IT cortex are position and size invariant (Sato et al., 1980; Schwartz et al., 1983; Rolls and Baylis, 1986; Ito et al., 1995; Logothetis and Pauls, 1995) and also invariant to changes in luminance, texture, and relative motion (Sáry et al., 1993). Combined, these characteristics make IT ideal for representing objects despite changes in the surrounding environment and retinal image.
+
+In the next session, this report will explore the detailed mechanism of object representation in this area.
 %PFC
-\subsection{Neural Code for Object Representation}
+\subsection{Object Representation in the IT}
 %\subsection{Untangling Object Representation}
 %A graphical intuition into the Problem.
-we consider the neuronal representation in a given
+We consider the neuronal representation in a given
 cortical area (e.g., the ‘‘IT representation’’) to be the spatio-temporal pattern of spikes produced by the set of pyramidal neurons
 that project out of that area (e.g., the spiking patterns traveling
 along the population of axons that project out of IT; see
-Figure 3B). How is the spiking activity of individual neurons
+Figuree~\ref{Fig:Ventral}). How is the spiking activity of individual neurons
 thought to encode visual information?
 
-Single neuron representation\\
+\subsubsection{Single neurons}
 Most studies have investigated the response properties of
 neurons in the ventral pathway by assuming a firing rate (or,
 equivalently, a spike count) code, i.e., by counting how many
@@ -88,7 +100,57 @@ firing rate modulation in area V1 by ‘‘low level’’ stimulus
 properties such as bar orientation (reviewed by Lennie and Mov-
 shon, 2005).
 
-population coding\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{pics/IT.jpg}
+	\caption{	
+	IT Single-Unit Properties and Their Relationship to Population Performance~\cite{dicarlo2012does}.
+	(A) Poststimulus spike histogram from an example IT neuron to one object image (a chair) that was the most effective among 213 tested object images (Zoccolan et al., 2007).
+	(B) Left: the mean responses of the same IT neuron to each of 213 object images (based on spike rate in the gray time window in A). Object images are ranked according to their effectiveness in driving the neuron. As is typical, the neuron responded strongly to ∼10\% of objects images (four example images of nearly equal effectiveness are shown) and was suppressed below background rate by other objects (two example images shown), with no obvious indication of what critical features triggered or suppressed its firing. Colors indicate highly effective (red), medium-effective (blue), and poorly effective (green) images. Right: data from a second study (new IT neuron) using natural images patches to illustrate the same point (Rust and DiCarlo, unpublished).
+	(C) Response profiles from an example IT neuron obtained by varying the position (elevation) of three objects with high (red), medium (blue), and (low) effectiveness. While response magnitude is not preserved, the rank-order object identity preference is maintained along the entire tested range of tested positions.
+	(D) To explain data in (C), each IT neuron (right panel) is conceptualized as having joint, separable tuning for shape (identity) variables and for identity-preserving variables (e.g., position). If a population of such IT neurons tiles that space of variables (left panel), the resulting population representation conveys untangled object identity manifolds (Figure 2B, right), while still conveying information about other variables such as position, size, etc. (Li et al., 2009).
+	(E) Direct tests of untangled object identity manifolds consist of using simple decoders (e.g., linear classifiers) to measure the cross-validated population performance on categorization tasks (adapted from Hung et al., 2005 and Rust and DiCarlo, 2010). Performance magnitude approaches ceiling level with only a few hundred neurons (left panel), and the same population decode gives nearly perfect generalization across moderate changes in position (1.5 deg and 3 deg shifts), scale (0.5×/2× and 0.33×/3×), and context (right panel), which is consistent with previous work (Hung et al., 2005; right bar) and with the simulations in (D).}
+	\label{Fig:IT}
+\end{figure}
+%A Contemporary View of IT Single Neurons\\
+%Respond to different variations\\
+%How do these IT neuronal population phenomena (above)
+%depend on the responses of individual IT neurons?
+Under-
+standing IT single-unit responses has proven to be extremely
+challenging and while some progress has been made (Brincat
+and Connor, 2004; Yamane et al., 2008), we still have a poor
+ability to build encoding models that predict the responses of
+each IT neuron to new images (see Figure 4B). Nevertheless,
+we know that IT neurons are activated by at least moderately
+complex combinations of visual features (Brincat and Connor,
+2004; Desimone et al., 1984; Kobatake and Tanaka, 1994b; Per-
+rett et al., 1982; Rust and DiCarlo, 2010; Tanaka, 1996) and that
+they are often able to maintain their relative object preference
+over small to moderate changes in object position and size (Brin-
+cat and Connor, 2004; Ito et al., 1995; Li et al., 2009; Rust and
+DiCarlo, 2010; Tove ́e et al., 1994), pose (Logothetis et al.,
+1994), illumination (Vogels and Biederman, 2002), and clutter
+(Li et al., 2009; Missal et al., 1999, 1997; Zoccolan et al., 2005).
+
+%respond to more objects\\
+Contrary to popular depictions of IT neurons as narrowly
+selective ‘‘object detectors,’’ neurophysiological studies of IT
+are in near universal agreement with early accounts that describe
+a diversity of selectivity: ‘‘We found that, as in other visual areas, most IT neurons respond to many different visual stimuli and,
+thus, cannot be narrowly tuned ‘detectors’ for particular
+complex objects.’’ (Desimone et al., 1984). For example,
+studies that involve probing the responses of IT cells with large
+and diverse stimulus sets show that, while some neurons appear
+highly selective for particular objects, they are the exception not
+the rule. Instead, most IT neurons are broadly tuned and the
+typical IT neuron responds to many different images and objects
+(Brincat and Connor, 2004; Freedman et al., 2006; Kreiman et al.,
+2006; Logothetis et al., 1995; Op de Beeck et al., 2001; Rolls,
+2000; Rolls and Tovee, 1995; Vogels, 1999; Zoccolan et al.,
+2007; see Figure 4B).
+
+\subsubsection{Population of neurons}
 Like all cortical neurons, neuronal spiking throughout the
 ventral pathway is variable in the ms-scale timing of spikes, re-
 sulting in rate variability for repeated presentations of a nominally
@@ -106,7 +168,33 @@ in the ventral pathway is ‘‘noise’’ (in that it does not directly help
 stimulus encoding/decoding) or if it is somehow synchronized
 over populations of neurons to convey useful, perhaps ‘‘multi-plexed’’ information (reviewed by Ermentrout et al., 2008).
 
-50 ms window matters\\
+%simple weighted summations of IT spike\\
+Although visual information processing in the first stage of the
+ventral stream (V1) is reasonably well understood (see Lennie
+and Movshon, 2005 for review), processing in higher stages
+(e.g., V4, IT) remains poorly understood. Nevertheless, we
+know that the ventral stream produces an IT pattern of activity
+that can directly support robust, real-time visual object catego-
+rization and identification, even in the face of changes in object
+position and scale, limited clutter, and changes in background
+context (Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
+2010). Specifically, simple weighted summations of IT spike
+counts over short time intervals (see section 2) lead to high rates
+of cross-validated performance for randomly selected popula-
+tions of only a few hundred neurons (Hung et al., 2005; Rust
+and DiCarlo, 2010) (Figure 4E), and a simple IT weighted sum-
+mation scheme is sufficient to explain a wide range of human
+invariant object recognition behavior (Majaj et al., 2012).
+
+%Better than lower level\\
+Importantly, IT neuronal populations are demonstrably better
+at object identification and categorization than populations
+at earlier stages of the ventral pathway (Freiwald and Tsao,
+2010; Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
+2010).
+
+%50 ms window matters\\
+\subsubsection{Time Matters}
 IT neuronal spiking patterns (e.g., concatenated decoding
 windows, each less than 50 ms) does not convey significantly
 more information about object identity than larger time windows
@@ -126,179 +214,162 @@ and (2) responses in that time window are more reliable because
 peak spike rates are typically higher than later windows (e.g.,
 Hung et al., 2005).
 
-\subsection{IT}
-simple weighted summations of IT spike\\
-Although visual information processing in the first stage of the
-ventral stream (V1) is reasonably well understood (see Lennie
-and Movshon, 2005 for review), processing in higher stages
-(e.g., V4, IT) remains poorly understood. Nevertheless, we
-know that the ventral stream produces an IT pattern of activity
-that can directly support robust, real-time visual object catego-
-rization and identification, even in the face of changes in object
-position and scale, limited clutter, and changes in background
-context (Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
-2010). Specifically, simple weighted summations of IT spike
-counts over short time intervals (see section 2) lead to high rates
-of cross-validated performance for randomly selected popula-
-tions of only a few hundred neurons (Hung et al., 2005; Rust
-and DiCarlo, 2010) (Figure 4E), and a simple IT weighted sum-
-mation scheme is sufficient to explain a wide range of human
-invariant object recognition behavior (Majaj et al., 2012).
-
-Better than lower level\\
-Importantly, IT neuronal populations are demonstrably better
-at object identification and categorization than populations
-at earlier stages of the ventral pathway (Freiwald and Tsao,
-2010; Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
-2010).
-
-A Contemporary View of IT Single Neurons\\
-Respond to different variations\\
-How do these IT neuronal population phenomena (above)
-depend on the responses of individual IT neurons? Under-
-standing IT single-unit responses has proven to be extremely
-challenging and while some progress has been made (Brincat
-and Connor, 2004; Yamane et al., 2008), we still have a poor
-ability to build encoding models that predict the responses of
-each IT neuron to new images (see Figure 4B). Nevertheless,
-we know that IT neurons are activated by at least moderately
-complex combinations of visual features (Brincat and Connor,
-2004; Desimone et al., 1984; Kobatake and Tanaka, 1994b; Per-
-rett et al., 1982; Rust and DiCarlo, 2010; Tanaka, 1996) and that
-they are often able to maintain their relative object preference
-over small to moderate changes in object position and size (Brin-
-cat and Connor, 2004; Ito et al., 1995; Li et al., 2009; Rust and
-DiCarlo, 2010; Tove ́e et al., 1994), pose (Logothetis et al.,
-1994), illumination (Vogels and Biederman, 2002), and clutter
-(Li et al., 2009; Missal et al., 1999, 1997; Zoccolan et al., 2005).
-
-respond to more objects\\
-Contrary to popular depictions of IT neurons as narrowly
-selective ‘‘object detectors,’’ neurophysiological studies of IT
-are in near universal agreement with early accounts that describe
-a diversity of selectivity: ‘‘We found that, as in other visual areas, most IT neurons respond to many different visual stimuli and,
-thus, cannot be narrowly tuned ‘detectors’ for particular
-complex objects.’’ (Desimone et al., 1984). For example,
-studies that involve probing the responses of IT cells with large
-and diverse stimulus sets show that, while some neurons appear
-highly selective for particular objects, they are the exception not
-the rule. Instead, most IT neurons are broadly tuned and the
-typical IT neuron responds to many different images and objects
-(Brincat and Connor, 2004; Freedman et al., 2006; Kreiman et al.,
-2006; Logothetis et al., 1995; Op de Beeck et al., 2001; Rolls,
-2000; Rolls and Tovee, 1995; Vogels, 1999; Zoccolan et al.,
-2007; see Figure 4B).
-
-conclusion\\
-Such findings argue for a distributed representation of visual
-objects in IT, as suggested previously (e.g., Desimone et al.,
-1984; Kiani et al., 2007; Rolls and Tovee, 1995)—a view that
-motivates the population decoding approaches described
-above (Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
-2010). That is, single IT neurons do not appear to act as sparsely
-active, invariant detectors of specific objects, but, rather, as
-elements of a population that, as a whole, supports object recog-
-nition. This implies that individual neurons do not need to be
-invariant. Instead, the key single-unit property is called neuronal
-‘‘tolerance’’: the ability of each IT neuron to maintain its prefer-
-ences among objects, even if only over a limited transformation
-range (e.g., position changes; see Figure 4C; Li et al., 2009).
-Mathematically, tolerance amounts to separable single-unit
-response surfaces for object shape and other object variables
-such as position and size (Brincat and Connor, 2004; Ito et al.,
-1995; Li et al., 2009; Tove ́e et al., 1994; see Figure 4D). This
-contemporary view, that neuronal tolerance is the required and
-observed single-unit phenomenology, has also been shown for
-less intuitive identity-preserving transformations such as the
-addition of clutter (Li et al., 2009; Zoccolan et al., 2005).
+%\subsection{IT}
 
 
-Summery\\
-Taken together, the neurophysiological evidence can be
-summarized as follows. First, spike counts in 50 ms IT decod-
-ing windows convey information about visual object identity.
-Second, this information is available in the IT population begin-
-ning 100 ms after image presentation (see Figure 4A). Third,
-the IT neuronal representation of a given object across changes
-in position, scale, and presence of limited clutter is untangled
-from the representations of other objects, and object identity can
-be easily decoded using simple weighted summation codes (see
-Figures 2B, 4D, and 4E). Fourth, these codes are readily
-observed in passively viewing subjects, and for objects that
-have not been explicitly trained (Hung et al., 2005). In sum, our
+
+
+%conclusion\\
+%Such findings argue for a distributed representation of visual
+%objects in IT, as suggested previously (e.g., Desimone et al.,
+%1984; Kiani et al., 2007; Rolls and Tovee, 1995)—a view that
+%motivates the population decoding approaches described
+%above (Hung et al., 2005; Li et al., 2009; Rust and DiCarlo,
+%2010). That is, single IT neurons do not appear to act as sparsely
+%active, invariant detectors of specific objects, but, rather, as
+%elements of a population that, as a whole, supports object recog-
+%nition. This implies that individual neurons do not need to be
+%invariant. Instead, the key single-unit property is called neuronal
+%‘‘tolerance’’: the ability of each IT neuron to maintain its prefer-
+%ences among objects, even if only over a limited transformation
+%range (e.g., position changes; see Figure 4C; Li et al., 2009).
+%Mathematically, tolerance amounts to separable single-unit
+%response surfaces for object shape and other object variables
+%such as position and size (Brincat and Connor, 2004; Ito et al.,
+%1995; Li et al., 2009; Tove ́e et al., 1994; see Figure 4D). This
+%contemporary view, that neuronal tolerance is the required and
+%observed single-unit phenomenology, has also been shown for
+%less intuitive identity-preserving transformations such as the
+%addition of clutter (Li et al., 2009; Zoccolan et al., 2005).
+
+
+%Summery\\
+%Taken together, the neurophysiological evidence can be
+%summarized as follows. First, spike counts in 50 ms IT decod-
+%ing windows convey information about visual object identity.
+%Second, this information is available in the IT population begin-
+%ning 100 ms after image presentation (see Figure 4A). Third,
+%the IT neuronal representation of a given object across changes
+%in position, scale, and presence of limited clutter is untangled
+%from the representations of other objects, and object identity can
+%be easily decoded using simple weighted summation codes (see
+%Figures 2B, 4D, and 4E). Fourth, these codes are readily
+%observed in passively viewing subjects, and for objects that
+%have not been explicitly trained (Hung et al., 2005). 
+
+In sum, our
 view is that the ‘‘output’’ of the ventral stream is reflexively ex-
 pressed in neuronal firing rates across a short interval of time
 (50 ms) and is an ‘‘explicit’’ object representation (i.e., object
 identity is easily decodable), and the rapid production of this
 representation is consistent with a largely feedforward, nonlinear
 processing of the visual input.
-\subsection{Hierarchical Abstractions}
-Feed-forward, hierarchical organisation and abstraction.
+\subsection{Hierarchical Feed-forward Organisation }
+%Feed-forward, hierarchical organisation and abstraction.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{pics/ventral.jpg}
+	\caption{The ventral visual pathway and its hierarchical organization~\cite{dicarlo2012does}.
+	(A) Ventral stream cortical area locations in the macaque monkey brain, and flow of visual information from the retina.
+	(B) Each area is plotted so that its size is proportional to its cortical surface area (Felleman and Van Essen, 1991). Approximate total number of neurons (both hemispheres) is shown in the corner of each area (M = million). The approximate dimensionality of each representation (number of projection neurons) is shown above each area, based on neuronal densities (Collins et al., 2010), layer 2/3 neuronal fraction (O'Kusky and Colonnier, 1982), and portion (color) dedicated to processing the central 10 deg of the visual field (Brewer et al., 2002). Approximate median response latency is listed on the right (Nowak and Bullier, 1997 and Schmolesky et al., 1998).}
+	\label{Fig:Ventral}
+\end{figure}
+A hierarchical organization, see Figure~\ref{Fig:Ventral}, (as opposed to a parallel or fully interconnected
+organization) of the areas with visual information traveling first
+from the retina to the lateral geniculate nucleus of the thalamus
+(LGN), and then through cortical area V1 to V2 to V4 to IT (Felle-
+man and Van Essen, 1991). Consistent with this, the (mean) first
+visually evoked responses of each successive cortical area are
+successively lagged by about 10 ms (Nowak and Bullier, 1997;
+Schmolesky et al., 1998; see Figure 3B). Thus, just around 100 ms after
+image photons impinge on the retina, a first wave of image-
+selective neuronal activity is present throughout much of IT
+(e.g., Desimone et al., 1984; DiCarlo and Maunsell, 2000; Hung
+et al., 2005; Kobatake and Tanaka, 1994a; Logothetis and Shein-
+berg, 1996; Tanaka, 1996).
+
+\subsubsection{Neurons and Connections}
+Retinal and LGN processing help deal with important real-world
+issues such as variation in luminance and contrast across each
+visual image (reviewed by Kohn, 2007). However, because
+RGC and LGN receptive fields are essentially point-wise spatial
+sensors (Field et al., 2010), the object manifolds conveyed to
+primary visual cortical area V1 are nearly as tangled as the pixel
+representation (see Figure 2B). As V1 takes up the task, the
+number of output neurons, and hence the total dimensionality
+of the V1 representation, increases approximately 30-fold (Ste-
+vens, 2001); Figure 3B). Because V1 neuronal responses are
+nonlinear with respect to their inputs (from the LGN), this dimen-
+sionality expansion results in an overcomplete population re-
+representation (Lewicki and Sejnowski, 2000; Olshausen and
+Field, 1997) in which the object manifolds are more ‘‘spread
+out.’’ Indeed, simulations show that a V1-like representation is
+clearly better than retinal-ganglion-cell-like (or pixel-based)
+representation, but still far below human performance for real-
+world recognition problems (DiCarlo and Cox, 2007; Pinto
+et al., 2008a).
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{pics/hierarchi.jpg}
+%	\caption{Receptive field sizes of the sub areas along the hierarchical visual processing pathway~\cite{kravitz2013ventral}.}
+%	\label{Fig:Hir1}
+%\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{pics/rf.jpg}
+	\caption{Receptive field (RF) sizes along the ventral cortical stream in the primate. While the degree of complexity of processing may increase, the RF size at any one eccentricity also increases dramatically along the various cortical areas from V1 into the temporal pole. The circles shown in the figure are not drawn to scale, but the numbers above the circles indicate approximate relative sizes of the RF diameters.~\cite{vidyasagar2013reading}.}
+	\label{Fig:Hir1}
+\end{figure}
+
+\subsubsection{Receptive Fields}
+As one progresses along the ventral stream of the visual cortex, neurons
+become selective for stimuli that are
+increasingly complex—from simple
+oriented bars and edges in early visual
+area V1 to moderately complex fea-
+tures in intermediate areas (such as a
+combination of orientations) to com-
+plex objects and faces in higher visual
+areas (such as IT). Along with this in-
+crease in complexity of the preferred
+stimulus, the invariance properties of
+neurons seem to also increase. Neu-
+rons become more and more tolerant
+with respect to the exact position and
+scale of the stimulus within their re-
+ceptive fields. As a result, the receptive
+field size of neurons increases from
+about one degree or less in V1 to sev-
+eral degrees in IT.
 
 
-We have arrived at a putative canonical meta job description,
-local subspace untangling, by working our way ‘‘top-down’’
-from the overall goal of visual recognition and considering neuro-
-anatomical data. How might local subspace untangling be
-instantiated within neuronal circuits and single neurons?
-Historically, mechanistic insights into the computations per-
-formed by local cortical circuits have derived from ‘‘bottom-up’’approaches that aim to quantitatively describe the encoding
-functions that map image features to the firing rate responses
-of individual neurons. One example is the conceptual encoding
-models of Hubel and Wiesel (1962), which postulate the existence
-of two operations in V1 that produce the response properties of
-the ‘‘simple’’ and ‘‘complex’’ cells. First, V1 simple cells imple-
-ment AND-like operations on LGN inputs to produce a new
-form of ‘‘selectivity’’—an orientation-tuned response. Next, V1
-complex cells implement a form of ‘‘invariance’’ by making OR-
-like combinations of simple cells tuned for the same orientation.
-These conceptual models are central to current encoding
-models of biological object recognition (e.g., Fukushima, 1980;
-Riesenhuber and Poggio, 1999b; Serre et al., 2007a), and they
-have been formalized into the linear-nonlinear (LN) class of en-
-coding models in which each neuron adds and subtract its inputs,
-followed by a static nonlinearity (e.g., a threshold) to produce
-a firing rate response (Adelson and Bergen, 1985; Carandini
-et al., 2005; Heeger et al., 1996; Rosenblatt, 1958). While LN-style
-models are far from a synaptic-level model of a cortical circuit,
-they are a potentially powerful level of abstraction in that they
-can account for a substantial amount of single-neuron response
-patterns in early visual (Carandini et al., 2005), somatosensory
-(DiCarlo et al., 1998), and auditory cortical areas (Theunissen
-et al., 2000). Indeed, a nearly complete accounting of early level
-neuronal response patterns can be achieved with extensions to
-the simple LN model framework—most notably, by divisive
-normalization schemes in which the output of each LN neuron
-is normalized (e.g., divided) by a weighted sum of a pool of nearby
-neurons (reviewed by Carandini and Heeger, 2011). Such
-schemes were used originally to capture luminance and contrast
-and other adaptation phenomena in the LGN and V1 (Mante et al.,
-2008; Rust and Movshon, 2005), and they represent a broad class
-of models, which we refer to here as the ‘‘normalized LN’’ model
-class (NLN; see Figure 5).
-We do not know whether the NLN class of encoding models
-can describe the local transfer function of any output neuron at
-any cortical locus (e.g., the transfer function from a V4 subpop-
-ulation to a single IT neuron). However, because the NLN model
-is successful at the first sensory processing stage, the parsimo-
-nious view is to assume that the NLN model class is sufficient but
-that the particular NLN model parameters (i.e., the filter weights,
-the normalization pool, and the specific static nonlinearity) of
-each neuron are uniquely elaborated. Indeed, the field has
-implicitly adopted this view with attempts to apply cascaded
-NLN-like models deeper into the ventral stream (e.g., David
-et al., 2006). Unfortunately, the approach requires exponentially
-more stimulus-response data to try to constrain an exponentially
-expanding set of possible cascaded NLN models, and thus we cannot yet distinguish between a principled inadequacy of the
-cascaded NLN model class and a failure to obtain enough
-data. This is currently a severe ‘‘in practice’’ inadequacy of the
-cascaded NLN model class in that its effective explanatory
-power does not extend far beyond V1 (Carandini et al., 2005).
-Indeed, the problem of directly determining the specific image-
-based encoding function (e.g., a particular deep stack of NLN
-models) that predicts the response of any given IT neuron
-(e.g., the one at the end of my electrode today) may be practically
-impossible with current methods.
+\subsubsection{Tuned Features}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{pics/serre.jpg}
+	\caption{The hierarchical ventral stream and the corresponding tuned features for each layer~\cite{serre2010neuromorphic}.}
+	\label{Fig:serre}
+\end{figure}
+V1 are orientation selective for multiple stimulus types, i.e., edges, bars, gratings (Hubel and Wiesel, 1968; Hubel et al., 1978).
+V2 cells encode border ownership (Zhou et al., 2000) which is the first stage of assigning an oriented edge to an object representation.
+Thus contour-based object representation starts in V2.
+Form processing in V4 combines multiple, spatially-adjacent, orientation responses seen in V1 and V2 to encode angles and curvatures (Pasupathy and Connor, 1999).
+These responses advance the nascent object representation from border ownership (Orban, 2008) to responses that are dependent on the placement of the curvature with respect to the center of the shape (Pasupathy and Connor, 2001).
+
+Inferior temporal (IT) cortex has a range of object property complexity starting with simpler features posteriorly (PIT or TEO: Tanaka et al., 1991; Kobatake and Tanaka, 1994) that increase in complexity as processing moves anteriorly (AIT or TE) to represent objects and perform object recognition (Cowey and Weiskrantz, 1967; Gross et al., 1971, 1972; Dean, 1976).
+This includes complex shapes, combinations of color or texture with shape (Gross et al., 1972; Desimone et al., 1984; Tanaka et al., 1991), and body parts (faces or hands: see Gross, 2008 for a review). 
+In addition, responses in IT cortex are position and size invariant (Sato et al., 1980; Schwartz et al., 1983; Rolls and Baylis, 1986; Ito et al., 1995; Logothetis and Pauls, 1995) and also invariant to changes in luminance, texture, and relative motion (Sáry et al., 1993).
+Combined, these characteristics make IT ideal for representing objects despite changes in the surrounding environment and retinal image.
+
+%
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{pics/hierarchiNLN.jpg}
+%	\caption{The ventral visual pathway and its hierarchical organization~\cite{dicarlo2012does}.}
+%	\label{Fig:HirNLN}
+%\end{figure}
 
 \section{Spiking Neural Network}
 \label{sec:pgr}
@@ -457,7 +528,7 @@ Maass~\cite{maass1997networks} has proved mathematically that:
 1) networks of spiking neurons are computationally more powerful than the first and second generation of neural network models;
 2) a concrete biologically relevant function can be computed by a single spiking neuron, replacing  hundreds of hidden units in a sigmoidal neural net;
 3) any function that can be computed by a small sigmoidal neural net can also be computed by a small network of spiking neurons.
-\subsection{Rate Coding}
+\subsubsection{Rate Coding}
 
 In rate coding the information is encoded into the mean firing rate of the neuron also known as temporal average \cite{gernstbook}:
 
@@ -467,11 +538,11 @@ v = {{n_{sp}(T)} \over T}
 
 Where T is time window, nsp(T) are the number spikes emitted during the time window. There are three averaging procedures \cite{gernstbook}: Rate as a spike count (average over time), rate as a spike density (average over several runs) and rate as a population activity (average over several neurons).
 
-\subsection{Temporal Coding}
+\subsubsection{Temporal Coding}
 
 In temporal coding the information is encoded in the form of spike times \cite{Bohte:2004:ENI:990372.990380}. Hopfield \cite{hopfield_pattern_1995} has proposed a method for encoding analogue data into timing of the spikes with respect to an oscillatory pattern of activity. This method has been proven experimentally in the electric fish. In addition, Maass \cite{Maass97networksof} proposed a method of encoding analogue information in the form of firing times. A different approach has been suggested by Wen and Sendhoff \cite{Jin:2007:EMO:1776814.1776856}, where the input neurons encode information directly into spiking times and an additional bias neuron is used as a time reference. Finally, in polychronization \cite{Izhikevich:2006:PCS:1117652.1117653}, proposed by Izhikevich,  the synaptic delays are tuned so that a neuron would respond to particular spatio-temporal patterns of activity.
 
-\subsection{Population Coding}
+\subsubsection{Population Coding}
 
 In population coding a number of input neurons (population) are involved in the analogue encoding and produce different firing times. Bohte et al. \cite{Bohte02unsupervisedclustering} proposed a way of representing analogue input values into spike times using population coding. Multiple Gaussian Receptive Fields (GRF) were used so that the input neurons will encode an input value into spike times, Figure~\ref{codpop1}.  
 
@@ -601,20 +672,22 @@ This offers the possibility of utilizing massive parallelism and redundancy, as 
 In the human brain, communication between its computing elements, or neurons, is achieved by the transmission of electrical `spikes' along connecting axons. 
 The biological processing of the neuron can be modelled by a digital processor and the axon connectivity can be represented by messages, or information packets, transmitted between a large number of processors which emulate the parallel operation of the billions of neurons comprising the brain.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{pics/mesh_ctiff.jpg}
+	\caption{SpiNNaker system diagram.
+		Each element represents one chip with local memory.
+		Every chip connects to its neighbours through the six bi-directional on-board links. }
+	\label{fig:sysdia}
+\end{figure}
+
 The engineering of the SpiNNaker concept is illustrated in Figure~\ref{fig:sysdia} where the hierarchy of components can be identified. 
 Each element of the toroidal interconnection mesh is a multi-core processor known as the `SpiNNaker Chip' comprising 18 processing cores. 
 Each core is a complete processing sub-system with local memory.
 It is connected to its local peers via a Network-on-Chip (NoC) which provides high bandwidth on-chip communication and to other SpiNNaker chips via links between them. 
 In this way massive parallelism extending to thousands or millions of processors is possible.
 
-\begin{figure}
-\centering
-	\includegraphics[width=0.8\textwidth]{pics/mesh_ctiff.jpg}
-	\caption{SpiNNaker system diagram.
-	Each element represents one chip with local memory.
-	Every chip connects to its neighbours through the six bi-directional on-board links. }
-	\label{fig:sysdia}
-\end{figure}
+
 
 %The knowledge content and learning ability of the brain is generally thought to be embodied in its evolvable interconnection pattern.
 %This structure routes a spike generated by one neuron to others which are interconnected with it via axons and these interconnections are modified and extended as a result of learning processes.
@@ -643,5 +716,12 @@ Spikes from the silicon retina are injected directly into SpiNNaker via a SPARTA
 
 From a neural modelling point of view, interfacing the silicon retina is performed using pyNN~\cite{davison2008pynn}. 
 The retina is configured as a spike source population that resides on a virtual SpiNNaker chip, to which an AER sensor's spikes are directed, thus abstracting away the hardware details from the user\cite{galluppi2012real}.
-Besides the retina, we have successfully connected an AER based silicon cochlea~\cite{5537164} to SpiNNaker for a sound localisation task~\cite{6706931}.
+Besides the retina, we have successfully connected an AER based silicon cochlea~\cite{5537164} to SpiNNaker for a sound localisation task~\cite{6706931}, see Figure~\ref{fig:sound}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{pics/photooutline_blurred.jpg}
+	\caption{Neuromorphic platform for sound localisation: a silicon cochlea connects to a 48-node SpiNNaker board via a FPGA.}
+	\label{fig:sound}
+\end{figure}
 
