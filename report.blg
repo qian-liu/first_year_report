@@ -9,74 +9,54 @@ A level-1 auxiliary file: Chapter5.aux
 The style file: ieeetr.bst
 Database file #1: refs.bib
 Warning--entry type for "video1" isn't style-file defined
---line 459 of file refs.bib
+--line 831 of file refs.bib
 Warning--entry type for "video2" isn't style-file defined
---line 468 of file refs.bib
+--line 840 of file refs.bib
 Warning--entry type for "video3" isn't style-file defined
---line 477 of file refs.bib
+--line 849 of file refs.bib
 Warning--entry type for "appnote8" isn't style-file defined
---line 487 of file refs.bib
-Warning--I didn't find a database entry for "gernstbook"
-Warning--I didn't find a database entry for "pnn"
-Warning--I didn't find a database entry for "Maass97networksof"
-Warning--I didn't find a database entry for "sterratt2011principles"
-Warning--I didn't find a database entry for "Meftah:2010:SED:1873252.1873282"
-Warning--I didn't find a database entry for "bigpoo"
-Warning--I didn't find a database entry for "hhmodel"
-Warning--I didn't find a database entry for "princNeuron"
-Warning--I didn't find a database entry for "Delorme1999989"
-Warning--I didn't find a database entry for "Schutter:2009:CMM:1822639"
-Warning--I didn't find a database entry for "Bohte:2004:ENI:990372.990380"
-Warning--I didn't find a database entry for "hopfield_pattern_1995"
-Warning--I didn't find a database entry for "Jin:2007:EMO:1776814.1776856"
-Warning--I didn't find a database entry for "Izhikevich:2006:PCS:1117652.1117653"
-Warning--I didn't find a database entry for "Bohte02unsupervisedclustering"
-Warning--I didn't find a database entry for "Eliasmith02"
-Warning--I didn't find a database entry for "Thorpe2001715"
-Warning--I didn't find a database entry for "Hebb1949"
-Warning--I didn't find a database entry for "bipoo2"
-Warning--I didn't find a database entry for "Bienenstock"
+--line 859 of file refs.bib
 Warning--empty journal in furber2014spinnaker
 Warning--empty journal in von1947neocortex
-You've used 49 entries,
+You've used 86 entries,
             1876 wiz_defined-function locations,
-            815 strings with 13324 characters,
-and the built_in function-call counts, 14940 in all, are:
-= -- 1539
-> -- 515
+            987 strings with 19066 characters,
+and the built_in function-call counts, 26760 in all, are:
+= -- 2811
+> -- 905
 < -- 0
-+ -- 192
-- -- 143
-* -- 1074
-:= -- 2028
-add.period$ -- 49
-call.type$ -- 49
-change.case$ -- 49
++ -- 336
+- -- 250
+* -- 1926
+:= -- 3620
+add.period$ -- 88
+call.type$ -- 86
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 765
-empty$ -- 1402
-format.name$ -- 143
-if$ -- 3674
+cite$ -- 88
+duplicate$ -- 1365
+empty$ -- 2459
+format.name$ -- 250
+if$ -- 6590
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 45
-newline$ -- 150
-num.names$ -- 49
-pop$ -- 144
+int.to.str$ -- 86
+missing$ -- 84
+newline$ -- 263
+num.names$ -- 86
+pop$ -- 207
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 580
+skip$ -- 1057
 stack$ -- 0
-substring$ -- 1190
-swap$ -- 347
+substring$ -- 2201
+swap$ -- 648
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 162
-width$ -- 51
-write$ -- 497
-(There were 26 warnings)
+while$ -- 289
+width$ -- 88
+write$ -- 890
+(There were 6 warnings)

@@ -1,56 +1,53 @@
-\contentsline {chapter}{Abstract}{10}
-\contentsline {chapter}{\numberline {1}Introduction}{11}
-\contentsline {section}{\numberline {1.1}What Is Object Recognition?}{11}
-\contentsline {section}{\numberline {1.2}Why Is It Important?}{12}
-\contentsline {section}{\numberline {1.3}How to Mimic The Brain?}{12}
-\contentsline {section}{\numberline {1.4}Report Structure}{13}
-\contentsline {chapter}{\numberline {2}Background}{14}
-\contentsline {section}{\numberline {2.1}How the Brain Represent Objects?}{14}
-\contentsline {subsection}{\numberline {2.1.1}Cortical Areas in The Ventral Visual Pathway}{15}
-\contentsline {subsubsection}{V1}{15}
-\contentsline {subsubsection}{V2}{16}
-\contentsline {subsubsection}{V4}{16}
-\contentsline {subsubsection}{IT}{17}
-\contentsline {subsection}{\numberline {2.1.2}Object Representation in the IT}{17}
-\contentsline {subsubsection}{Single neurons}{17}
-\contentsline {subsubsection}{Population of neurons}{19}
-\contentsline {subsubsection}{Time Matters}{20}
-\contentsline {subsection}{\numberline {2.1.3}Hierarchical Feed-forward Organisation }{22}
-\contentsline {subsubsection}{Neurons and Connections}{22}
-\contentsline {subsubsection}{Receptive Fields}{22}
-\contentsline {subsubsection}{Tuned Features}{24}
-\contentsline {section}{\numberline {2.2}Spiking Neural Network}{25}
-\contentsline {subsection}{\numberline {2.2.1}Neuronal Model}{25}
-\contentsline {subsubsection}{The Membrane Potential}{25}
-\contentsline {subsubsection}{The Action Potential}{27}
-\contentsline {subsubsection}{The Synapse}{27}
-\contentsline {subsubsection}{Spiking Neuron Models}{28}
-\contentsline {subsubsection}{Leaky-Integrate-and-Fire Model}{29}
-\contentsline {subsection}{\numberline {2.2.2}Spike Coding}{31}
-\contentsline {subsubsection}{Rate Coding}{31}
-\contentsline {subsubsection}{Temporal Coding}{32}
-\contentsline {subsubsection}{Population Coding}{32}
-\contentsline {subsection}{\numberline {2.2.3}Learning}{33}
-\contentsline {subsection}{\numberline {2.2.4}Successful Applications}{35}
-\contentsline {section}{\numberline {2.3}Platforms}{35}
-\contentsline {subsection}{\numberline {2.3.1}Vision Processing Front-ends}{36}
-\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{37}
-\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{38}
-\contentsline {chapter}{\numberline {3}Convolutional Neural Networks}{40}
-\contentsline {section}{\numberline {3.1}Model Description}{40}
-\contentsline {section}{\numberline {3.2}Experimental Set-up}{43}
-\contentsline {section}{\numberline {3.3}Experimental Results}{43}
-\contentsline {chapter}{\numberline {4}Recognition on SpiNNaker}{47}
-\contentsline {section}{\numberline {4.1}Moving from Perceptrons to Spiking Neurons}{47}
-\contentsline {section}{\numberline {4.2}Live Recognition}{48}
-\contentsline {section}{\numberline {4.3}Recognition of Recorded Data}{49}
-\contentsline {chapter}{\numberline {5}Contributions and Research Plan}{55}
-\contentsline {section}{\numberline {5.1}Contributions}{55}
-\contentsline {section}{\numberline {5.2}Future Work}{56}
-\contentsline {subsection}{\numberline {5.2.1}Modelling The Ventral Visual Pathway with Spiking Neurons}{56}
-\contentsline {subsection}{\numberline {5.2.2}Learning Between the Hierarchy Layers}{56}
-\contentsline {subsection}{\numberline {5.2.3}Comparing with Biological Data}{56}
-\contentsline {subsection}{\numberline {5.2.4}Building Dataset}{56}
-\contentsline {subsection}{\numberline {5.2.5}Optional: Action Recognition}{56}
-\contentsline {subsection}{\numberline {5.2.6}Optional: Sensor Fusion with Auditory Processing}{56}
-\contentsline {chapter}{Bibliography}{57}
+\contentsline {chapter}{Abstract}{8}
+\contentsline {chapter}{\numberline {1}Introduction}{9}
+\contentsline {section}{\numberline {1.1}What Is Object Recognition?}{9}
+\contentsline {section}{\numberline {1.2}Why Is It Important?}{10}
+\contentsline {section}{\numberline {1.3}How to Mimic The Brain?}{10}
+\contentsline {section}{\numberline {1.4}Report Structure}{11}
+\contentsline {chapter}{\numberline {2}Background}{12}
+\contentsline {section}{\numberline {2.1}How the Brain Represent Objects?}{12}
+\contentsline {subsection}{\numberline {2.1.1}Cortical Areas in The Ventral Visual Pathway}{13}
+\contentsline {subsubsection}{Primary Visual Cortex:V1}{13}
+\contentsline {subsubsection}{Prestriate Cortex: V2}{14}
+\contentsline {subsubsection}{Visual Area V4}{15}
+\contentsline {subsubsection}{Inferotemporal Cortex: IT}{15}
+\contentsline {subsection}{\numberline {2.1.2}Object Representation in IT}{15}
+\contentsline {subsubsection}{Single neurons}{16}
+\contentsline {subsubsection}{Population of neurons}{17}
+\contentsline {subsubsection}{Decoding Window Matters}{18}
+\contentsline {subsection}{\numberline {2.1.3}Hierarchical Feed-forward Organisation }{18}
+\contentsline {subsubsection}{Latency}{19}
+\contentsline {subsubsection}{Neurons and Connections}{19}
+\contentsline {subsubsection}{Tuned Features and Receptive Fields }{20}
+\contentsline {section}{\numberline {2.2}Spiking Neural Network}{21}
+\contentsline {subsection}{\numberline {2.2.1}Neuronal Model}{22}
+\contentsline {subsection}{\numberline {2.2.2}Learning}{22}
+\contentsline {subsection}{\numberline {2.2.3}Successful Applications}{22}
+\contentsline {section}{\numberline {2.3}Platforms}{23}
+\contentsline {subsection}{\numberline {2.3.1}Vision Processing Front-ends}{23}
+\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{23}
+\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{25}
+\contentsline {chapter}{\numberline {3}Convolutional Neural Networks}{27}
+\contentsline {section}{\numberline {3.1}Model Description}{27}
+\contentsline {section}{\numberline {3.2}Experimental Set-up}{30}
+\contentsline {section}{\numberline {3.3}Experimental Results}{30}
+\contentsline {chapter}{\numberline {4}Recognition on SpiNNaker}{34}
+\contentsline {section}{\numberline {4.1}Moving from Perceptrons to Spiking Neurons}{34}
+\contentsline {section}{\numberline {4.2}Live Recognition}{35}
+\contentsline {section}{\numberline {4.3}Recognition of Recorded Data}{37}
+\contentsline {chapter}{\numberline {5}Contributions and Research Plan}{42}
+\contentsline {section}{\numberline {5.1}Contributions}{42}
+\contentsline {section}{\numberline {5.2}Publications}{43}
+\contentsline {section}{\numberline {5.3}Future Work}{43}
+\contentsline {subsection}{\numberline {5.3.1}Invariant Object Recognition}{45}
+\contentsline {subsubsection}{Position Invariance}{45}
+\contentsline {subsubsection}{Scale Invariance}{45}
+\contentsline {subsubsection}{View Invariance}{45}
+\contentsline {subsection}{\numberline {5.3.2}Modelling the Hierarchy Layers}{45}
+\contentsline {subsection}{\numberline {5.3.3}Size Scaling}{46}
+\contentsline {subsection}{\numberline {5.3.4}Integration}{46}
+\contentsline {subsection}{\numberline {5.3.5}Tuning}{46}
+\contentsline {subsection}{\numberline {5.3.6}Benchmark Performance}{46}
+\contentsline {subsubsection}{Building Dataset}{46}
+\contentsline {subsubsection}{Testing/Comparing}{47}
+\contentsline {chapter}{Bibliography}{48}

@@ -61,6 +61,29 @@ Secondly, given different input spike rate to each pre-synaptic neurons, the par
 
 
 \section{Live Recognition}
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\includegraphics[width=\textwidth]{pics/live1.png}
+		\caption{Neural responses of the Gabor filter layer orienting to the horizontal direction~\cite{video1} }
+		\label{fig:live1}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.48\textwidth}
+		\includegraphics[width=\textwidth]{pics/live2.png}
+		\caption{Neural responses of the integrate layer~\cite{video2}}
+		\label{fig:live2}
+	\end{subfigure}
+	\\
+	\begin{subfigure}[t]{\textwidth}
+		\includegraphics[width=\textwidth]{pics/live.png}
+		\caption{Snapshot of the neuron responses of the template matching layer~\cite{video3}}
+		\label{fig:live3}
+	\end{subfigure}	
+	
+	\caption{Snapshots of the real-time dynamic posture recognition system on SpiNNaker.
+	}
+	\label{fig:live}
+\end{figure}
 We implemented the prototype of the dynamic posture recognition system on SpiNNaker using LIF neurons. 
 The input retina layer consists of 128$\times$128 neurons; 
 each Gabor filter has 112$\times$112 valid neurons, since the kernel size is 17$\times$17; 
@@ -73,29 +96,6 @@ And the active neurons in the visualiser in Figure~\ref{fig:live3} are pointing 
 All the supporting demonstrative videos can be found on YouTube~\cite{video1, video2, video3}. %\footnote{\url{
 %https://www.youtube.com/watch?v=PvJy6RKAJhw&feature=youtu.be&list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ, http://youtu.be/FZJshPCJ1pg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ, http://youtu.be/yxN90aGGKvg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ}}.
 
-\begin{figure}
-\centering
-	\begin{subfigure}[t]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{pics/live1.png}
-	    \caption{Neural responses of the Gabor filter layer orienting to the horizontal direction~\cite{video1} }
-	    \label{fig:live1}
-	\end{subfigure}
-	\begin{subfigure}[t]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{pics/live2.png}
-		\caption{Neural responses of the integrate layer~\cite{video2}}
-	    \label{fig:live2}
-	\end{subfigure}
-	\\
-	\begin{subfigure}[t]{0.8\textwidth}
-		\includegraphics[width=\textwidth]{pics/live.png}
-		\caption{Snapshot of the neuron responses of the template matching layer~\cite{video3}}
-	    \label{fig:live3}
-	\end{subfigure}	
-
-\caption{Snapshots of the real-time dynamic posture recognition system on SpiNNaker.
-}
-\label{fig:live}
-\end{figure}
 
 \section{Recognition of Recorded Data}
 To compare with the results of the experiments carried out with Matlab (in Section~\ref{sec:exp}), the same recorded retinal data is conducted into SpiNNaker.
@@ -105,9 +105,9 @@ The output spikes generated from the recognition populations with time are shown
 More spikes are generated during the period when the preferred input posture is shown. 
 
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/rateSpiNN.pdf}
+	\includegraphics[width=\textwidth]{pics/rateSpiNN.pdf}
 	\caption{Real-time neural responses of two experiments on SpiNNaker with time to the same recorded postures.
 	These two experiments only differ in input resolution.
 	The result of the high input resolution test is plotted the first with a sample frame of 30~ms; 
@@ -126,6 +126,60 @@ Otherwise, the recogniser will not work properly because of the replications of 
 Contrasting this, the spiking rates can be sampled to various frame lengths.
 Thus, the other two plots in the figure illustrate the classification in a wider window of 300~ms.
 From Table~\ref{tbl:srr}, the recognition and rejection rates are quantified as percentages.
+
+\begin{table}[h!]
+	\centering
+	\caption{Real-time recognition results on SpiNNaker in \%}
+	\begin{tabular}{p{0.15\textwidth}|p{0.1\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}}
+		%Line 1
+		\Xhline{1.2pt}
+		\multicolumn{2}{c|}{}	& \multicolumn{2}{c|}{\textbf{30~ms per frame}}  
+		& \multicolumn{2}{c}{\textbf{300~ms per frame}}
+		\\ \cline{3-6}
+		%Line 2
+		\multicolumn{2}{c|}{}	& \tabincell{c}{High \\ Resolution}
+		& \tabincell{c}{Low \\ Resolution}
+		& \tabincell{c}{High \\ Resolution}
+		& \tabincell{c}{Low \\ Resolution}
+		\\ \Xhline{1.2pt}
+		%Line 3-4	
+		\multirow{2}{*}{\tabincell{l}{\textbf{Fist}}}
+		& Correct & 91.78	& 78.02	& 100	& 92.31
+		\\ \cline{2-6}
+		& Reject  & 82.78 & 78.54 	& 70.73	& 68.29
+		\\ \hline
+		%Line 5-6
+		\multirow{2}{*}{\tabincell{l}{\textbf{Index Finger}}}
+		& Correct & 78.25	& 78.25	& 88.24	& 72.22
+		\\ \cline{2-6}
+		& Reject & 80.46	& 73.56 	& 57.50	& 55.00
+		\\ \hline
+		%Line 7-8
+		\multirow{2}{*}{\tabincell{l}{\textbf{Victory Sign} }}
+		& Correct & 96.48	& 86.27	& 95.00	& 92.50
+		\\ \cline{2-6}
+		& Reject & 64.46	& 72.68 	& 28.57	& 28.57
+		\\ \hline
+		%Line 9-10
+		\multirow{2}{*}{\tabincell{l}{\textbf{Full Hand}}}
+		& Correct & 85.29	& 60.78	& 90.00	& 75.00
+		\\ \cline{2-6}
+		& Reject & 67.31	& 83.65 	& 35.48	& 61.29
+		\\ \hline
+		%Line 10-11
+		\multirow{2}{*}{\tabincell{l}{\textbf{Thumb up}}}
+		& Correct & 84.09	& 88.10	& 91.67	& 100
+		\\ \cline{2-6}
+		& Reject & 87.54	& 73.81 	& 66.67	& 66.67
+		\\ \hline\hline
+		\multirow{2}{*}{\tabincell{l}{\textbf{Average}}}
+		& Correct & 87.18	& 78.28	& 92.98	& 86.41
+		\\ \cline{2-6}
+		& Reject & 76.51	& 76.45 	& 51.79	& 55.96
+		\\ \hline
+	\end{tabular}
+	\label{tbl:srr}
+\end{table}
 
 Comparing with the results of Matlab simulation (Table~\ref{tbl:rsl}), the recognition rate is about 7.6\% lower at both high and low resolutions, and the rejection rate remains the same slightly above 75\%. 
 However, by changing the frame length to 300~ms recognition rates reach (93.0\% for the larger network) or exceed (86.4\% for smaller network ) the Matlab simulation, meanwhile the rejection rates also drop dramatically by 26.0\% and 22.4\%.
@@ -207,56 +261,3 @@ Between the two network scales there is also a smaller gap in recognition rates 
 \caption{Spikes captured during the live recognition of the recorded retinal input with the resolution of 32$\times$32. }
 \label{fig:rps32}
 \end{figure}
-\begin{table}
-\centering
-\caption{Real-time recognition results on SpiNNaker in \%}
-	\begin{tabular}{p{0.15\textwidth}|p{0.1\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}|p{0.11\textwidth}<{\centering}}
-		%Line 1
-		\Xhline{1.2pt}
-		    \multicolumn{2}{c|}{}	& \multicolumn{2}{c|}{\textbf{30~ms per frame}}  
-		    & \multicolumn{2}{c}{\textbf{300~ms per frame}}
-		    \\ \cline{3-6}
-		%Line 2
-		\multicolumn{2}{c|}{}	& \tabincell{c}{High \\ Resolution}
-			& \tabincell{c}{Low \\ Resolution}
-			& \tabincell{c}{High \\ Resolution}
-			& \tabincell{c}{Low \\ Resolution}
-			\\ \Xhline{1.2pt}
-		%Line 3-4	
-		\multirow{2}{*}{\tabincell{l}{\textbf{Fist}}}
-			& Correct & 91.78	& 78.02	& 100	& 92.31
-			\\ \cline{2-6}
-			& Reject  & 82.78 & 78.54 	& 70.73	& 68.29
-			\\ \hline
-		%Line 5-6
-		\multirow{2}{*}{\tabincell{l}{\textbf{Index Finger}}}
-			& Correct & 78.25	& 78.25	& 88.24	& 72.22
-			\\ \cline{2-6}
-			& Reject & 80.46	& 73.56 	& 57.50	& 55.00
-			\\ \hline
-		%Line 7-8
-		\multirow{2}{*}{\tabincell{l}{\textbf{Victory Sign} }}
-			& Correct & 96.48	& 86.27	& 95.00	& 92.50
-			\\ \cline{2-6}
-			& Reject & 64.46	& 72.68 	& 28.57	& 28.57
-			\\ \hline
-		%Line 9-10
-		\multirow{2}{*}{\tabincell{l}{\textbf{Full Hand}}}
-			& Correct & 85.29	& 60.78	& 90.00	& 75.00
-			\\ \cline{2-6}
-			& Reject & 67.31	& 83.65 	& 35.48	& 61.29
-			\\ \hline
-		%Line 10-11
-		\multirow{2}{*}{\tabincell{l}{\textbf{Thumb up}}}
-			& Correct & 84.09	& 88.10	& 91.67	& 100
-			\\ \cline{2-6}
-			& Reject & 87.54	& 73.81 	& 66.67	& 66.67
-			\\ \hline\hline
-		\multirow{2}{*}{\tabincell{l}{\textbf{Average}}}
-			& Correct & 87.18	& 78.28	& 92.98	& 86.41
-			\\ \cline{2-6}
-			& Reject & 76.51	& 76.45 	& 51.79	& 55.96
-			\\ \hline
-	\end{tabular}
-	\label{tbl:srr}
-\end{table}

@@ -4,9 +4,9 @@
 The convolutional network is well-known as an example of a biologically-inspired model. 
 Figure~\ref{fig:conv} shows a typical convolutional connection between two layers of neurons. 
 The repeated convolutional kernels are overlapped in the receptive fields of the input neurons. 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/conv.pdf}
+	\includegraphics[width=\textwidth]{pics/conv.pdf}
 	\caption{Each individual neuron in the convolution layer (right matrix) connects to its receptive field using the same kernel. The value of the kernel is represented by the synaptic weights between the connected neurons.}
 	\label{fig:conv}
 \end{figure}
@@ -19,7 +19,7 @@ A straight forward method of template matching is employed at first, followed by
 
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/model1.pdf}
+	\includegraphics[width=\textwidth]{pics/model1.pdf}
 	\caption{Model 1. 
 	The retina input is convolved with Gabor filters in the second layer, and then shrinks the sizes in the pooling layer.
 	The templates are considered as convolution kernels in the last layer.
@@ -39,7 +39,7 @@ The templates are chosen by sampling the output of the pooling layer when given 
 
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/gesture.pdf}
+	\includegraphics[width=\textwidth]{pics/gesture.pdf}
 	\caption{Templates of the five postures: `Fist',`Index Finger', `Victory Sign', `Full Hand' and `Thumb up'.}
 	\label{fig:template}
 \end{figure}
@@ -70,7 +70,7 @@ Only the real parts of the Gabor filters (see Figure~\ref{fig:gabor}) are used a
 
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/gabor.pdf}
+	\includegraphics[width=\textwidth]{pics/gabor.pdf}
 	\caption{Real parts of the Gabor filters orienting four directions.}
 	\label{fig:gabor}
 \end{figure}
@@ -90,7 +90,7 @@ Therefore, a tracking layer plays an important role to find the most active regi
 
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/model2.pdf}
+	\includegraphics[width=\textwidth]{pics/model2.pdf}
 	\caption{Model 2. 
 	The retina input convolves with Gabor filters in the second layer, and then shrinks the sizes in the pooling layer.
 	The following tracking layer finds the most active area of some fixed size, moves the posture to the centre and pushes the image to the trained MLP.
@@ -196,9 +196,9 @@ The integration layer is not necessary in a convolutional network, but is used h
 \section{Experimental Results}
 \label{sec:exp}
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
-	\includegraphics[width=0.8\textwidth]{pics/rateMatlab.pdf}
+	\includegraphics[width=\textwidth]{pics/rateMatlab.pdf}
 	\caption{Neural responses with time of four experiments to the same recorded moving postures.
 	The recognition output is normalised to \mbox{[-1, 1]}.
 	Every point represents the highest response in a specific population (different colour) for a 30~ms frame.

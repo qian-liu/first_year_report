@@ -1,8 +1,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Sizes of the convolutional neural networks.\relax }}{44}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Recognition results using linear perceptrons in \%\relax }}{46}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Sizes of the convolutional neural networks.\relax }}{31}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Recognition results using linear perceptrons in \%\relax }}{33}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Real-time recognition results on SpiNNaker in \%\relax }}{52}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Real-time recognition results on SpiNNaker in \%\relax }}{41}
 \addvspace {10\p@ }

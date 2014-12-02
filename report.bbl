@@ -5,18 +5,28 @@ S.~R. Lehky and A.~B. Sereno, ``Comparison of shape encoding in primate dorsal
   and ventral visual pathways,'' {\em Journal of neurophysiology}, vol.~97,
   no.~1, pp.~307--319, 2007.
 
+\bibitem{bednar2009topographica}
+J.~A. Bednar, ``Topographica: building and analyzing map-level simulations from
+  python, c/c++, matlab, nest, or neuron components,'' {\em Frontiers in
+  neuroinformatics}, vol.~3, 2009.
+
+\bibitem{bosking2002spatial}
+W.~H. Bosking, J.~C. Crowley, and D.~Fitzpatrick, ``Spatial coding of position
+  and orientation in primary visual cortex,'' {\em Nature neuroscience},
+  vol.~5, no.~9, pp.~874--882, 2002.
+
 \bibitem{dicarlo2012does}
 J.~J. DiCarlo, D.~Zoccolan, and N.~C. Rust, ``How does the brain solve visual
   object recognition?,'' {\em Neuron}, vol.~73, no.~3, pp.~415--434, 2012.
+
+\bibitem{serre2010neuromorphic}
+T.~Serre and T.~Poggio, ``A neuromorphic approach to computer vision,'' {\em
+  Communications of the ACM}, vol.~53, no.~10, pp.~54--61, 2010.
 
 \bibitem{vidyasagar2013reading}
 T.~R. Vidyasagar, ``Reading into neuronal oscillations in the visual system:
   implications for developmental dyslexia,'' {\em Frontiers in human
   neuroscience}, vol.~7, 2013.
-
-\bibitem{serre2010neuromorphic}
-T.~Serre and T.~Poggio, ``A neuromorphic approach to computer vision,'' {\em
-  Communications of the ACM}, vol.~53, no.~10, pp.~54--61, 2010.
 
 \bibitem{wysoski2008fast}
 S.~G. Wysoski, L.~Benuskova, and N.~Kasabov, ``Fast and adaptive network of
@@ -103,19 +113,185 @@ P.~Janssen, R.~Vogels, and G.~A. Orban, ``Selectivity for 3d shape that reveals
 G.~Von~Bonin and P.~Bailey, ``The neocortex of macaca mulatta.(illinois monogr.
   med. sci., 5, no. 4.).,'' 1947.
 
-\bibitem{hopfield1995pattern}
-J.~J. Hopfield, ``Pattern recognition computation using action potential timing
-  for stimulus representation,'' {\em Nature}, vol.~376, no.~6535, pp.~33--36,
-  1995.
+\bibitem{hubel1959receptive}
+D.~H. Hubel and T.~N. Wiesel, ``Receptive fields of single neurones in the
+  cat's striate cortex,'' {\em The Journal of physiology}, vol.~148, no.~3,
+  p.~574, 1959.
 
-\bibitem{natschlager1998spatial}
-T.~Natschl{\"a}ger and B.~Ruf, ``Spatial and temporal pattern analysis via
-  spiking neurons,'' {\em Network: Computation in Neural Systems}, vol.~9,
-  no.~3, pp.~319--332, 1998.
+\bibitem{tootell1982deoxyglucose}
+R.~B. Tootell, M.~S. Silverman, E.~Switkes, and R.~L. De~Valois, ``Deoxyglucose
+  analysis of retinotopic organization in primate striate cortex,'' {\em
+  Science}, vol.~218, no.~4575, pp.~902--904, 1982.
+
+\bibitem{an2012distinct}
+X.~An, H.~Gong, L.~Qian, X.~Wang, Y.~Pan, X.~Zhang, Y.~Yang, and W.~Wang,
+  ``Distinct functional organizations for processing different motion signals
+  in v1, v2, and v4 of macaque,'' {\em The Journal of Neuroscience}, vol.~32,
+  no.~39, pp.~13363--13379, 2012.
+
+\bibitem{wu2011early}
+J.~Wu, {\em Early Detection and Rehabilitation Technologies for Dementia}.
+\newblock IGI Global, 2011.
+
+\bibitem{hegde2000selectivity}
+J.~Hegd{\'e} and D.~C. Van~Essen, ``Selectivity for complex shapes in primate
+  visual area v2,'' {\em J Neurosci}, vol.~20, no.~5, pp.~61--66, 2000.
+
+\bibitem{anzai2007neurons}
+A.~Anzai, X.~Peng, and D.~C. Van~Essen, ``Neurons in monkey visual area v2
+  encode combinations of orientations,'' {\em Nature neuroscience}, vol.~10,
+  no.~10, pp.~1313--1321, 2007.
+
+\bibitem{daniel2009whither}
+Y.~Daniel, M.~Zarella, and G.~Burkitt, ``Whither the hypercolumn?,'' {\em The
+  Journal of physiology}, vol.~587, no.~12, pp.~2791--2805, 2009.
+
+\bibitem{qiu2005figure}
+F.~T. Qiu and R.~Von Der~Heydt, ``Figure and ground in the visual cortex: V2
+  combines stereoscopic cues with gestalt rules,'' {\em Neuron}, vol.~47,
+  no.~1, pp.~155--166, 2005.
+
+\bibitem{filipe2013human}
+S.~Filipe and L.~A. Alexandre, ``From the human visual system to the
+  computational models of visual attention: a survey,'' {\em Artificial
+  Intelligence Review}, pp.~1--47, 2013.
+
+\bibitem{moran1985selective}
+J.~Moran and R.~Desimone, ``Selective attention gates visual processing in the
+  extrastriate cortex,'' {\em Science}, vol.~229, no.~4715, pp.~782--784, 1985.
+
+\bibitem{williams2007biological}
+T.~O. Williams, {\em Biological Cybernetics Research Trends}.
+\newblock Nova Publishers, 2007.
+
+\bibitem{tanaka1991coding}
+K.~Tanaka, H.-a. Saito, Y.~Fukada, and M.~Moriya, ``Coding visual images of
+  objects in the inferotemporal cortex of the macaque monkey,'' {\em J
+  Neurophysiol}, vol.~66, no.~1, pp.~170--189, 1991.
+
+\bibitem{dean1976effects}
+P.~Dean, ``Effects of inferotemporal lesions on the behavior of monkeys.,''
+  {\em Psychological bulletin}, vol.~83, no.~1, p.~41, 1976.
+
+\bibitem{gross2008single}
+C.~G. Gross, ``Single neuron studies of inferior temporal cortex,'' {\em
+  Neuropsychologia}, vol.~46, no.~3, pp.~841--852, 2008.
+
+\bibitem{schwartz1983shape}
+E.~L. Schwartz, R.~Desimone, T.~D. Albright, and C.~G. Gross, ``Shape
+  recognition and inferior temporal neurons,'' {\em Proceedings of the National
+  Academy of Sciences}, vol.~80, no.~18, pp.~5776--5778, 1983.
+
+\bibitem{logothetis1995psychophysical}
+N.~Logothetis and J.~Pauls, ``Psychophysical and physiological evidence for
+  viewer-centered object representations in the primate,'' {\em Cerebral
+  Cortex}, vol.~5, no.~3, pp.~270--288, 1995.
+
+\bibitem{sary1993cue}
+G.~Sary, R.~Vogels, and G.~A. Orban, ``Cue-invariant shape selectivity of
+  macaque inferior temporal neurons,'' {\em Science}, vol.~260, no.~5110,
+  pp.~995--997, 1993.
+
+\bibitem{perry2014feature}
+C.~J. Perry and M.~Fallah, ``Feature integration and object representations
+  along the dorsal stream visual hierarchy,'' {\em Frontiers in computational
+  neuroscience}, vol.~8, 2014.
+
+\bibitem{zoccolan2007trade}
+D.~Zoccolan, M.~Kouh, T.~Poggio, and J.~J. DiCarlo, ``Trade-off between object
+  selectivity and tolerance in monkey inferotemporal cortex,'' {\em The Journal
+  of Neuroscience}, vol.~27, no.~45, pp.~12292--12307, 2007.
+
+\bibitem{desimone1984stimulus}
+R.~Desimone, T.~D. Albright, C.~G. Gross, and C.~Bruce, ``Stimulus-selective
+  properties of inferior temporal neurons in the macaque,'' {\em The Journal of
+  Neuroscience}, vol.~4, no.~8, pp.~2051--2062, 1984.
+
+\bibitem{kaneko1996sequence}
+T.~Kaneko, S.~Sato, H.~Kotani, A.~Tanaka, E.~Asamizu, Y.~Nakamura, N.~Miyajima,
+  M.~Hirosawa, M.~Sugiura, S.~Sasamoto, {\em et~al.}, ``Sequence analysis of
+  the genome of the unicellular cyanobacterium synechocystis sp. strain
+  pcc6803. ii. sequence determination of the entire genome and assignment of
+  potential protein-coding regions,'' {\em DNA research}, vol.~3, no.~3,
+  pp.~109--136, 1996.
+
+\bibitem{logothetis1996visual}
+N.~K. Logothetis and D.~L. Sheinberg, ``Visual object recognition,'' {\em
+  Annual review of neuroscience}, vol.~19, no.~1, pp.~577--621, 1996.
+
+\bibitem{vogels2002effects}
+R.~Vogels and I.~Biederman, ``Effects of illumination intensity and direction
+  on object coding in macaque inferior temporal cortex,'' {\em Cerebral
+  Cortex}, vol.~12, no.~7, pp.~756--766, 2002.
+
+\bibitem{zoccolan2005multiple}
+D.~Zoccolan, D.~D. Cox, and J.~J. DiCarlo, ``Multiple object response
+  normalization in monkey inferotemporal cortex,'' {\em The Journal of
+  Neuroscience}, vol.~25, no.~36, pp.~8150--8164, 2005.
+
+\bibitem{de2007properties}
+W.~De~Baene, E.~Premereur, and R.~Vogels, ``Properties of shape tuning of
+  macaque inferior temporal neurons examined using rapid serial visual
+  presentation,'' {\em Journal of Neurophysiology}, vol.~97, no.~4,
+  pp.~2900--2916, 2007.
+
+\bibitem{ermentrout2008reliability}
+G.~B. Ermentrout, R.~F. Gal{\'a}n, and N.~N. Urban, ``Reliability, synchrony
+  and noise,'' {\em Trends in neurosciences}, vol.~31, no.~8, pp.~428--434,
+  2008.
+
+\bibitem{hung2005fast}
+C.~P. Hung, G.~Kreiman, T.~Poggio, and J.~J. DiCarlo, ``Fast readout of object
+  identity from macaque inferior temporal cortex,'' {\em Science}, vol.~310,
+  no.~5749, pp.~863--866, 2005.
+
+\bibitem{majaj2012unified}
+N.~Majaj, H.~Najib, E.~Solomon, and J.~DiCarlo, ``A unified neuronal population
+  code fully explains human object recognition,'' {\em Computational and
+  Systems Neuroscience (COSYNE)}, 2012.
+
+\bibitem{brincat2006dynamic}
+S.~L. Brincat and C.~E. Connor, ``Dynamic shape synthesis in posterior
+  inferotemporal cortex,'' {\em Neuron}, vol.~49, no.~1, pp.~17--24, 2006.
+
+\bibitem{nowak1997timing}
+L.~G. Nowak and J.~Bullier, ``The timing of information transfer in the visual
+  system,'' in {\em Extrastriate cortex in primates}, pp.~205--241, Springer,
+  1997.
+
+\bibitem{stevens2001evolutionary}
+C.~F. Stevens, ``An evolutionary scaling law for the primate visual system and
+  its basis in cortical function,'' {\em Nature}, vol.~411, no.~6834,
+  pp.~193--195, 2001.
+
+\bibitem{lewicki2000learning}
+M.~Lewicki and T.~Sejnowski, ``Learning overcomplete representations,'' {\em
+  Neural computation}, vol.~12, no.~2, pp.~337--365, 2000.
 
 \bibitem{maass1997networks}
 W.~Maass, ``Networks of spiking neurons: the third generation of neural network
   models,'' {\em Neural networks}, vol.~10, no.~9, pp.~1659--1671, 1997.
+
+\bibitem{hodgkin1952quantitative}
+A.~L. Hodgkin and A.~F. Huxley, ``A quantitative description of membrane
+  current and its application to conduction and excitation in nerve,'' {\em The
+  Journal of physiology}, vol.~117, no.~4, p.~500, 1952.
+
+\bibitem{pfister2006triplets}
+J.-P. Pfister and W.~Gerstner, ``Triplets of spikes in a model of spike
+  timing-dependent plasticity,'' {\em The Journal of neuroscience}, vol.~26,
+  no.~38, pp.~9673--9682, 2006.
+
+\bibitem{bienenstock1982theory}
+E.~L. Bienenstock, L.~N. Cooper, and P.~W. Munro, ``Theory for the development
+  of neuron selectivity: orientation specificity and binocular interaction in
+  visual cortex,'' {\em The Journal of Neuroscience}, vol.~2, no.~1,
+  pp.~32--48, 1982.
+
+\bibitem{bamford2010synaptic}
+S.~A. Bamford, A.~F. Murray, and D.~J. Willshaw, ``Synaptic rewiring for
+  topographic mapping and receptive field development,'' {\em Neural Networks},
+  vol.~23, no.~4, pp.~517--527, 2010.
 
 \bibitem{gupta2007character}
 A.~Gupta and L.~N. Long, ``Character recognition using spiking neural
@@ -245,5 +421,10 @@ Q.~Liu, ``Feature extraction of live retinal input.''
 Q.~Liu, ``{Live dynamic posture recognition on SpiNNaker}.''
   \url{http://youtu.be/yxN90aGGKvg?list=PLxZ1W-Upr3eoQuLxq87qpUL-CwSphtEBJ},
   Sept. 2014.
+
+\bibitem{hegde2004temporal}
+J.~Hegd{\'e} and D.~C. Van~Essen, ``Temporal dynamics of shape analysis in
+  macaque visual area v2,'' {\em Journal of neurophysiology}, vol.~92, no.~5,
+  pp.~3030--3042, 2004.
 
 \end{thebibliography}
