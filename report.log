@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  2 DEC 2014 01:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  2 DEC 2014 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,7 +955,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5510 strings out of 495028
  81735 string characters out of 6181497
- 155297 words of memory out of 5000000
+ 155276 words of memory out of 5000000
  8524 multiletter control sequences out of 15000+600000
  38364 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -969,7 +969,7 @@ urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (56 pages, 2744832 bytes).
+Output written on report.pdf (56 pages, 2745220 bytes).
 PDF statistics:
  564 PDF objects out of 1000 (max. 8388607)
  335 compressed objects within 4 object streams

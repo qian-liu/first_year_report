@@ -323,9 +323,9 @@ Documentation:
   %    in the Faculty of \@faculty}
   %\end{center}
   %\vfill
-    \begin{center}
-      \@submitdate
-    \end{center}
+%    \begin{center}
+%      \@submitdate
+%    \end{center}
   %\vfill
   \begin{center}
     \normalfont By\\

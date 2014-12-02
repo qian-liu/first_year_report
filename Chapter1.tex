@@ -7,7 +7,7 @@ However, the 2D projection of an object changes under different conditions inclu
 To improve reliability, robustness and classification efficiency, approaches such as edge matching~\cite{canny1986computational}, divide-and-conquer~\cite{toygar2004multiple}, gradient matching~\cite{wei2006robust} and feature based methods~\cite{lowe2004distinctive, bay2008speeded} are used.
 %Moreover, feature based methods are used to improve reliability, robustness and classification efficiency. 
 %Among various feature extraction methods, the scale-invariant feature transform (SIFT)~\cite{lowe2004distinctive} and the sped-up robust features (SURF)~\cite{bay2008speeded} methods are well-accepted recently in the field. 
-Finding a proper feature for a specific object still remains an open question and there is no process as general, accurate, or energy-efficient as that provided by the brain.
+Finding an appropriate feature for a specific object still remains an open question and there is no process as general, accurate, or energy-efficient as that demonstrated by the brain.
 It is not a new idea to turn to nature for inspiration. 
 %Turning to biology for answers is always the way to explore the field of visual pattern recognition. 
 Riesenhuber et al.~\cite{riesenhuber1999hierarchical}, for instance, presented a biologically-inspired model based on the organisation of the visual cortex which has the ability to represent relative position- and scale-invariant features.
@@ -15,17 +15,18 @@ Integrating a rich set of visual features became possible using a feed-forward h
 
 \section{What Is Object Recognition?}
 \label{sec:aim}
-The definition of object recognition is well accepted~\cite{dicarlo2012does} as the ability to assign labels to particular objects, ranging from precise labels (`identification') to course labels (`categorisation').
-It involves the ability to accomplish the tasks under the various identity preserving transformations such as object position, scale, viewing angel, background clutter and etc.
+Object recognition is the process of assigning labels to particular objects, ranging from precise labels (`identification') to coarse labels (`categorisation')~\cite{dicarlo2012does}.
+This includes the ability to accomplish these tasks under various identity preserving transformations such as object position, scale, viewing angle, background clutter and etc.
 
-The brain can accurately recognise and categorise objects remarkably quickly, e.g. the recognition time in monkeys takes less than 200~ms~\cite{fabre1998rapid} and the images are presented sequentially in spikes less than 100~ms~\cite{keysers2001speed}.
+The brain can accurately recognise and categorise objects remarkably quickly, for example object recognition time in monkeys is under 200~ms~\cite{fabre1998rapid} and the images are presented sequentially in spikes less than 100~ms~\cite{keysers2001speed}.
 This research focuses on this rapid and highly accurate object recognition, `core recognition', which is defined in~\cite{dicarlo2007untangling}.
 
 
 \section{Why Is It Important?}
 \label{sec:imp}
-The brain recognises huge amount of objects rapidly and effortlessly even in cluttered and natural scenes.
-While the major stumbling crux of the computer object recognition systems lies in the invariance problem.
+The human brain recognises huge amount of objects rapidly with ease even in cluttered and natural scenes.
+This robust object recognition of the biological system is invariant to the change of position, scale, viewing angle and etc. (known as transformation invariance).
+While the major stumbling problem of the computer object recognition lies in the poor robustness to the transformations.
 Each encounter of an object on the retina is completely unique, because of the illumination (lighting conditions), position (projection locations on the retina), scale (distances and sizes), pose (viewing angles), and clutter (visual contexts) variabilities.
 In addition, a difficult specificity-invariance trade-off occurs in the categorisation tasks, since the recognition should be able to discriminate different object classes (intraclass variability) while at the same time tolerant to image transformations.   
 
