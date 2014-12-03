@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  2 DEC 2014 18:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.6)  3 DEC 2014 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,11 +486,7 @@ Package pdftex.def Info: pics/IT.jpg used on input line 98.
 
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
- [16 <./pics/IT.jpg>] [17]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- <pics/ventral.jpg, id=62, 419.54973pt x 208.49576pt>
+ [16 <./pics/IT.jpg>] [17] <pics/ventral.jpg, id=62, 419.54973pt x 208.49576pt>
 File: pics/ventral.jpg Graphic file (type jpg)
 
 <use pics/ventral.jpg>
@@ -533,10 +529,11 @@ Package pdftex.def Info: pics/outline2.pdf used on input line 560.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] <pics/mesh_ctiff.jpg, id=86, 642.4pt x 642.4pt>
-File: pics/mesh_ctiff.jpg Graphic file (type jpg)
- <use pics/mesh_ctiff.jpg>
-Package pdftex.def Info: pics/mesh_ctiff.jpg used on input line 591.
+[23] <pics/mesh_ctiff_colour.jpg, id=86, 642.4pt x 642.4pt>
+File: pics/mesh_ctiff_colour.jpg Graphic file (type jpg)
+
+<use pics/mesh_ctiff_colour.jpg>
+Package pdftex.def Info: pics/mesh_ctiff_colour.jpg used on input line 591.
 (pdftex.def)             Requested size: 350.68272pt x 350.69409pt.
 
 
@@ -549,7 +546,7 @@ LaTeX Warning: Reference `fig:48node' on page 24 undefined on input line 613.
 
 pdfTeX warning: pdflatex (file ./pics/outline2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] [25 <./pics/mesh_ctiff.jpg>]
+>] [25 <./pics/mesh_ctiff_colour.jpg>]
 <pics/photooutline_blurred.jpg, id=114, 542.025pt x 528.97626pt>
 File: pics/photooutline_blurred.jpg Graphic file (type jpg)
 
@@ -682,27 +679,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<pics/live1.png, id=366, 531.9875pt x 468.75125pt>
-File: pics/live1.png Graphic file (type png)
- <use pics/live1.png>
-Package pdftex.def Info: pics/live1.png used on input line 67.
-(pdftex.def)             Requested size: 198.0294pt x 174.48666pt.
+<pics/live1_colour.png, id=366, 1027.84pt x 770.88pt>
+File: pics/live1_colour.png Graphic file (type png)
 
-<pics/live2.png, id=367, 530.98375pt x 469.755pt>
-File: pics/live2.png Graphic file (type png)
- <use pics/live2.png>
-Package pdftex.def Info: pics/live2.png used on input line 72.
-(pdftex.def)             Requested size: 198.0294pt x 175.19719pt.
+<use pics/live1_colour.png>
+Package pdftex.def Info: pics/live1_colour.png used on input line 67.
+(pdftex.def)             Requested size: 198.0294pt x 148.51543pt.
+
+<pics/live2_colour.png, id=367, 1027.84pt x 770.88pt>
+File: pics/live2_colour.png Graphic file (type png)
+
+<use pics/live2_colour.png>
+Package pdftex.def Info: pics/live2_colour.png used on input line 72.
+(pdftex.def)             Requested size: 198.0294pt x 148.51543pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\OT1/ptm/m/n/10.95 (b) |Neu-ral re-sponses of the in-te-grate
  []
 
-<pics/live.png, id=368, 833.1125pt x 700.6175pt>
-File: pics/live.png Graphic file (type png)
- <use pics/live.png>
-Package pdftex.def Info: pics/live.png used on input line 78.
-(pdftex.def)             Requested size: 412.56496pt x 346.95105pt.
+<pics/live_colour.png, id=368, 1027.84pt x 770.88pt>
+File: pics/live_colour.png Graphic file (type png)
+
+<use pics/live_colour.png>
+Package pdftex.def Info: pics/live_colour.png used on input line 78.
+(pdftex.def)             Requested size: 412.56496pt x 309.42871pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -711,15 +711,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
  [35]
-
-LaTeX Warning: Text page 36 contains only floats.
-
-
-Overfull \vbox (5.60649pt too high) has occurred while \output is active []
-
-
-[36 <./pics/live1.png (PNG copy)> <./pics/live2.png (PNG copy)> <./pics/live.pn
-g (PNG copy)>] <pics/rateSpiNN.pdf, id=375, 544.88272pt x 369.76244pt>
+[36 <./pics/live1_colour.png> <./pics/live2_colour.png> <./pics/live_colour.png
+>] <pics/rateSpiNN.pdf, id=375, 544.88272pt x 369.76244pt>
 File: pics/rateSpiNN.pdf Graphic file (type pdf)
 
 <use pics/rateSpiNN.pdf>
@@ -897,28 +890,37 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 
 ]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- <pics/3D_plan.pdf, id=452, 395.4775pt x 365.365pt>
-File: pics/3D_plan.pdf Graphic file (type pdf)
- <use pics/3D_plan.pdf>
-Package pdftex.def Info: pics/3D_plan.pdf used on input line 51.
-(pdftex.def)             Requested size: 309.4237pt x 285.8644pt.
+Missing character: There is no ï in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+ <pics/stages.pdf, id=452, 396.48125pt x 323.2075pt>
+File: pics/stages.pdf Graphic file (type pdf)
+ <use pics/stages.pdf>
+Package pdftex.def Info: pics/stages.pdf used on input line 56.
+(pdftex.def)             Requested size: 309.4237pt x 252.24385pt.
 
-[43 <./pics/3D_plan.pdf>] <pics/gantt.pdf, id=475, 657.45625pt x 556.0775pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43] <pics/gantt.pdf, id=457, 657.45625pt x 556.0775pt>
 File: pics/gantt.pdf Graphic file (type pdf)
-
-<use pics/gantt.pdf>
-Package pdftex.def Info: pics/gantt.pdf used on input line 75.
+ <use pics/gantt.pdf>
+Package pdftex.def Info: pics/gantt.pdf used on input line 84.
 (pdftex.def)             Requested size: 330.05322pt x 279.16658pt.
- [44 <./pics/gantt.pdf>]
-Overfull \hbox (7.55081pt too wide) in paragraph at lines 89--92
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./pics/stages.pdf>]
+Overfull \hbox (7.55081pt too wide) in paragraph at lines 99--102
 \OT1/ptm/m/n/12 Similar to ori-en-ta-tion de-tec-tion, V1 pro-vides over-com-pl
 ete pop-u-la-tion re-representations
  []
 
-[45] [46]) [47] (./report.bbl [48
+[45 <./pics/gantt.pdf>] [46]) [47] (./report.bbl [48
 
 
 ]
@@ -934,7 +936,8 @@ Missing character: There is no ˜ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [49] [50] [51] [52] [53]
+ [49] [50] [51] [52]
+[53]
 Underfull \hbox (badness 1852) in paragraph at lines 368--372
 []\OT1/ptm/m/n/12 L. A. Plana, ``App-Note 8 - In-ter-fac-ing AER de-vices to Sp
 iN-Naker us-
@@ -954,8 +957,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  5510 strings out of 495028
- 81735 string characters out of 6181497
- 155276 words of memory out of 5000000
+ 81870 string characters out of 6181497
+ 154276 words of memory out of 5000000
  8524 multiletter control sequences out of 15000+600000
  38364 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -969,7 +972,7 @@ urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (56 pages, 2745220 bytes).
+Output written on report.pdf (56 pages, 3124465 bytes).
 PDF statistics:
  564 PDF objects out of 1000 (max. 8388607)
  335 compressed objects within 4 object streams

@@ -22,5 +22,5 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Spikes captured during the live recognition of the recorded retinal input with the resolution of 128$\times $128. \relax }}{39}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Spikes captured during the live recognition of the recorded retinal input with the resolution of 32$\times $32. \relax }}{40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 3D representation of the research plan on the transformation-invariant object recognition system. Three milestones are highlighted with red stars indicating the expected targets of the object recognition networks. \relax }}{43}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Gantt chart of the work flow for the first milestone. The main research works are listed on the left. Different from the example, in the following work, not only achieving a milestone but also any increase in any dimension will result in tuning and benchmark testing.\relax }}{44}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 3D representation of the research plan on the transformation-invariant object recognition system. Three milestones are pointed out indicating the expected targets of the object recognition networks. \relax }}{44}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Gantt chart of the work flow for the first milestone. The main research works are listed on the left. \relax }}{45}
