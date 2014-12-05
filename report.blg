@@ -18,45 +18,45 @@ Warning--entry type for "appnote8" isn't style-file defined
 --line 859 of file refs.bib
 Warning--empty journal in furber2014spinnaker
 Warning--empty journal in von1947neocortex
-You've used 86 entries,
+You've used 88 entries,
             1876 wiz_defined-function locations,
-            987 strings with 19066 characters,
-and the built_in function-call counts, 26760 in all, are:
-= -- 2811
-> -- 905
+            1000 strings with 19446 characters,
+and the built_in function-call counts, 27409 in all, are:
+= -- 2880
+> -- 927
 < -- 0
-+ -- 336
-- -- 250
-* -- 1926
-:= -- 3620
-add.period$ -- 88
-call.type$ -- 86
-change.case$ -- 84
++ -- 344
+- -- 256
+* -- 1974
+:= -- 3705
+add.period$ -- 91
+call.type$ -- 88
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 1365
-empty$ -- 2459
-format.name$ -- 250
-if$ -- 6590
+cite$ -- 90
+duplicate$ -- 1394
+empty$ -- 2519
+format.name$ -- 256
+if$ -- 6750
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 84
-newline$ -- 263
-num.names$ -- 86
-pop$ -- 207
+int.to.str$ -- 88
+missing$ -- 87
+newline$ -- 270
+num.names$ -- 88
+pop$ -- 212
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1057
+skip$ -- 1081
 stack$ -- 0
-substring$ -- 2201
-swap$ -- 648
+substring$ -- 2263
+swap$ -- 662
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 289
-width$ -- 88
-write$ -- 890
+while$ -- 295
+width$ -- 90
+write$ -- 910
 (There were 6 warnings)

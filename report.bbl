@@ -272,10 +272,20 @@ M.~Lewicki and T.~Sejnowski, ``Learning overcomplete representations,'' {\em
 W.~Maass, ``Networks of spiking neurons: the third generation of neural network
   models,'' {\em Neural networks}, vol.~10, no.~9, pp.~1659--1671, 1997.
 
-\bibitem{hodgkin1952quantitative}
-A.~L. Hodgkin and A.~F. Huxley, ``A quantitative description of membrane
-  current and its application to conduction and excitation in nerve,'' {\em The
-  Journal of physiology}, vol.~117, no.~4, p.~500, 1952.
+\bibitem{gernstbook}
+W.~Gerstner and W.~M. Kistler, {\em {Spiking Neuron Models: Single Neurons,
+  Populations, Plasticity}}.
+\newblock Cambridge University Press, 1~ed., Aug. 2002.
+
+\bibitem{hhmodel}
+A.~L. Hodgkin and A.~F. Huxley, ``{A quantitative description of membrane
+  current and its application to conduction and excitation in nerve},'' {\em
+  The Journal of Physiology}, vol.~117, pp.~500--544, Aug. 1952.
+
+\bibitem{Delorme1999989}
+A.~Delorme, J.~Gautrais, R.~van Rullen, and S.~Thorpe, ``Spikenet: A simulator
+  for modeling large networks of integrate and fire neurons,'' {\em
+  Neurocomputing}, vol.~26-27, no.~0, pp.~989 -- 996, 1999.
 
 \bibitem{pfister2006triplets}
 J.-P. Pfister and W.~Gerstner, ``Triplets of spikes in a model of spike

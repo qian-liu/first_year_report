@@ -271,12 +271,23 @@ about one degree or less in V1 to several degrees in IT, see Figure~\ref{Fig:Hir
 \section{Spiking Neural Network}
 \label{sec:SNNintro}
 The so-called third generation of neural networks~\cite{maass1997networks} introduces a different set of functions and parameters to model neurons;
-these both model biological neurons more precisely~\cite{hodgkin1952quantitative} and increase the computational power of networks of neurons if compared to classical sigmoidal units.
+%these both model biological neurons more precisely~\cite{hodgkin1952quantitative} and increase the computational power of networks of neurons if compared to classical sigmoidal units.
+it models the biological neurons more precisely and increases the computational power of neural networks when compared to the classical sigmoid functions.
 Such networks rely on the propagation of an all-or-none signal, the action potential, which asynchronously carries information to its connected units by means of its timing.
 \subsection{Neuronal Model}
-The level of biological detail of such models varies greatly but many models build on the `leaky integrate and fire' (LIF) model.
-Spikes arriving at a LIF neuron cause a temporary flow of current into or out of the neuron, modelling the behaviour of synapses in biological neurons.
-The LIF neuron integrates this current over time, accumulating charge which gradually leaks away. If the charge in the neuron reaches a certain threshold, the neuron produces a spike and its charge is reset. 
+Spiking neuron models can be divided into two major categories \cite{gernstbook} based on their level of abstraction: The conductance models and the threshold models.
+The conductance models simulate a lower level on the ion channels, while the threshold models represent a higher level of neuron abstraction where the threshold voltage is fixed and the neuron fires once the membrane potential reaches it.
+
+In general, Conductance-Based models have been derived from the Nobel prize winners (1963) Hodgkin and Huxley, based on the experiments that they performed on the giant axon squid \cite{hhmodel}.
+Spikes arriving at a LIF neuron cause a temporary flow of current into (excitatory synapse) or out of (inhibitory synapse) the neuron, modelling the behaviour of synapses in biological neurons.
+The LIF neuron sums up this current over time, accumulating charge which gradually leaks away.
+If the membrane potential in the neuron reaches a certain threshold, it produces a spike and its charge is reset.
+LIF neurons have been extensively used in large spiking neural networks \cite{Delorme1999989} because of their ease of implementation and the low computational cost.
+%
+%
+%The level of biological detail of such models varies greatly but many models build on the `leaky integrate and fire' (LIF) model.
+%Spikes arriving at a LIF neuron cause a temporary flow of current into or out of the neuron, modelling the behaviour of synapses in biological neurons.
+%The LIF neuron integrates this current over time, accumulating charge which gradually leaks away. If the charge in the neuron reaches a certain threshold, the neuron produces a spike and its charge is reset. 
 %\subsubsection{The Membrane Potential}
 %A typical neuron is divided into three parts: the dendrites, the soma and the axon. Generally speaking, the dendrites receive the input signals from the previous neurons. The soma is where the received input signals are being processed and the axon is where the output signals are transmitted. The synapse is between every two neurons; if a neuron j sends a signal across the synapse to neuron i, the neuron that sends the signal is called presynaptic and the neuron that receives the signal is called postsynaptic neuron. 
 %Hodgkin and Huxley \cite{hhmodel} found out, by experimenting on the squid giant axon, that it is the time of the spikes that encodes information \cite{pnn}, Figure~\ref{dendrites}.
@@ -471,17 +482,13 @@ The LIF neuron integrates this current over time, accumulating charge which grad
 %A different approach to population encoding was proposed by Eliasmith et al. in \cite{Eliasmith02}, where the firing rates of a heterogeneous population of neurons is used to encode an analogue value. Also, the rank-order coding proposed in \cite{Thorpe2001715} encodes an input value based on the order of spikes of a population.  
 
 \subsection{Learning}
-One of the key parameters of a neural network is the amount of influence
-each incoming spike has on a neuron. Typically, this influence is modelled
-by assigning a `weight' to each synapse which scales the impact of a spike
+%One of the key parameters of a neural network is the amount of influence each incoming spike has on a neuron.
+The influence each incoming spike has on a post-synaptic neuron is modelled by assigning a `weight' to each synapse;
+tuning on the weight scales the impact of a spike
 arriving via that synapse.
-Models of many types of learning revolve around modelling changes in
-weights over long periods of time observed within the brain. The exact
-rules by which these weights are adjusted is the subject of much active
-research though most promising approaches attempt to learn from the
-relative timing \cite{pfister2006triplets} or rate \cite{bienenstock1982theory} of spikes
-arriving at a neuron. As well as adjusting weights, some learning rules
-can also form entirely new connections between previously unconnected
+Many learning models simulate the changes in weights over long periods of time observed within the brain.
+The exact rules by which these weights are adjusted is the subject of much active research though most promising approaches attempt to learn from the relative timing \cite{pfister2006triplets} or rate \cite{bienenstock1982theory} of spikes arriving at a neuron.
+As well as adjusting weights, some learning rules can also form entirely new connections between previously unconnected
 neurons \cite{bamford2010synaptic}.
 %In 1949 Hebb formulated the famous Hebb law \cite{Hebb1949}: ''When an axon of cell A is near enough to excite cell B or repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A's efficiency, as one of the cells firing B, is increased''.
 %

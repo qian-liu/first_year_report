@@ -25,8 +25,8 @@
 \contentsline {subsection}{\numberline {2.2.3}Successful Applications}{22}
 \contentsline {section}{\numberline {2.3}Platforms}{23}
 \contentsline {subsection}{\numberline {2.3.1}Vision Processing Front-ends}{23}
-\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{23}
-\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{25}
+\contentsline {subsection}{\numberline {2.3.2}SNNs Back-ends}{24}
+\contentsline {subsection}{\numberline {2.3.3}SpiNNaker distinguishing features}{26}
 \contentsline {chapter}{\numberline {3}Convolutional Neural Networks}{27}
 \contentsline {section}{\numberline {3.1}Model Description}{27}
 \contentsline {section}{\numberline {3.2}Experimental Set-up}{30}
