@@ -2,10 +2,10 @@
 \contentsline {chapter}{\numberline {1}Introduction}{9}
 \contentsline {section}{\numberline {1.1}What Is Object Recognition?}{9}
 \contentsline {section}{\numberline {1.2}Why Is It Important?}{10}
-\contentsline {section}{\numberline {1.3}How to Mimic The Brain?}{10}
+\contentsline {section}{\numberline {1.3}How to Mimic The Brain}{11}
 \contentsline {section}{\numberline {1.4}Report Structure}{11}
 \contentsline {chapter}{\numberline {2}Background}{12}
-\contentsline {section}{\numberline {2.1}How the Brain Represent Objects?}{12}
+\contentsline {section}{\numberline {2.1}How the Brain Represent Objects}{12}
 \contentsline {subsection}{\numberline {2.1.1}Cortical Areas in The Ventral Visual Pathway}{13}
 \contentsline {subsubsection}{Primary Visual Cortex: V1}{13}
 \contentsline {subsubsection}{Prestriate Cortex: V2}{14}
@@ -38,7 +38,7 @@
 \contentsline {chapter}{\numberline {5}Contributions and Research Plan}{42}
 \contentsline {section}{\numberline {5.1}Contributions}{42}
 \contentsline {section}{\numberline {5.2}Achievements }{43}
-\contentsline {subsection}{\numberline {5.2.1}Pulications}{43}
+\contentsline {subsection}{\numberline {5.2.1}Publications}{43}
 \contentsline {subsection}{\numberline {5.2.2}Workshops}{43}
 \contentsline {section}{\numberline {5.3}Future Work}{43}
 \contentsline {subsection}{\numberline {5.3.1}Invariant Object Recognition}{45}

@@ -7,6 +7,7 @@ However, the 2D projection of an object changes under different conditions inclu
 To improve reliability, robustness and classification efficiency, approaches such as edge matching~\cite{canny1986computational}, divide-and-conquer~\cite{toygar2004multiple}, gradient matching~\cite{wei2006robust} and feature based methods~\cite{lowe2004distinctive, bay2008speeded} are used.
 %Moreover, feature based methods are used to improve reliability, robustness and classification efficiency. 
 %Among various feature extraction methods, the scale-invariant feature transform (SIFT)~\cite{lowe2004distinctive} and the sped-up robust features (SURF)~\cite{bay2008speeded} methods are well-accepted recently in the field. 
+In computer vision and image processing, features can be specific structures in the image such as points, edges or objects; and also may be a general neighborhood operation or feature detection applied to the image.
 Finding an appropriate feature for a specific object still remains an open question and there is no process as general, accurate, or energy-efficient as that demonstrated by the brain.
 It is not a new idea to turn to nature for inspiration. 
 %Turning to biology for answers is always the way to explore the field of visual pattern recognition. 
@@ -16,10 +17,10 @@ Integrating a rich set of visual features became possible using a feed-forward h
 \section{What Is Object Recognition?}
 \label{sec:aim}
 Object recognition is the process of assigning labels to particular objects, ranging from precise labels (`identification') to coarse labels (`categorisation')~\cite{dicarlo2012does}.
-This includes the ability to accomplish these tasks under various identity preserving transformations such as object position, scale, viewing angle, background clutter and etc.
+This includes the ability to accomplish these tasks under various identity-preserving transformations such as object position, scale, viewing angle, background clutter, etc.
 
-The brain can accurately recognise and categorise objects remarkably quickly, for example object recognition time in monkeys is under 200~ms~\cite{fabre1998rapid} and the images are presented sequentially in spikes less than 100~ms~\cite{keysers2001speed}.
-This research focuses on this rapid and highly accurate object recognition, `core recognition', which is defined in~\cite{dicarlo2007untangling}.
+The brain can accurately recognise and categorise objects remarkably quickly, for example object recognition time in monkeys is under 200~ms~\cite{fabre1998rapid} and the images are presented sequentially in spikes less than 100~ms along the visual pathway~\cite{keysers2001speed}.
+This research focuses on this rapid and highly accurate object recognition, `core recognition', which is defined by DiCarlo and Cox~\cite{dicarlo2007untangling}.
 
 
 \section{Why Is It Important?}
@@ -31,17 +32,17 @@ Each encounter of an object on the retina is unique because of differing illumin
 In addition, a difficult specificity-invariance trade-off occurs in the categorisation tasks, since the recognition should be able to discriminate different object classes (intraclass variability) while at the same time remaining tolerant to image transformations.   
 
 Exploring and mimicking invariant object recognition within the brain is a promising approach to tackling the computational difficulty;
-in turn it also contributes to the understanding biological visual processing by means of mimicking neural activity in the visual system of the brain.
+in turn it also contributes to understanding biological visual processing by means of mimicking neural activity in the visual system of the brain.
 Moreover, energy-efficiency improvements following from the great energy efficiency of biological systems will help in building object recognition systems, e.g. posture recognition for human-machine interfaces in mobile devices.  
 
-\section{How to Mimic The Brain?}
+\section{How to Mimic The Brain}
 \label{sec:brn}
-To explore how brain may recognise objects, we have employed a biologically-inspired DVS silicon retina~\cite{lenero20113}.
-This is a good example of low-cost visual processing due to its event-driven and redundancy-reducing style of computation;
-and a SpiNNaker system~\cite{furber2014spinnaker}, which is a massive parallel computing platform aimed at real-time simulation of SNNs. 
+To explore how the brain may recognise objects, we have employed a biologically-inspired DVS silicon retina~\cite{lenero20113}.
+This is a good example of low-cost visual processing due to  its event-driven and redundancy-reducing style of computation.
+A SpiNNaker machine~\cite{furber2014spinnaker} is also exploited as the back-end of the system, which is a massive parallel computing platform aimed at real-time simulation of Spiking Neural Networks~(SNNs). 
 %SpiNNaker, as the back-end of the system, provides a flexible, event-driven mechanism for real-time simulation of SNNs, and is where the posture recogniser locates.
 %Thanks to its high-performance massively parallel processing, SpiNNaker makes it possible to simulate large-scale neural networks in real-time.
-Thanks to its high-performance processing of large-scale neural networks, we explore biological approaches of visual processing by mimicking the functions of different layers along the ventral visual pathway. 
+Thanks to SpiNNaker's high-performance processing of large-scale neural networks, we explore biological approaches to visual processing by mimicking the functions of different layers along the visual pathway. 
 
 Building a real-time recognition system for dynamic hand postures is a first step of exploring visual processing in a biological fashion and is also a validation of the performance of the neuromorphic platform.
 %To match the image properties detailed earlier, the position, shape, size and trajectory of the hand postures can be detected from the retina output.
