@@ -1,6 +1,6 @@
 \contentsline {chapter}{Abstract}{8}
 \contentsline {chapter}{\numberline {1}Introduction}{9}
-\contentsline {section}{\numberline {1.1}What Is Object Recognition?}{9}
+\contentsline {section}{\numberline {1.1}What Is Object Recognition?}{10}
 \contentsline {section}{\numberline {1.2}Why Is It Important?}{10}
 \contentsline {section}{\numberline {1.3}How to Mimic The Brain}{11}
 \contentsline {section}{\numberline {1.4}Report Structure}{11}
